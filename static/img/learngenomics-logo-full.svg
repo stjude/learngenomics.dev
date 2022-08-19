@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs
+  ><style
+    >.b{stroke:#f6b227;}.b,.c,.d,.e,.f,.g{fill:none;stroke-linecap:round;stroke-width:19.33px;}.b,.c,.d,.e,.f,.g,.h{stroke-miterlimit:10;}.c{stroke:#ee3229;}.d{stroke:#82caa3;}.e{stroke:#231f20;}.f,.h{stroke:#1f1115;}.g{stroke:#6a6eb3;}.h{fill:#fff;stroke-width:14.49px;}</style></defs><circle
+    class="h"
+    cx="256"
+    cy="256"
+    r="247.37"
+  /><g><line class="e" x1="240.67" y1="177.08" x2="356.42" y2="177.08" /><line
+      class="e"
+      x1="240.67"
+      y1="330.01"
+      x2="367.99"
+      y2="330.01"
+    /><line class="e" x1="373.31" y1="215.31" x2="428.12" y2="215.31" /><line
+      class="b"
+      x1="332.77"
+      y1="215.31"
+      x2="349.64"
+      y2="215.31"
+    /><line class="d" x1="393.69" y1="330.01" x2="428.12" y2="330.01" /><line
+      class="e"
+      x1="240.67"
+      y1="215.31"
+      x2="309.36"
+      y2="215.31"
+    /><line class="e" x1="395.53" y1="253.54" x2="311.83" y2="253.54" /><line
+      class="e"
+      x1="240.67"
+      y1="253.54"
+      x2="288.18"
+      y2="253.54"
+    /><line class="f" x1="385.06" y1="291.78" x2="407.08" y2="291.78" /><line
+      class="e"
+      x1="281.61"
+      y1="291.78"
+      x2="360.7"
+      y2="291.78"
+    /><line class="g" x1="240.67" y1="291.78" x2="256.29" y2="291.78" /><line
+      class="c"
+      x1="381.15"
+      y1="177.08"
+      x2="388.97"
+      y2="177.08"
+    /><path class="d" d="M132.81,256c48.93,0,48.93,86.29,48.93,86.29" /><path
+      class="d"
+      d="M132.81,256c-48.93,0-48.93,86.29-48.93,86.29"
+    /><path class="g" d="M83.88,169.71s0,86.29,48.93,86.29" /><path
+      class="g"
+      d="M181.74,169.71s0,86.29-48.93,86.29"
+    /></g></svg>
