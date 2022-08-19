@@ -5,7 +5,7 @@ track: Biological Foundations
 
 ## Introduction
 
-:::info 
+:::info Disclaimer
 
 This Guide is written specifically by and for computer scientists and
 engineers. The underlying biology in cancer genomics can be exceedingly complex
@@ -18,6 +18,10 @@ presented within a research context and may not be relied on in making decisions
 about patients. If you feel anything has been stated incorrectly, you can file
 an issue on the Github repository. Please see [the LICENSE.md](https://github.com/stjude/learngenomics.dev/blob/main/LICENSE.md)
 for more information.
+
+:::
+
+:::info
 
 Everything in this guide refers to eukaryotic molecular biology, which is the
 study of organisms whose DNA is enclosed within a nucleus. Broadly speaking,

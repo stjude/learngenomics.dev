@@ -77,7 +77,7 @@ const config = {
             items: [
               {
                 label: "Biological Foundations",
-                to: "/docs/biological-foundations",
+                to: "/docs/biological-foundations/cells-genomes-dna-chromosomes",
               },
               {
                 label: "Genomic Variation",
