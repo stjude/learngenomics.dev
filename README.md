@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/learngenomics/learngenomics.dev">
-    <img src="https://github.com/learngenomics/learngenomics.dev/raw/main/repo-assets/github-readme-header.png" width="800" title="Learn Genomics README header"></a>
+    <img src="https://github.com/learngenomics/learngenomics.dev/raw/main/.github/assets/github-readme-header.png" width="800" title="Learn Genomics README header"></a>
   </a>
 </p>
 
