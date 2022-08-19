@@ -73,6 +73,15 @@ const config = {
         style: "dark",
         links: [
           {
+            title: "About",
+            items: [
+              {
+                label: "License",
+                to: "https://github.com/stjude/learngenomics.dev/blob/main/LICENSE.md",
+              },
+            ],
+          },
+          {
             title: "Guide",
             items: [
               {
@@ -97,23 +106,6 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: "Community",
-          //   items: [
-          //     {
-          //       label: "Stack Overflow",
-          //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
-          //     },
-          //     {
-          //       label: "Discord",
-          //       href: "https://discordapp.com/invite/docusaurus",
-          //     },
-          //     {
-          //       label: "Twitter",
-          //       href: "https://twitter.com/docusaurus",
-          //     },
-          //   ],
-          // },
           {
             title: "Socials",
             items: [
