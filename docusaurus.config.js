@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} learngenomics.dev and associated contributors. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} St. Jude Children's Research Hospital. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
