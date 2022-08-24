@@ -9,8 +9,8 @@ const config = {
   title: "Introduction to Genomics for Engineers",
   tagline:
     "A guided, intuitive introduction to genomics for software engineers.",
-  url: "https://stjude.github.io/learngenomics.dev/",
-  baseUrl: "/",
+  url: "https://stjude.github.io/",
+  baseUrl: "/learngenomics.dev/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
