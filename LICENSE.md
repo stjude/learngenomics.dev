@@ -7,7 +7,7 @@ edit this Guide, and to permit persons to whom the Guide is furnished to do so,
 subject to the following conditions:
 
 1. Identification of St. Jude Children’s Research Hospital, Inc., as the owner
-   of the copyright and the author of the material and this permission notice
+   of the copyright and the author of the material. This permission notice
    shall be included in all copies or substantial portions of the Guide.
 
 2. You do not publish the Guide or offer it for sale.
