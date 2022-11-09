@@ -70,7 +70,7 @@ the disease. Cancer subtypes often differ in their rate of progression and
 require distinct treatments. Subtyping helps clinicians provide the precise
 course of treatment most suited for a given tumor.
 
-Studies that consist only of germline samples are general useful for discovering
+Studies that consist only of germline samples are generally useful for discovering
 genes and variations that are associated with disease. Germline studies are
 basic research studies where hundreds of thousands of candidate variations are
 systematically filtered to find a few significant variants. Disease associated
