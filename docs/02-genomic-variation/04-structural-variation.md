@@ -16,7 +16,7 @@ While SVs are detected computationally, some SVs are large enough to be seen in
 an ordinary microscope.
 
 After an SV event the original genomic sequence is interrupted by another out
-place of sequence, creating a **breakpoint**. Detecting breakpoints in SVs
+of place sequence, creating a **breakpoint**. Detecting breakpoints in SVs
 requires specialized computational methods. One strategy is to pull all of the
 reads that are high quality but do not map to the reference genome as expected,
 split them in two and remap the pieces. If the read overlaps the breakpoint, the
