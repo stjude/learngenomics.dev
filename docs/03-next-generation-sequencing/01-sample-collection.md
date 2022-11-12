@@ -20,4 +20,7 @@ temperature, they can be inexpensively transported and relatively large
 historical collections of rare samples exist that can be mined for sequences.
 However, since the FFPE technique damages the DNA and RNA, whenever possible,
 tissue samples will typically be frozen to capture the highest quality
-sequences.
+sequences. For more information about FFPE sample collection, please visit
+[this excellent guide][ffpe-guide].
+
+[ffpe-guide]: https://lab-ally.com/histopathology-resources/ffpe-samples/
