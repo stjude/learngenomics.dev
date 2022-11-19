@@ -13,7 +13,7 @@ process below.
 The key takeaways for our purposes are as follows:
 
 1.  The complete information for replicating cells is preserved in DNA, which holds the
-    instructions for creating proteins and is spread across the chromosomes.
+    instructions for creating proteins.
 
 2.  Before a cell produces a protein, the portion of DNA that encodes the protein is
     used as a template to create Ribonucleic Acid (or **RNA**) molecules through a
