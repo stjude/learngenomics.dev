@@ -24,7 +24,7 @@ The mRNA transcript is encoded in three-letter nucleotide blocks known as **cod
 Codons specify that a particular protein building block, or **amino acid**, should be
 added to a growing protein chain. For example, the mRNA sequence above has "CCU" in the
 second codon position. This codon instructs the protein assembling machinery of the cell
-to a Proline to the amino acid sequence at position two. 
+to add a Proline to the amino acid sequence at position two. 
 
 As shown in the amino acid lookup table below, other codons specify that translation
 should start or stop at a particular position. Further, multiple triplets translate to
