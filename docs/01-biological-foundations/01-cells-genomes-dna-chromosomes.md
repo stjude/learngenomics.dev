@@ -87,13 +87,14 @@ rarely introducing variation.
 ### Physical Structure
 
 In plants and animals, DNA is broken up into a number of large sequences
-called **chromosomes** which are paired and tucked into the nucleus. Each chromosome is
-composed of two DNA molecules (one from your father and one from your mother) and
-packaging proteins, or **histones**, that keep the DNA string neatly wound and help
-control which gene products are made in a given cell. For humans, there are normally
-22 **autosomes** (chromosomes shared by both sexes) and a pair of sex chromosomes (XX for
-females or XY for males). Autosomes are numbered from 1 to 22 based on size, arranged
-from largest to smallest. The full set of chromosomes makes up the genome.
+called **chromosomes** that are tucked into the nucleus. Chromosomes typically
+come in pairs (one from your father and one from your mother) and are wrapped
+around proteins called **histones**. These histones keep the DNA string tightly 
+packaged and help control which gene products are made in a given cell. For humans,
+there are normally 22 pairs of **autosomes** (chromosomes shared by both sexes)
+and a pair of sex chromosomes (XX for females or XY for males), totaling 23 pairs
+of chromosomes. Autosomes are numbered from 1 to 22 based on size, arranged from
+largest to smallest. The full set of chromosomes makes up the genome.
 
 ## Conclusion
 
