@@ -62,8 +62,9 @@ Consortium's website.
 
 Having a matched pair of tumor and germline data is especially valuable in
 variant detection because germline data acts as a precise control. The analyst
-uses the paring to sort out common but irrelevant SNVs found in the normal
-germline tissue from the new cancer driving mutations in the tumor.
+uses the paring to sort out common but irrelevant single nucleotide variations
+(SNVs) found in the normal germline tissue from the new cancer driving mutations
+in the tumor.
 
 Studies that consist only of tumor samples are useful in diagnosing subtypes of
 the disease. Cancer subtypes often differ in their rate of progression and
