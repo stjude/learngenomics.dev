@@ -54,7 +54,7 @@ and shows how each read is generated based on the fragments.
 ![Figure depicting multiple reads of varying lengths being sequenced.](../images/3.1-Reads-on-Flowcell.jpg)
 
 For our paired-end sequencing example, it is important to note how the DNA
-sequencer reads the data in step 4. In each 200-500bp DNA fragment, the
+sequencer reads the data in step 5. In each 200-500bp DNA fragment, the
 sequencer begins reading from one of the fragments and drops off somewhere in
 the middle. It stores all of the nucleotides read from this end of the fragment
 with their associated confidence scores as "Read 1". After this is complete, the
