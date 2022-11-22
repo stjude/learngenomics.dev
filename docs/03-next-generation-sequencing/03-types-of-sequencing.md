@@ -3,9 +3,9 @@ title: Types of Sequencing
 track: Next-Generation Sequencing
 ---
 
-Sequencing is laboratory technique that identifies and determines the order of
+Sequencing is a laboratory technique that identifies and determines the order of
 bases in a DNA molecule. Each sequencing type is best analyzed by a different
-computational method and is interpreted in different way. The scientific goals
+computational method and is interpreted in a different way. The scientific goals
 of the research, cost and practical limits determine which types of sequencing
 are chosen. For example, clinical sequencing seeks the time-sensitive detection
 of known mutations, while population studies focus on the discovery of new
@@ -35,7 +35,7 @@ for a given sample. WGS is needed when exploring how variations in non-coding
 regions influence the cells. Further, WGS is needed to detect the scope of
 variants that affect large regions of the chromosome (Structural Variation and
 Copy Number Variation, which are discussed in the "Genomic Variation" chapter).
-The disadvantage, other than cost, is that many of variations are not relevant
+The disadvantage, other than cost, is that many variations are not relevant
 to disease or the research question and need to be carefully filtered out. WGS
 is used in basic exploratory research and increasingly elsewhere as costs
 drop.
@@ -72,7 +72,7 @@ developmental changes in the cell.
 **Targeted sequencing** or validation capture sequencing (**Valcap**) captures
 preselected regions in the genome based on experimental design. Often targeted
 sequencing is used to capture a subset of important genes (called **gene
-panels**) in standardized tests when cost and time are limited Alternatively,
+panels**) in standardized tests when cost and time are limited. Alternatively,
 targeted sequencing is frequently used to gain greater insight into a region
 observed through a whole genome or whole exome study where there is less read
 depth. The method can be tailored for coding or non-coding variants.
