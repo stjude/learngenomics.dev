@@ -1,4 +1,4 @@
-# The Central Dogma 
+# The Central Dogma
 
 ## Introduction
 
@@ -32,18 +32,18 @@ a few special staff members are allowed to go into the back office and read from
 master recipe book. Rather than take the entire book out of the office when they leave,
 these staff members _transcribe_ a copy of a particular recipe on a piece of paper
 (analogous to RNA transcripts). These working copies of the recipe are then carried
-out of the back office are given to the baking staff on the baking floor. Last, the
+out of the back office and given to the baking staff on the baking floor. Last, the
 baking staff uses these working copies to bake any number of physical cakes (analogous
 to proteins). Eventually, the working copies of the recipes are worn out and degrade,
-rendering them unable to be used by the baking staff. 
+rendering them unable to be used by the baking staff.
 
-A few important points as we expand our understanding: 
+A few important points as we expand our understanding:
 
 - First, as stated earlier, there are only a finite number of the master recipes locked
   away (generally two, in the case of humans). However, there can be many, many working
   copies of the recipes floating around the bakery. Clearly, if more working copies of
   the recipe are floating around on the bakery floor, more cooks can work on that recipe
-  at the same time, and more physical cakes of that type can be made. 
+  at the same time, and more physical cakes of that type can be made.
 - Next, occasionally mistakes are made in either the transcription or translation
   processes. These can be transient, and cells have built in failsafe mechanisms to
   identify and neutralize the effects of these mistakes. However, these mistakes can
