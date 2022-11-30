@@ -56,7 +56,7 @@ distinct functions of the BCR and ABL1 genes in normal cells:
 In some leukemias, the front half of the BCR gene is fused to the back half of
 the ABL1 gene. When the cell machinery attempts to produce the BCR protein, a
 hybrid protein containing the tyrosine kinase domain is produced instead. This
-can lead to many copies of the problematic domain floating around than the cell
+can lead to many more copies of the problematic domain floating around than the cell
 intends, which causes the cell to divide much more than it intends and can
 ultimately be a driver for cancer.
 
