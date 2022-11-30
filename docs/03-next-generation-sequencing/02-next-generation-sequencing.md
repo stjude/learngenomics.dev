@@ -10,7 +10,7 @@ methods can be quite complex.
 
 While it sounds easy to read the entire genome by laying all of the chromosomes
 end-to-end, in practice, there are some problems with this approach. Chiefly,
-researchers currently lack the biochemical processing abilities to extract to
+researchers currently lack the biochemical processing abilities to extract and to
 read such long stretches of DNA quickly and accurately. Additionally, next
 generation sequencing technologies have their own set of limitations, including:
 
