@@ -8,7 +8,7 @@ track: Biological Foundations
 **Genotype** is an overloaded term that can mean one of two things:
 
 - Most commonly within the area of computational genomics, the term genotype
-  refers to the particular alleles found a given position or locus within the
+  refers to the particular alleles found at a given position or locus within the
   genome. So, for instance, if position 7 on the theoretical chromosome in the
   figure below contains an `A` on one copy and a `G` on the other copy. This is
   said to be a genotype call of `A/G` at position 7.
