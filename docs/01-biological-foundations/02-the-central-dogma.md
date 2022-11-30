@@ -32,7 +32,7 @@ a few special staff members are allowed to go into the back office and read from
 master recipe book. Rather than take the entire book out of the office when they leave,
 these staff members _transcribe_ a copy of a particular recipe on a piece of paper
 (analogous to RNA transcripts). These working copies of the recipe are then carried
-out of the back office are given to the baking staff on the baking floor. Last, the
+out of the back office and are given to the baking staff on the baking floor. Last, the
 baking staff uses these working copies to bake any number of physical cakes (analogous
 to proteins). Eventually, the working copies of the recipes are worn out and degrade,
 rendering them unable to be used by the baking staff. 
