@@ -31,7 +31,7 @@ specified.
 
 An observed (often physical) trait that specific genes confer is known as
 a **phenotype**. When we see a person with blue eyes (a phenotype), we know that
-they carry a set specific genetic sequences that makes that eye color possible
+they carry a set of specific genetic sequences that makes that eye color possible
 (a genotype). In cancer, the features of the disease are the phenotype and the
 mutations and variants within the individual make up the genotype. In genomics,
 biologists seek to link genotypes to phenotypes to improve diagnoses and
