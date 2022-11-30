@@ -37,7 +37,7 @@ looks like the following:
 3. Among many other important steps to prepare the DNA library for sequencing is
    "adapter ligation". This process involves tacking on special sequences to
    both ends of the DNA fragment which is required by the sequencing process.
-4. Optionally, a chemical amplification step, known as Polymeraise Chain
+4. Optionally, a chemical amplification step, known as Polymerase Chain
    Reaction (**PCR**), can be conducted to increase the amount of genomic
    material available for sequencing.
 5. The sample is loaded onto a flowcell and put into an Illumina sequencer,
