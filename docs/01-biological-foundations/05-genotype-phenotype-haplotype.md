@@ -44,7 +44,7 @@ Recall that each human genome is composed of pairs of chromosomes, one inherited
 each parent. That means, with a few exceptions, nearly every gene has two copies. Often
 the two DNA sequences of that encoded gene differ. Each distinct copy is
 a **haplotype** for that gene. Together the two haplotypes make up the genotype, and the
-proteins they produce determines the phenotype. A variant is often detected on only one
+proteins they produce determine the phenotype. A variant is often detected in only one
 copy of the gene. If the variant causes a loss of function in an important gene, that
 one mutation may be insufficient to cause cancer but may create a predisposition to
 cancer later in life.
