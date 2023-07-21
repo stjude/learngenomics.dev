@@ -19,7 +19,7 @@ with data sources you are aware of so we can incorporate them.
 | 1000 Genomes Project             | WGS, Variant      | One of the first large-scale, international sequencing efforts running from 2008 to 2015. You can learn more at the [1000genomes.org website](https://www.internationalgenome.org/about).       | [Main Page](https://www.internationalgenome.org/data), [FTP](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/) |
 | Kids First Data Resource Commons | Expression Counts | [Learn more](https://kidsfirstdrc.org/about/).                                                                                                                                                  | [Link](https://portal.kidsfirstdrc.org)                                                                   |  |
 | St. Jude Cloud                   | Expression Counts | St. Jude Cloud hosts pediatric disease and cancer survivorship data for over 17,500 subjects. Learn more by reading [the publication][stjude-cloud-publication] associated with St. Jude Cloud. | [Link](https://platform.stjude.cloud/data/cohorts)                                                        |
-
+| [Refine.bio](https://refine.bio).  | RNA-Seq and others | A search engine for normalized transcriptome data, created by Alex's Lemonade Stand Foundation | [Link](https://refine.bio) |
 
 ## Protected Access Data
 
