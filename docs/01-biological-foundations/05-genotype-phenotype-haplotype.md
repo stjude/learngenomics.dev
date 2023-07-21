@@ -9,8 +9,8 @@ track: Biological Foundations
 
 - Most commonly within the area of computational genomics, the term genotype
   refers to the particular alleles found at a given position or locus within the
-  genome. So, for instance, if position 7 on the theoretical chromosome in the
-  figure below contains an `A` on one copy and a `G` on the other copy. This is
+  genome. For example, if position 7 on the theoretical chromosome in the
+  figure below contains an `A` on one copy and a `G` on the other copy, this is
   said to be a genotype call of `A/G` at position 7.
 - Less commonly within the area of computational genomics, the term genotype
   will be used to reference an organism's complete set of genetic material,
