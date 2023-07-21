@@ -10,12 +10,12 @@ methods can be quite complex.
 
 While it sounds easy to read the entire genome by laying all of the chromosomes
 end-to-end, in practice, there are some problems with this approach. Chiefly,
-researchers currently lack the biochemical processing abilities to extract to
+researchers currently lack the biochemical processing abilities to extract and to
 read such long stretches of DNA quickly and accurately. Additionally, next
 generation sequencing technologies have their own set of limitations, including:
 
 - Each nucleotide the sequencer calls is accompanied by a confidence score
-  estimating the how likely the recorded call is to be correct. In short, the
+  estimating how likely the recorded call is to be correct. In short, the
   sequencer's calls are of a probabilistic nature and do not have a zero error
   rate.
 - As the sequencer observes each nucleotide along the read, the confidence it
@@ -37,7 +37,7 @@ looks like the following:
 3. Among many other important steps to prepare the DNA library for sequencing is
    "adapter ligation". This process involves tacking on special sequences to
    both ends of the DNA fragment which is required by the sequencing process.
-4. Optionally, a chemical amplification step, known as Polymeraise Chain
+4. Optionally, a chemical amplification step, known as Polymerase Chain
    Reaction (**PCR**), can be conducted to increase the amount of genomic
    material available for sequencing.
 5. The sample is loaded onto a flowcell and put into an Illumina sequencer,

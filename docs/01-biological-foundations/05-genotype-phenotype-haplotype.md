@@ -8,9 +8,9 @@ track: Biological Foundations
 **Genotype** is an overloaded term that can mean one of two things:
 
 - Most commonly within the area of computational genomics, the term genotype
-  refers to the particular alleles found a given position or locus within the
-  genome. So, for instance, if position 7 on the theoretical chromosome in the
-  figure below contains an `A` on one copy and a `G` on the other copy. This is
+  refers to the particular alleles found at a given position or locus within the
+  genome. For example, if position 7 on the theoretical chromosome in the
+  figure below contains an `A` on one copy and a `G` on the other copy, this is
   said to be a genotype call of `A/G` at position 7.
 - Less commonly within the area of computational genomics, the term genotype
   will be used to reference an organism's complete set of genetic material,
@@ -31,7 +31,7 @@ specified.
 
 An observed (often physical) trait that specific genes confer is known as
 a **phenotype**. When we see a person with blue eyes (a phenotype), we know that
-they carry a set specific genetic sequences that makes that eye color possible
+they carry a set of specific genetic sequences that makes that eye color possible
 (a genotype). In cancer, the features of the disease are the phenotype and the
 mutations and variants within the individual make up the genotype. In genomics,
 biologists seek to link genotypes to phenotypes to improve diagnoses and
