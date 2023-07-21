@@ -43,7 +43,7 @@ samples to gain enough statistical power. In rare diseases like pediatric
 cancer, GWAS studies are not as practical due to low sample count. Thus,
 researchers apply biological knowledge _a priori_ to improve the odds of finding
 relevant SNVs. Commonly scientists focus their efforts on SNVs that fall within
-exons of genes that are known be associated with cancer or that are predicted to
+exons of genes that are known to be associated with cancer or that are predicted to
 alter the protein product. Databases such
 as [COSMIC](https://cancer.sanger.ac.uk/cosmic) track variants in cancer genomes
 to help identify genes and genomic locations that are commonly mutated and are,
