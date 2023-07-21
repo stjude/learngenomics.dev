@@ -15,7 +15,7 @@ read such long stretches of DNA quickly and accurately. Additionally, next
 generation sequencing technologies have their own set of limitations, including:
 
 - Each nucleotide the sequencer calls is accompanied by a confidence score
-  estimating the how likely the recorded call is to be correct. In short, the
+  estimating how likely the recorded call is to be correct. In short, the
   sequencer's calls are of a probabilistic nature and do not have a zero error
   rate.
 - As the sequencer observes each nucleotide along the read, the confidence it
