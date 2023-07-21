@@ -73,7 +73,7 @@ respectively.
 
 Importantly, though it's easy to conceptualize DNA as a single, very long
 string, the reality is more complex. DNA is comprised of two complementary sequences
-known as **strands**. Each base is actually a member of a **base pairs**, whereby
+known as **strands**. Each base is actually a member of a **base pair**, whereby
 nucleotides complement each other uniquely—'A's pair only with 'T's, and 'G's only with
 'C's. Up close, this structure resembles a spiral staircase as seen in the figure below.
 
