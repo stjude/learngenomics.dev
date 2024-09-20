@@ -15,9 +15,9 @@ These fields describe:
 
 - **Variant Identifier.** The ID field is used to store one or more unique identifiers for the variant. Commonly, the rs numbers from [dbSNP](https://www.ncbi.nlm.nih.gov/snp/) are used.
 
-- **Quality of the Variant.** A measure of confidence in the called variant or lack thereof. This field follows the common practice of encoding qualities as a Phred-scaled quality score with the formula . A score of 10 means there is a 1 in 10 chance of the call being incorrect, 20 means a 1 in 100 chance of the call being incorrect, and so on. If unknown, the value should be the missing value, a period.
+- **Quality of the Variant.** A measure of confidence in the called variant or lack thereof. This field follows the common practice of encoding qualities as a Phred-scaled quality score with the formula Q = -10 log10(p), where p is the probability of an incorrect variant call. A score of 10 means there is a 1 in 10 chance of the call being incorrect, 20 means a 1 in 100 chance of the call being incorrect, and so on. If unknown, the value should be the missing value, a period.
 
-- **Filter Status.** This denotes the status of whether the variant passed all quality filters from the caller. If the variant passes, the value will have a value of PASS. If the variant fails any filters, the value will be a semi-colon separated list of codes for the filters. If unknown, the value should be the missing value.
+- **Filter Status.** This denotes the status of whether the variant passed all quality filters from the caller. If the variant passes, the value will be PASS. If the variant fails any filters, the value will be a semi-colon separated list of codes for the filters. If unknown, the value should be the missing value.
 
 - **Additional Information.** A field which can contain an arbitrary number of key-value pairs separated by semicolons of the form /<key/>=/<value1/>[,/<value2/>]. While there are some reserved keys specified in the documentation, anything can be denoted here. If there is no additional information, this field is empty.
 
