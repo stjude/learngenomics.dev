@@ -166,7 +166,7 @@ samtools sort SRR038564.bwa-mem.sam > SRR038564.bwa-mem.sorted.bam
 ### Mark duplicates
 
 ```bash
-picard MarkDuplicates I=SRR038564.bwa-mem.sorted.bam O=SRR038564.bwa-mem.sorted.marked.bam M=SRR038564.bwa-mem.sorted.marked.bam.metrics
+picard MarkDuplicates -I SRR038564.bwa-mem.sorted.bam -O SRR038564.bwa-mem.sorted.marked.bam -M SRR038564.bwa-mem.sorted.marked.bam.metrics
 # INFO	2019-11-09 23:55:27	MarkDuplicates
 #
 # ********** NOTE: Picard's command line syntax is changing.
