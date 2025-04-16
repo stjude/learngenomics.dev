@@ -23,12 +23,11 @@ These fields describe:
 
 As alluded to earlier, the VCF format is flexible in that it *may* specify one or more samples and indicate whether the sample contains any of the variants specified in the file. A simplified version of this would be something like:
 
-**Chromosome** **Position** **ID** **REF** **ALT** **Sample1** **Sample2** **Sample3**
+| Chromosome | Position   | ID         | REF | ALT | Sample1 | Sample2 | Sample3 |
+|------------|------------|------------|-----|-----|---------|---------|---------|
+| chr1       | 114713908  | rs11554290 | T   | A   | YES     | NO      | NO      |
+| chr17      | 7683718    | .          | C   | CT  | NO      | YES     | YES     |
 
----
-
-chr1 114713908 rs11554290 T A YES NO NO
-chr17 7683718 . C CT NO YES YES
 
 However, in practice this is complicated by the fact that variants can have various genotypes (homozygous reference allele, homozygous alternate allele, or heterozygous) and evidence depth. For more information, see the "Genotype fields" section of the [VCF specification](https://samtools.github.io/hts-specs/VCFv4.2.pdf).
 
