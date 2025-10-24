@@ -1,0 +1,106 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@config '../../typography.ts';
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --text-2xs: 0.75rem;
+  --text-2xs--line-height: 1.25rem;
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1.5rem;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.5rem;
+  --text-base: 1rem;
+  --text-base--line-height: 1.75rem;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 1.75rem;
+  --text-xl: 1.25rem;
+  --text-xl--line-height: 1.75rem;
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: 2rem;
+  --text-3xl: 1.875rem;
+  --text-3xl--line-height: 2.25rem;
+  --text-4xl: 2.25rem;
+  --text-4xl--line-height: 2.5rem;
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 1;
+  --text-6xl: 3.75rem;
+  --text-6xl--line-height: 1;
+  --text-7xl: 4.5rem;
+  --text-7xl--line-height: 1;
+  --text-8xl: 6rem;
+  --text-8xl--line-height: 1;
+  --text-9xl: 8rem;
+  --text-9xl--line-height: 1;
+
+  --shadow-glow: 0 0 4px rgb(0 0 0 / 0.1);
+
+  --container-lg: 33rem;
+  --container-2xl: 40rem;
+  --container-3xl: 50rem;
+  --container-5xl: 66rem;
+
+  /* Brand Primary (emerald-based) */
+  --color-brand-primary-50: var(--color-emerald-50);
+  --color-brand-primary-100: var(--color-emerald-100);
+  --color-brand-primary-200: var(--color-emerald-200);
+  --color-brand-primary-300: var(--color-emerald-300);
+  --color-brand-primary-400: var(--color-emerald-400);
+  --color-brand-primary-500: var(--color-emerald-500);
+  --color-brand-primary-600: var(--color-emerald-600);
+  --color-brand-primary-700: var(--color-emerald-700);
+  --color-brand-primary-800: var(--color-emerald-800);
+  --color-brand-primary-900: var(--color-emerald-900);
+
+  /* Brand Info (sky-based) */
+  --color-brand-info-50: var(--color-sky-50);
+  --color-brand-info-200: var(--color-sky-200);
+  --color-brand-info-300: var(--color-sky-300);
+  --color-brand-info-400: var(--color-sky-400);
+  --color-brand-info-500: var(--color-sky-500);
+  --color-brand-info-900: var(--color-sky-900);
+
+  /* Brand Warning (amber-based) */
+  --color-brand-warning-50: var(--color-amber-50);
+  --color-brand-warning-200: var(--color-amber-200);
+  --color-brand-warning-300: var(--color-amber-300);
+  --color-brand-warning-400: var(--color-amber-400);
+  --color-brand-warning-500: var(--color-amber-500);
+  --color-brand-warning-900: var(--color-amber-900);
+
+  /* Brand Error (rose/red-based) */
+  --color-brand-error-50: var(--color-rose-50);
+  --color-brand-error-200: var(--color-rose-200);
+  --color-brand-error-400: var(--color-rose-400);
+  --color-brand-error-500: var(--color-red-500);
+
+  /* Brand Success (emerald-based) */
+  --color-brand-success-50: var(--color-emerald-50);
+  --color-brand-success-100: var(--color-emerald-100);
+  --color-brand-success-200: var(--color-emerald-200);
+  --color-brand-success-300: var(--color-emerald-300);
+  --color-brand-success-400: var(--color-emerald-400);
+  --color-brand-success-500: var(--color-emerald-500);
+  --color-brand-success-600: var(--color-emerald-600);
+  --color-brand-success-700: var(--color-emerald-700);
+  --color-brand-success-800: var(--color-emerald-800);
+  --color-brand-success-900: var(--color-emerald-900);
+}
+
+@layer base {
+  :root {
+    --shiki-color-text: var(--color-white);
+    --shiki-token-constant: var(--color-emerald-300);
+    --shiki-token-string: var(--color-emerald-300);
+    --shiki-token-comment: var(--color-zinc-500);
+    --shiki-token-keyword: var(--color-sky-300);
+    --shiki-token-parameter: var(--color-pink-300);
+    --shiki-token-function: var(--color-violet-300);
+    --shiki-token-string-expression: var(--color-emerald-300);
+    --shiki-token-punctuation: var(--color-zinc-200);
+  }
+
+  [inert] ::-webkit-scrollbar {
+    display: none;
+  }
+}
