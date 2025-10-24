@@ -49,18 +49,18 @@ function InfoIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 const noteStyles = {
   info: {
     container:
-      'border-sky-500/20 bg-sky-50/50 text-sky-900 dark:border-sky-500/30 dark:bg-sky-500/5 dark:text-sky-200 dark:[--tw-prose-links-hover:var(--color-sky-300)] dark:[--tw-prose-links:var(--color-white)]',
-    icon: 'fill-sky-500 stroke-white dark:fill-sky-200/20 dark:stroke-sky-200',
+      'border-brand-info-500/20 bg-brand-info-50/50 text-brand-info-900 dark:border-brand-info-500/30 dark:bg-brand-info-500/5 dark:text-brand-info-200 dark:[--tw-prose-links-hover:var(--color-brand-info-300)] dark:[--tw-prose-links:var(--color-white)]',
+    icon: 'fill-brand-info-500 stroke-white dark:fill-brand-info-200/20 dark:stroke-brand-info-200',
   },
   tip: {
     container:
-      'border-emerald-500/20 bg-emerald-50/50 text-emerald-900 dark:border-emerald-500/30 dark:bg-emerald-500/5 dark:text-emerald-200 dark:[--tw-prose-links-hover:var(--color-emerald-300)] dark:[--tw-prose-links:var(--color-white)]',
-    icon: 'fill-emerald-500 stroke-white dark:fill-emerald-200/20 dark:stroke-emerald-200',
+      'border-brand-success-500/20 bg-brand-success-50/50 text-brand-success-900 dark:border-brand-success-500/30 dark:bg-brand-success-500/5 dark:text-brand-success-200 dark:[--tw-prose-links-hover:var(--color-brand-success-300)] dark:[--tw-prose-links:var(--color-white)]',
+    icon: 'fill-brand-success-500 stroke-white dark:fill-brand-success-200/20 dark:stroke-brand-success-200',
   },
   caution: {
     container:
-      'border-amber-500/20 bg-amber-50/50 text-amber-900 dark:border-amber-500/30 dark:bg-amber-500/5 dark:text-amber-200 dark:[--tw-prose-links-hover:var(--color-amber-300)] dark:[--tw-prose-links:var(--color-white)]',
-    icon: 'fill-amber-500 stroke-white dark:fill-amber-200/20 dark:stroke-amber-200',
+      'border-brand-warning-500/20 bg-brand-warning-50/50 text-brand-warning-900 dark:border-brand-warning-500/30 dark:bg-brand-warning-500/5 dark:text-brand-warning-200 dark:[--tw-prose-links-hover:var(--color-brand-warning-300)] dark:[--tw-prose-links:var(--color-white)]',
+    icon: 'fill-brand-warning-500 stroke-white dark:fill-brand-warning-200/20 dark:stroke-brand-warning-200',
   },
 }
 

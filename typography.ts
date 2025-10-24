@@ -7,9 +7,9 @@ export default {
         css: {
           '--tw-prose-body': theme('colors.zinc.700'),
           '--tw-prose-headings': theme('colors.zinc.900'),
-          '--tw-prose-links': theme('colors.emerald.500'),
-          '--tw-prose-links-hover': theme('colors.emerald.600'),
-          '--tw-prose-links-underline': theme('colors.emerald.500 / 0.3'),
+          '--tw-prose-links': theme('colors.brand-primary.500'),
+          '--tw-prose-links-hover': theme('colors.brand-primary.600'),
+          '--tw-prose-links-underline': theme('colors.brand-primary.500 / 0.3'),
           '--tw-prose-bold': theme('colors.zinc.900'),
           '--tw-prose-counters': theme('colors.zinc.500'),
           '--tw-prose-bullets': theme('colors.zinc.300'),
@@ -25,10 +25,10 @@ export default {
 
           '--tw-prose-invert-body': theme('colors.zinc.400'),
           '--tw-prose-invert-headings': theme('colors.white'),
-          '--tw-prose-invert-links': theme('colors.emerald.400'),
-          '--tw-prose-invert-links-hover': theme('colors.emerald.500'),
+          '--tw-prose-invert-links': theme('colors.brand-primary.400'),
+          '--tw-prose-invert-links-hover': theme('colors.brand-primary.500'),
           '--tw-prose-invert-links-underline': theme(
-            'colors.emerald.500 / 0.3',
+            'colors.brand-primary.500 / 0.3',
           ),
           '--tw-prose-invert-bold': theme('colors.white'),
           '--tw-prose-invert-counters': theme('colors.zinc.400'),

@@ -7,24 +7,24 @@ const variantStyles = {
 
 const colorStyles = {
   emerald: {
-    small: 'text-emerald-500 dark:text-emerald-400',
+    small: 'text-brand-success-500 dark:text-brand-success-400',
     medium:
-      'ring-emerald-300 dark:ring-emerald-400/30 bg-emerald-400/10 text-emerald-500 dark:text-emerald-400',
+      'ring-brand-success-300 dark:ring-brand-success-400/30 bg-brand-success-400/10 text-brand-success-500 dark:text-brand-success-400',
   },
   sky: {
-    small: 'text-sky-500',
+    small: 'text-brand-info-500',
     medium:
-      'ring-sky-300 bg-sky-400/10 text-sky-500 dark:ring-sky-400/30 dark:bg-sky-400/10 dark:text-sky-400',
+      'ring-brand-info-300 bg-brand-info-400/10 text-brand-info-500 dark:ring-brand-info-400/30 dark:bg-brand-info-400/10 dark:text-brand-info-400',
   },
   amber: {
-    small: 'text-amber-500',
+    small: 'text-brand-warning-500',
     medium:
-      'ring-amber-300 bg-amber-400/10 text-amber-500 dark:ring-amber-400/30 dark:bg-amber-400/10 dark:text-amber-400',
+      'ring-brand-warning-300 bg-brand-warning-400/10 text-brand-warning-500 dark:ring-brand-warning-400/30 dark:bg-brand-warning-400/10 dark:text-brand-warning-400',
   },
   rose: {
-    small: 'text-red-500 dark:text-rose-500',
+    small: 'text-brand-error-500 dark:text-brand-error-500',
     medium:
-      'ring-rose-200 bg-rose-50 text-red-500 dark:ring-rose-500/20 dark:bg-rose-400/10 dark:text-rose-400',
+      'ring-brand-error-200 bg-brand-error-50 text-brand-error-500 dark:ring-brand-error-500/20 dark:bg-brand-error-400/10 dark:text-brand-error-400',
   },
   zinc: {
     small: 'text-zinc-400 dark:text-zinc-500',
