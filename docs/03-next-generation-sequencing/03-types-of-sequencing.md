@@ -6,7 +6,7 @@ track: Next-Generation Sequencing
 Sequencing is a laboratory technique that identifies and determines the order of
 bases in a DNA molecule. Each sequencing type is best analyzed by a different
 computational method and is interpreted in a different way. The scientific goals
-of the research, cost and practical limits determine which types of sequencing
+of the research, cost, and practical limits determine which types of sequencing
 are chosen. For example, clinical sequencing seeks the time-sensitive detection
 of known mutations, while population studies focus on the discovery of new
 variants. Often, the type of sequencing ordered is a trade-off between cost and
@@ -21,7 +21,7 @@ deciding which pieces of the genome/exome/transcriptome needs sequencing.
 | Whole Exome Sequencing   | WES, WXS                   | Characterizes the exonic, or coding, regions of the genome reading sequences from DNA                                                                                                        |
 | Transcriptome Sequencing | WTS, RNA-seq               | Characterizes the exonic regions that are actively expressed in the cell reading sequences from RNA                                                                                          |
 | Targeted Sequencing      | Validation Capture, Valcap | Characterizes a chosen region from DNA, can be a coding or non-coding region. The region can be coding or non-coding and is typically focused, high-depth sequencing for validating variants |
-| ChIP seq                 | ChIP-seq                   | Characterizes any sequence the genomic locations where a protein interacts with DNA, both coding and non-coding                                                                              |
+| ChIP seq                 | ChIP-seq                   | Characterizes the genomic locations where a protein interacts with DNA, both coding and non-coding                                                                              |
 | ATAC sequencing          | ATAC-seq                   | Characterizes any sequence where DNA does not interact with proteins or is "open", both coding and non-coding                                                                                |
 | Hi-C                     | Hi-C                       | Characterizes the genomic locations where chromosomes come in close contact with each other. Typically used in characterizing 3D interactions of DNA                                         |
 | Single Cell Sequencing   | scDNA-seq, scRNA-seq       | DNA or RNA sequencing of individual cells, captures granularity at an individual cell level rather than a mixture of cells, can be coding or non-coding with lower coverage                  |
