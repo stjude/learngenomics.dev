@@ -34,7 +34,7 @@ by newlines.
 Random access within FASTQ files is not typical—generally, FASTQs are used
 solely as input to some alignment process, which then produces a BAM file—so
 they are gzipped (not bgzipped) to save space. Conventionally, FASTQ file names
-indicate which read the files contain (e.g. Sample.fastq.gz for single-end
+indicate which read the file contains (e.g. Sample.fastq.gz for single-end
 sequencing or Sample_R1.fastq.gz and Sample_R2.fastq.gz in paired-end sequencing
 where _R1 stands for "read one(s)" and _R2 stands for "read two(s)").
 
