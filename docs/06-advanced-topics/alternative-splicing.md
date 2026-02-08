@@ -10,15 +10,9 @@ Living cells, like programmers, increase their efficiency through repurposing co
 ### Events during Alternative Splicing
 
 - **Exon skipping.** The most common event in mammals, where one or more exons are excluded from the final mRNA. Because exons often correspond to functional domains of a protein, skipping an exon can remove or alter a specific function while leaving the rest of the protein intact.
-
 - **Intron retention.** An intron that would normally be removed is kept in the mature mRNA. This often introduces a premature stop codon, which can lead to a truncated, nonfunctional protein or trigger degradation of the transcript through nonsense-mediated decay.
-
 - **Alternative 5' splice sites.** The spliceosome recognizes a different donor site at the 5' end of an intron, resulting in a longer or shorter version of the upstream exon.
-
 - **Alternative 3' splice sites.** Similarly, the spliceosome recognizes a different acceptor site at the 3' end of an intron, changing the boundary of the downstream exon.
-
 - **Mutually exclusive exons.** Two or more exons are never included together in the same transcript—exactly one is retained while the others are excluded. This allows the cell to swap one functional domain for another, producing distinct protein variants from the same gene.
-
 - **Alternative promoters.** Transcription begins at a different promoter upstream of the gene, which changes the first exon included in the transcript. This can alter both the regulation of the gene and the resulting protein.
-
 - **Alternative polyadenylation.** The transcript is cleaved and polyadenylated at a different site, changing the last exon or the length of the 3' untranslated region. This can affect mRNA stability, localization, and translation efficiency.
