@@ -25,7 +25,7 @@ for more information.
 
 Everything in this guide refers to eukaryotic molecular biology, which is the
 study of organisms whose DNA is enclosed within a nucleus. Broadly speaking,
-most familiar species are eukaryotes, except bacteria which has DNA spread
+most familiar species are eukaryotes, except bacteria which have DNA spread
 throughout the cell. At times, this document will be geared towards the
 sequencing of human cells specifically.
 
