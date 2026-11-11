@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="392" height="472" viewBox="4 6 392 472">
+<title>Knudson's two-hit model in nonheritable and heritable retinoblastoma.</title>
+<defs><style>/* Source Sans 3 / Source Code Pro, SIL Open Font License 1.1 */
+@font-face{font-family:'Source Sans 3';font-weight:200 900;src:url(data:font/woff2;base64,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) format('woff2')}</style></defs>
+<rect x="10.50" y="10.00" width="5.0" height="15.00" rx="1.5" fill="#1874dc"/>
+<text x="21.00" y="22.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">working copy</text>
+<path d="M115.50 11.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V14.20l-5 3.2Z" fill="#fcb025"/>
+<path d="M115.50 22.60l5 -3.2V23.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<text x="126.00" y="22.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">broken copy</text>
+<rect x="212.00" y="10.00" width="16" height="15" rx="4" fill="#fbe3c4" stroke="#333333" stroke-width="1.4"/>
+<text x="234.00" y="22.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">can start a tumor</text>
+<text x="10.00" y="62.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#333333">Nonheritable</text>
+<text x="10.00" y="78.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">Every cell starts with two working copies.</text>
+<text x="10.00" y="100.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">At birth</text>
+<rect x="11.00" y="107.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="21.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="32.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="49.00" y="107.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="59.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="70.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="87.00" y="107.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="97.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="108.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="125.00" y="107.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="135.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="146.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="163.00" y="107.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="173.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="184.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="201.00" y="107.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="211.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="222.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="239.00" y="107.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="249.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="260.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="277.00" y="107.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="287.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="298.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="315.00" y="107.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="325.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="336.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="353.00" y="107.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="363.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="374.00" y="116.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<text x="10.00" y="169.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">Later</text>
+<rect x="11.00" y="176.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="21.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="32.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="49.00" y="176.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="59.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="70.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="87.00" y="176.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M97.00 186.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V192.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M97.00 200.96l5 -3.2V205.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="108.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="125.00" y="176.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="135.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="146.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="163.00" y="176.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="173.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="184.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="201.00" y="176.00" width="36.00" height="40.00" rx="6" fill="#fbe3c4" stroke="#333333" stroke-width="1.6"/>
+<path d="M211.00 186.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V192.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M211.00 200.96l5 -3.2V205.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<path d="M222.00 186.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V192.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M222.00 200.96l5 -3.2V205.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="239.00" y="176.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="249.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="260.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="277.00" y="176.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M287.00 186.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V192.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M287.00 200.96l5 -3.2V205.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="298.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="315.00" y="176.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="325.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="336.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="353.00" y="176.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="363.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="374.00" y="185.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<text x="10.00" y="235.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">Both hits have to happen in the same cell.</text>
+<text x="10.00" y="275.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#333333">Heritable</text>
+<text x="10.00" y="291.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">Every cell starts with one broken copy.</text>
+<text x="10.00" y="313.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">At birth</text>
+<rect x="11.00" y="320.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M21.00 330.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V336.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M21.00 344.96l5 -3.2V349.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="32.00" y="329.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="49.00" y="320.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M59.00 330.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V336.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M59.00 344.96l5 -3.2V349.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="70.00" y="329.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="87.00" y="320.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M97.00 330.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V336.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M97.00 344.96l5 -3.2V349.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="108.00" y="329.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="125.00" y="320.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M135.00 330.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V336.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M135.00 344.96l5 -3.2V349.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="146.00" y="329.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="163.00" y="320.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M173.00 330.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V336.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M173.00 344.96l5 -3.2V349.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="184.00" y="329.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="201.00" y="320.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M211.00 330.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V336.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M211.00 344.96l5 -3.2V349.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="222.00" y="329.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="239.00" y="320.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M249.00 330.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V336.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M249.00 344.96l5 -3.2V349.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="260.00" y="329.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="277.00" y="320.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M287.00 330.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V336.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M287.00 344.96l5 -3.2V349.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="298.00" y="329.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="315.00" y="320.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M325.00 330.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V336.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M325.00 344.96l5 -3.2V349.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="336.00" y="329.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="353.00" y="320.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M363.00 330.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V336.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M363.00 344.96l5 -3.2V349.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="374.00" y="329.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<text x="10.00" y="382.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">Later</text>
+<rect x="11.00" y="389.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M21.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M21.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="32.00" y="398.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="49.00" y="389.00" width="36.00" height="40.00" rx="6" fill="#fbe3c4" stroke="#333333" stroke-width="1.6"/>
+<path d="M59.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M59.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<path d="M70.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M70.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="87.00" y="389.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M97.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M97.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="108.00" y="398.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="125.00" y="389.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M135.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M135.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="146.00" y="398.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="163.00" y="389.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M173.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M173.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="184.00" y="398.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="201.00" y="389.00" width="36.00" height="40.00" rx="6" fill="#fbe3c4" stroke="#333333" stroke-width="1.6"/>
+<path d="M211.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M211.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<path d="M222.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M222.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="239.00" y="389.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M249.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M249.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="260.00" y="398.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="277.00" y="389.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M287.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M287.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="298.00" y="398.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="315.00" y="389.00" width="36.00" height="40.00" rx="6" fill="#fbe3c4" stroke="#333333" stroke-width="1.6"/>
+<path d="M325.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M325.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<path d="M336.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M336.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="353.00" y="389.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M363.00 399.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V405.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M363.00 413.96l5 -3.2V418.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="374.00" y="398.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<text x="10.00" y="448.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">One more hit in any cell is enough. It often happens more than once.</text>
+<text x="392.00" y="471.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10" font-weight="400" text-anchor="end">© Copyright 2026 St. Jude Children's Research Hospital</text>
+</svg>

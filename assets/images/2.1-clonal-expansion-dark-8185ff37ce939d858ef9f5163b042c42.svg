@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="392" height="605.6" viewBox="4 6 392 605.6" fill="#ffffff">
+<title>A tumor grows from one cell through successive mutations and clonal expansion.</title>
+<defs><style>/* Source Sans 3 / Source Code Pro, SIL Open Font License 1.1 */
+@font-face{font-family:'Source Sans 3';font-weight:200 900;src:url(data:font/woff2;base64,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) format('woff2')}</style></defs>
+<rect x="10.60" y="9.60" width="16.80" height="12.80" rx="4" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="19.00" cy="16.00" rx="3.60" ry="2.38" fill="#574e50"/>
+<text x="33.00" y="20.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#c6c3c3">normal</text>
+<rect x="93.60" y="9.60" width="16.80" height="12.80" rx="4" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="102.00" cy="16.00" rx="3.60" ry="2.38" fill="#4f9fbb"/>
+<text x="116.00" y="20.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#c6c3c3">1 mutation</text>
+<rect x="196.60" y="9.60" width="16.80" height="12.80" rx="4" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="205.00" cy="16.00" rx="3.60" ry="2.38" fill="#bad7ff"/>
+<text x="219.00" y="20.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#c6c3c3">2 mutations</text>
+<rect x="305.60" y="9.60" width="16.80" height="12.80" rx="4" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="314.00" cy="16.00" rx="3.60" ry="2.38" fill="#cd873b"/>
+<text x="328.00" y="20.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#c6c3c3">3 mutations</text>
+<text x="10.00" y="56.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#e8e7e7">1</text>
+<text x="23.00" y="56.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#e8e7e7">One cell gains a mutation</text>
+<rect x="10.60" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="21.18" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="32.95" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="43.53" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="55.31" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="65.88" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="77.66" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="88.24" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="100.01" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="110.59" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="122.36" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="132.94" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="144.72" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="155.29" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="167.07" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="177.65" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="189.42" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="200.00" cy="86.60" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="211.78" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="222.35" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="234.13" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="244.71" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="256.48" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="267.06" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="278.84" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="289.41" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="301.19" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="311.76" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="323.54" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="334.12" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="345.89" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="356.47" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="368.25" y="68.60" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="378.82" cy="86.60" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="10.00" y="99.40" width="380.00" height="18.00" fill="#31272a"/>
+<path d="M10.00 99.40H390.00" stroke="#e8e7e7" stroke-width="2.4" fill="none"/>
+<text x="386.00" y="112.40" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#c6c3c3" text-anchor="end">basement membrane</text>
+<text x="10.00" y="147.40" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#e8e7e7">2</text>
+<text x="23.00" y="147.40" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#e8e7e7">Its descendants outgrow their neighbors</text>
+<rect x="144.72" y="160.00" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="155.29" cy="168.90" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="167.07" y="160.00" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="177.65" cy="168.90" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="189.42" y="160.00" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="200.00" cy="168.90" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="211.78" y="160.00" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="222.35" cy="168.90" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="234.13" y="160.00" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="244.71" cy="168.90" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="10.60" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="21.18" cy="197.00" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="32.95" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="43.53" cy="197.00" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="55.31" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="65.88" cy="197.00" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="77.66" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="88.24" cy="197.00" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="100.01" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="110.59" cy="197.00" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="122.36" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="132.94" cy="197.00" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="144.72" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="155.29" cy="197.00" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="167.07" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="177.65" cy="197.00" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="189.42" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="200.00" cy="197.00" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="211.78" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="222.35" cy="197.00" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="234.13" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="244.71" cy="197.00" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="256.48" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="267.06" cy="197.00" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="278.84" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="289.41" cy="197.00" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="301.19" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="311.76" cy="197.00" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="323.54" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="334.12" cy="197.00" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="345.89" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="356.47" cy="197.00" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="368.25" y="179.00" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="378.82" cy="197.00" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="10.00" y="209.80" width="380.00" height="18.00" fill="#31272a"/>
+<path d="M10.00 209.80H390.00" stroke="#e8e7e7" stroke-width="2.4" fill="none"/>
+<text x="10.00" y="257.80" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#e8e7e7">3</text>
+<text x="23.00" y="257.80" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#e8e7e7">One descendant gains a second mutation</text>
+<rect x="100.01" y="308.40" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="110.59" cy="317.30" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="122.36" y="308.40" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="132.94" cy="317.30" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="144.72" y="308.40" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="155.29" cy="317.30" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="167.07" y="308.40" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="177.65" cy="317.30" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="189.42" y="308.40" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="200.00" cy="317.30" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="211.78" y="308.40" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="222.35" cy="317.30" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="234.13" y="308.40" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="244.71" cy="317.30" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="256.48" y="308.40" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="267.06" cy="317.30" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="278.84" y="308.40" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="289.41" cy="317.30" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="155.89" y="289.40" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="166.47" cy="298.30" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="178.25" y="289.40" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="188.82" cy="298.30" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="200.60" y="289.40" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="211.18" cy="298.30" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="222.95" y="289.40" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="233.53" cy="298.30" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="245.31" y="289.40" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="255.88" cy="298.30" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="178.25" y="270.40" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="188.82" cy="279.30" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="200.60" y="270.40" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="211.18" cy="279.30" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="10.60" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="21.18" cy="345.40" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="32.95" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="43.53" cy="345.40" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="55.31" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="65.88" cy="345.40" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="77.66" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="88.24" cy="345.40" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="100.01" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="110.59" cy="345.40" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="122.36" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="132.94" cy="345.40" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="144.72" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="155.29" cy="345.40" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="167.07" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="177.65" cy="345.40" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="189.42" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="200.00" cy="345.40" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="211.78" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="222.35" cy="345.40" rx="4.47" ry="4.20" fill="#bad7ff"/>
+<rect x="234.13" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="244.71" cy="345.40" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="256.48" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="267.06" cy="345.40" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="278.84" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="289.41" cy="345.40" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="301.19" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="311.76" cy="345.40" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="323.54" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="334.12" cy="345.40" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="345.89" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="356.47" cy="345.40" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="368.25" y="327.40" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="378.82" cy="345.40" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="10.00" y="358.20" width="380.00" height="18.00" fill="#31272a"/>
+<path d="M10.00 358.20H390.00" stroke="#e8e7e7" stroke-width="2.4" fill="none"/>
+<text x="10.00" y="406.20" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#e8e7e7">4</text>
+<text x="23.00" y="406.20" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#e8e7e7">A third mutation lets cells invade</text>
+<rect x="77.66" y="475.80" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="88.24" cy="484.70" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="100.01" y="475.80" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="110.59" cy="484.70" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="122.36" y="475.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="132.94" cy="484.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="144.72" y="475.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="155.29" cy="484.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="167.07" y="475.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="177.65" cy="484.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="189.42" y="475.80" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="200.00" cy="484.70" rx="4.47" ry="3.23" fill="#cd873b"/>
+<rect x="211.78" y="475.80" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="222.35" cy="484.70" rx="4.47" ry="3.23" fill="#cd873b"/>
+<rect x="234.13" y="475.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="244.71" cy="484.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="256.48" y="475.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="267.06" cy="484.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="278.84" y="475.80" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="289.41" cy="484.70" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="301.19" y="475.80" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="311.76" cy="484.70" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="111.19" y="456.80" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="121.76" cy="465.70" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="133.54" y="456.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="144.12" cy="465.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="155.89" y="456.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="166.47" cy="465.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="178.25" y="456.80" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="188.82" cy="465.70" rx="4.47" ry="3.23" fill="#cd873b"/>
+<rect x="200.60" y="456.80" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="211.18" cy="465.70" rx="4.47" ry="3.23" fill="#cd873b"/>
+<rect x="222.95" y="456.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="233.53" cy="465.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="245.31" y="456.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="255.88" cy="465.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="267.66" y="456.80" width="21.15" height="17.80" rx="7" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="278.24" cy="465.70" rx="4.47" ry="3.23" fill="#4f9fbb"/>
+<rect x="122.36" y="437.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="132.94" cy="446.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="144.72" y="437.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="155.29" cy="446.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="167.07" y="437.80" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="177.65" cy="446.70" rx="4.47" ry="3.23" fill="#cd873b"/>
+<rect x="189.42" y="437.80" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="200.00" cy="446.70" rx="4.47" ry="3.23" fill="#cd873b"/>
+<rect x="211.78" y="437.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="222.35" cy="446.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="234.13" y="437.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="244.71" cy="446.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="155.89" y="418.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="166.47" cy="427.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="178.25" y="418.80" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="188.82" cy="427.70" rx="4.47" ry="3.23" fill="#cd873b"/>
+<rect x="200.60" y="418.80" width="21.15" height="17.80" rx="7" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="211.18" cy="427.70" rx="4.47" ry="3.23" fill="#bad7ff"/>
+<rect x="10.60" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="21.18" cy="512.80" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="32.95" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="43.53" cy="512.80" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="55.31" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="65.88" cy="512.80" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="77.66" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="88.24" cy="512.80" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="100.01" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="110.59" cy="512.80" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="122.36" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="132.94" cy="512.80" rx="4.47" ry="4.20" fill="#bad7ff"/>
+<rect x="144.72" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="155.29" cy="512.80" rx="4.47" ry="4.20" fill="#bad7ff"/>
+<rect x="167.07" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="177.65" cy="512.80" rx="4.47" ry="4.20" fill="#cd873b"/>
+<rect x="189.42" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="200.00" cy="512.80" rx="4.47" ry="4.20" fill="#cd873b"/>
+<rect x="211.78" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="222.35" cy="512.80" rx="4.47" ry="4.20" fill="#bad7ff"/>
+<rect x="234.13" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#4396ff" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="244.71" cy="512.80" rx="4.47" ry="4.20" fill="#bad7ff"/>
+<rect x="256.48" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="267.06" cy="512.80" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="278.84" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="289.41" cy="512.80" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="301.19" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="311.76" cy="512.80" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="323.54" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#004a5b" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="334.12" cy="512.80" rx="4.47" ry="4.20" fill="#4f9fbb"/>
+<rect x="345.89" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="356.47" cy="512.80" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="368.25" y="494.80" width="21.15" height="28.80" rx="5.0" fill="#170d10" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="378.82" cy="512.80" rx="4.47" ry="4.20" fill="#574e50"/>
+<rect x="10.00" y="525.60" width="380.00" height="56.00" fill="#31272a"/>
+<path d="M10.00 525.60H166.47M211.18 525.60H390.00" stroke="#e8e7e7" stroke-width="2.4" fill="none"/>
+<path d="M166.47 525.60l3 4M211.18 525.60l-3 4" stroke="#e8e7e7" stroke-width="1.6" fill="none"/>
+<rect x="155.89" y="532.20" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="166.47" cy="541.10" rx="4.47" ry="3.23" fill="#cd873b"/>
+<rect x="184.95" y="535.20" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="195.53" cy="544.10" rx="4.47" ry="3.23" fill="#cd873b"/>
+<rect x="211.78" y="530.20" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="222.35" cy="539.10" rx="4.47" ry="3.23" fill="#cd873b"/>
+<rect x="169.31" y="554.20" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="179.88" cy="563.10" rx="4.47" ry="3.23" fill="#cd873b"/>
+<rect x="200.60" y="558.20" width="21.15" height="17.80" rx="7" fill="#fcb025" stroke="#a19c9d" stroke-width="0.8"/>
+<ellipse cx="211.18" cy="567.10" rx="4.47" ry="3.23" fill="#cd873b"/>
+<path d="M123.06 540.60L149.06 540.60" stroke="#a19c9d" stroke-width="0.8" fill="none"/>
+<text x="119.06" y="544.60" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#c6c3c3" text-anchor="end">cells invade</text>
+<text x="119.06" y="559.60" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#c6c3c3" text-anchor="end">the tissue below</text>
+<text x="392.00" y="604.60" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10" font-weight="400" text-anchor="end">© Copyright 2026 St. Jude Children's Research Hospital</text>
+</svg>

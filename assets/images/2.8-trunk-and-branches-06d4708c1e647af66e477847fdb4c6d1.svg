@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="392" height="484" viewBox="4 6 392 484">
+<title>A tumor's family tree and the allele fractions it produces.</title>
+<defs><style>/* Source Sans 3 / Source Code Pro, SIL Open Font License 1.1 */
+@font-face{font-family:'Source Sans 3';font-weight:200 900;src:url(data:font/woff2;base64,d09GMgABAAAAACIsABYAAAAAREwAACG2AAMNUAAAAAAAAAAAAAAAAAAAAAAAAAAAGUYaXBucYByBMD9IVkFSgVU/TVZBUkYGYD9TVEFUgSonKgCBVC9kEQgKpEicKDCmYgE2AiQDgWALcgAEIAWPcAcgDAcbOz4F3BjqYeMAANQ6QKIoH6SBUZQOSiL5/3JAxxALPkHdrcjsc+6BOMS6J+bDIadYdCiMLWTIJl+GfyWbluuala9a/NV0j8aw/MbmHy17DEhsdmc1hEvZxjGaR4X46PZx1bjry+Tr7ooda1Nu7wL9IUkt6fO1Wf+3BA0QIKRiFZqoTqZfWiatz8x2ol9Mz95lZ6I9auEH2lb/VOxCYClh6JIBBiSGykVJFQuRxbw9v1x3eOle9N/r8CPdt7eRA2aSU9M2cVSa4v6WJC3q0tNCjf/oltd2Wt5YDVR8OhEbQ/KBIJZgIMGNriY3KuUgokQeyJ5sBNUa2TPHAS7PJJFUyjPJ2DsbIgloFAoVId+okNv/Hzf9m6CFwKfYNkpl4ky+m+dRvph3xow5h1Gn9cNnTlOjWUiN0mCv9JHSg2uuEuyBBzax2Qim88doi1XlRQISCPTCweNl/2tZ080npVbY2KQgXBIyCcMZsfPm7zR9n5RnlxDj9M7NVi8hZYVQIcmTCBmlO6EoD0KjcAiJsZTn/9asbP0kNaSyeD2uztW6FvJICTKmUqnMNs17nQxRZ7CW+5Il6kNSZIE90F+u9BwkB6QA2c0Jc88fCyfvLfRsL7ubTKKvV+GcmUIKwwu6sLzaxKaI8Gy/uVzwXCMcYVShCtV47/9jAQHoAM5Br1+aWiovLRaBcOgIHgLixY3yAhCvlqfmgXgrUykCkQoACEpnIeW2qQEQjC+kEsX1LiFrANZ2hkiMtQ4FZfi+xVs/bAwE60LtR6NcjBdGxhJJKZ3FpCAX6QbTCkTYBAGYhmbM2vGklw1x83K5CE0MreAMAGMJSKgA2Wl343Vbwl4K2p2AAdBX668YJISpHyemKbG0n0KrMTZZ2vdtAOMOMEaw+TKkSSuA+K+OOoZQCYd76luezb6xHG/dLlH5mNIq8LVlrfh9BzhHqk4a/1FuW4ChAHXE3OW8Fet4iKHSMTzDkXOM4RF5DL2AojpY/C91YMsnPbb/tzZB517GqWR6m6KXhhX7K7RjtmymSbU9vX/PfsxhobX42U2tsLTT4lftiPlUJWKfz+ZJpCrgtfJwatMfNp/r0VyNag8rmoOLK0qrMam5F7gE4fBEGxdsZeifA2jVuvdgDBcqTYXRYfdWK8XnJbwWlHAfwzTBrY/HzEJpHLG6VbWMlYV/2r31qM7yHkXRYC3g2Jv6koGFhHGKltupInaDVpK8PWpJ0Fnwe5BPk2sNg6X0tbXge4w5FA2WXyEfXtS4NiDO08aC346S7cH5wZf9f6U0lArQJShsHkNKmiNjgaekJK+qpoCgqhhfikYHWAJpHkBB2EwqQOAMAMVxBOFISgAAFwAkJBDUgAZgACAAAA6Th1IQBJGQpNApFEJMDrUZVCmWpIQfxoTLlebT2RGktKQC5UmnDPlkUkAKgVLESSWDNMpRRCEtkCSPXCqSRYKS5Kj022k+BQP0cQYtWVMeP85CNf2lxGDFb3ChI3ww5jmh+Dkp/o16uSLAefmNCbCCP2dDAD6aa3bSxpAG1XPQx8cN00MrSQp4m5vxe9qrz90JuLj0eV95gwggHSbrB0c1sF2GJ8R9syVBoSYuy/XhSY4S5rGHy9xclq+NffqbECp657yjanloGFNzfEQssVk4tvNhPedr2xQgJf8dw8cTBo3FJ0QqevqGKG2nVZYmfK0Qmok0V9GK4e9AG5ryZFKOKNnESFJIJXJIJYsMcolQgRJBsim1B4yEx5TVTCo6O8hN9H3/w+Dgdxw3Tzn1byCIAQortKRIGfwp5uRdJC8UHh9w0f0nfXYYOj5JPuXENOH+gVvXZzLQcetubmEjBKMJVFX5hNYRfrHCxtNSnX4LRucSahhfqILyVVEhgvARZRa9T8Cgs/hfQB8uXuRJgBfVYFC/go4zKMA2SDP+Ac8JhKw32/3hZLo628Ts6YVSZRU6ABRA5mXdfL5bHIbjaLG6Wl9HzByMaxP7dFl8C+oQBPUpn6IHBABw0w13sAlV2sJG29UX1KvqfGWhZ+vtVMvSMcU3XLVe0Fw3mTsC+BFIJpPeO0g26yj5/57/SgDgqWszFYDPIoC8HL1Xg0AZP8vetgV47IVn1AO9n3cAXDzFyBnSqADobHb/Qs4o5S8Bs3hTNg6ZvfAI6tIch/kLgH2JKgAEADJDnwGIrj/JMw0IGIAqeu9qoYIv/qGNoOZBeqJQ27LzBEyasypvyvMd0mWbiMtn/Hek8VagX/NTW0g2PmUrveOy23CnbGdVYzuYh46QmZgAUALJOPwJD8AzMlapjy1yDJ5YVtwzUn37kmnB3ac8oKLa+EyWJJJTnx/53+yKcJZITUNX36I9tljZOeFComaVrFiz4dqlw3GBKYBh+wYEzpYxrzw9OzSdmhaSf8Bw0zW2aVVtwfa1py1tztumNvbxfw4QISCP2d0QAZ1ukzRAjkXFNoJsIK5UmWxSsBE2w1PYAr/J1qJ/vG0GSd0rwHaA7KD5eAhSZuECAFMA8ATAZUB5Bdp5gCEgAgAKgGLIrif2KVM1+oz0ckc2ufMZLpFJ5iWBGt+pWlUZc7hvlCxYjKcaDN7XF4QJW7IicBa5yqlOadouraRdN520dLLpsuSlnlKas5+bnGWyy/teZWjZVFsQFB2Gcyuh2Pyuuc7Ncchy2XUN2wuDLbrHq3gFBdeonTrQ6rnCBOsc40+ASWydHz0iuz0LSUTanrUmol8O34V+W11tjSiCH2KksB9hpG4BrJswlFHOKSBFZY1UQ7Ejaq5pPiFSWUnMFTp6tarqdJOkqNvqlqAnfs4MNyzxzfHdp27n1OtZlKh8BNi+rbLvPp+CsIPEEknjlewfxTJ2uCKMUpZTcIiKyYZCz45us73V7mH6RhHU5mv33xx/fyIqpwn0xzwiAL4AromonwQKM6z7zNSZZ+QryWF0UFniLvOL2WVveuiGugrYRGm1Z58jWKNyqpxkUF0p10OhTqGLmYbfdAkiktca67L/nuNhVm4pEW1wIFzG7jyzx9oPiFJLyHWOqM1V72Wxj3BWF7FFo+odDd+x5OI9sIL4/bykX/WjH3Oh8qJDO+50apF1Bh7z2YhIlTLlQ9WAQ7Z8CizYUWmfyKYkFI61nDxZZpVtPu4Gv0VHq73BnHJY8oCk9OSlVa/vZOtcxsoLfTfUD67+xdn9y7JHctXSnrcUO6pvqKKp/Qu5eld9S6eD7DniB5pvq27iU9gscJWE6zIYpCS6ckO5Js8d5BwuSQPciWjp5NAD4ID9g908tvol4fpynrPWlbILFG+w3FEy0LkXO7jAWd6x+wdWWWFd8gNJqryRBZfZ2EBdk403bCLjrTknx6hflrl2jnMu3qzqeJJ8hqa6NpUvrsi5+BUWzRTdvtewnQaL3wi5mmqsXxsyY50+swuDTxdczTIoYvzq2vr6+Cxuli3dVKVTQHoj1zNhiE2szaFeVy+11fn2pHX6XkteKT23G3ie5ua9y9xPpeuMCm4xO6oJWS/gVajY+dfvRfmQ7Gp1h9uk4qEjGFZYz/dFO5GhVCxJ1gtwTqmPWsu1Wg/9dK/e4MoKHgVzP/eGusrDjl7qLvvQHxeMXN2/tY03h8KEfp5Nrt7R2bFYgq+7nN2ijWwZuTDUFa44nXmNhcW98b3pNTlDWhr0V5Ji5/J2caFyoZAg+O/iQixaR9aDpFES5M+4wZyiy2xKuRwXEkzNXp/VqA0vcl1nL64vTNgMzpwuvZU8obDmDrkq9vkTYLzVvxmynFfwsPY74lNCozoiOFl2s4shwBdc2uNSKc0J826nIsByUJ0JKeTPyJLMLR2kDiVeT1NZZRYVXkagHICnyb3i/Ref92mDUe8OfEz9XE4JYhJcZV15+Lf6LtMkTeY0aGWeScR0ljp0XDLjwD0ZY/I499rDJsmjFmjlWFAngsi0WO+b8Bj5fZmOKcELO1vFIpEtyFbq9wof6t31jsqtIUzDCRTnpgS+P1IyqcST5MPPb+yQXiDtrMNdP50ePvnOwfk7CXcS559cPJk5e/KbkSg4/XlT/GTquadTD33nqG7rUYSjen8nm/73Djxp9P8xge/swKXdDV0usVTmZ6V/Oai39LHVP+T5xUqisdYdE7zH93N+u/RE6yayl6NChdDdSsep3Foj8TXKTk0qFREITCEdZ9Hp15ZThnm5VyuYsRj2ZGxq3WiQ+wxyupcMrQxprWrJ69OV0lqN1ETb6I48x5b51eK82czP+VUqDkZZ7951MuAvfTC/veHWltIGLd9MwWviz1FeIxprd72Cv+rdvDVkn5XMkvl0oqmxXGQTOumzOu2Sx6MtTegVKp+Ulxlv7BoqkUI5fxrjesWyrBMT58NKBcfUX33zqHkE8iHRDe30TtUXZx8sQPYqfblHh6x1p5Dgj1FDlHYQoS42EogrIzT8K0JwFOOJeS4HT9j3646/SRXCMpkv5uEOvrD//ua/T3OMTKvmfA6ZGlHYs0L8QsbtXq7J7VQq3U4T13u7sKoJjL5H5V6uKRJ6ZarfC8QRHaRfo+wsTHulEqc1NiGniH0K95jAIfqumP2AmLW/iZjn3n8njX5l8/KRR8DJdSavHzyPcknXgy11aV80cBukDxDrXLX1Xglb99QDF/nlyLiNylK6dcz+i4v7c1gwVcTfQtgjOeGhmmnSWs2S16cpoV2T0mpLPq92qYnjZX6VMGc2C/N+tUzmU4vy6W8Q5XwqSO0+QDTU6kN8wx9YQ3fumU/cceY3xnN+7pfI7W7J4QcTr523aARtwTvPPay2gzauJtlweJkmwtjtfdtG1eh3Eapj/l7cuudRjhR3ONgW4hG9pQhLv8kg/1z73KSD8nMLQ2dlwjuZBbgBxYdcdXUXEy85iXQSJvyrs2Nn6E7OIfAFhxIv2qv0GAQOyZPTlAPEOn+txi2Da7Zbvte0TVoinEzajjxunDn5ixg3UY/frY+rTusyX0qo9mC3RRVg2m078vDzy1izwOjmvPfk6IINzYOk8ZcJDw+OXzivoT5MuwOxPQjpA5QDkEelZNPSaM8xyLnIQLeAj+r0n19dNezf9g6/NK4zM+SMK8zfWRG1CipjzJ51B+qOJ56wZez3lfPkubbj5l9LAsiZfIwclEjddPHFqesSCNcZb4qPiDDr6DG53OhRmEUk+oT3FlLnmPH/FhAhnYOUB8KXu4j5k0jA7ZkvnniZdUszhoXdAo/ozSArrNSoPTzEozA5jzj2vMnspf6RL0nwGZlzJCZXvBSUW7FowCIUWqfYfgoeZ7NNiMaBjQncnBsV/+1eVCIXg28RozYPSlgz8xCrUCXxhXmgfr9fRCDcdvobb+dtka7pklzftw0fkDmGx2WKF/0SK98lEPiV/ljSNbr2+MWDbAqptv+Xw9WjyihXFrNhmsm9YqghdrFl+MjS+PTo8WgwMCrkvrKpSGxSFXGj8rRDPYxN3GZg79JxkZiM/y1nxsXnIbyITKz2CJAoqhHGcBnMtLbnevpy7R3Bvp4g6M68+4ct3pvD8frmTlNPT6a9r0SWyT0Q/6b+eD1LX388jH/zA8EruhWFM5rbUl3d1M5unCzj2GC5FS0LY1HJJu6SbMTCRqhpWViEoQsvYuYsj8zD2hme1y8oWTHBktc3w9XicFvRh5h1LGZiflLBsE/k5gmDeoMk6hOK2A87JCwWFfm9yil14CEjd3it+/hHcTveB9SkJeeYQ032uZyFmvzgWqkmHY5oJqQS7UQkrE3D5Zavpy5fDzQd6QxS3HDDXIabXGAb/aQpBboaZYDqnDsADWMg89CwK54A0IxjL9DV2O0eDXb7IHCACZcBvDn/VF9+nz/Tlyj3m7grggSAoIBX6wUArwesWvWkC/3zN0UkV0cmDot9EaF59Iv0VwrWZe6qpqa45Iv42fy5+ux6Z92jIiihckNzatOpFqr3teX29jaj8XeV7uhueydo/tGy9fv6ff1p/b99Y0mnMTTONi4dfEN8WNgHrCvbNAT6+2oA62CSNKAAmd/Zc/TXva8dyrbe77r7Ny+derSq21vBcKo28Tp/3+0/vpBR+9XOYh2+vvPxI0gkHsmjcEofMiLNbQTJ/wiFI/ozFvcpSfIu8M2hdvsrra2Rs7SzrwTOOzacd8H0QG3apu13O/W73yF9F+rnep4IKxe1te3LKYyAhViKEMRE2juamtrbI9Ciad+stiRa3wo9AiV2kqyOlp/rC3o9oHQHxi/W91/Nzz/X/OeDPzvNh6uBDWgCDwCMCsIC5mQzDI/FXEq+U2s/IT0Q4LGrVOIe3eakb2XN0IjTPVPM5m05Siex9Cqs032+L8kT1pgzHAyqRVAzHddUs8unNUDzCU5Arpws6DzOlgejmZu15bRj0IEOhMqmc1+HZwpENpVrCu7iWkTZJD0fMcvxj8dcUdCypEKnY6g0Wj4yZSJtLZnhsHWTs56zIeL0qIuVxRBCZdmJbJ7ksSyd/PUrlvvzCHGGVjcshOEvj3DSOdOoJhQWU/+xpKR8gtXn2L1k5ys/AbQz23kw3rD/4ndXv3sxmZN5f8Ircp974ZFrHnlBXLfiV7hlgjVl5Vgo9DDwU7JywIIfhZAz0F4OLIQM6pRyc5xmZK1TZCHR9JitOPjnFFYKX36D3Fd1cYCSWh8lFlfdNoL9is/iuQ6hzbnmCkHB0GGPxchtQi6rKoQXxOfV4FeqYjENAIwIwiLOeigWyqk+kWeeDjuFDnnDsKII6So7B8tl+HBgw78dYLQOhL2fjkNLl14kjYJIZ/nv+4m84sS98vvauod6+wU0rZcjw/XfcyppLsPnYpPjTrMWHUmIEVqRJbflVjEYxaloW/Nef1NX56FhzKic/tGWY28/mNDlDtYbkSwXbWm0NdfaVa98jpT/Xa5Q5elushspI+SkJJ+6sVtv6qV+A4PLXifulqXM+e6+c5qXGLiuqZj3neR5Q0tJvyezEF0DTMTaCLnAbDUHF03aLCi6sK3ZQxTujz92X1hF/254FoYSb9mMu7rdViT33cVvhPl8yqB/dNPWE6aerJRRq/0M6BFrw/ipxX2rq/uKc6pjqdJZWToEujwkdqL4jyuSvYhUGs1FY8Al2VQ65jgXjcaxym9KErVpJiMR+P9EYRg7OyY5DlZdhIkDCkK2ktJOc5/P+U64Y4eZtG57Z4fsICPGeVgzScp/iE2qs4Wbh6/AiZExzQcbausOS9qwg8c6tyu3eBn4+4cP9kyuHf57QwNcU8RkBSlCNlMxlynmlYgXri5gLpPiOWVoDBklKQOFgl/9o8Oj+mq80DsyuPm8tUsCPtu73BOF6YRFNZosyy0t+4dCXh3g1bn4zOymgIvclFp9mVMUHdK20JBybS1BqeQmm7htPZsaj142UeocFKWo3sOoTmXEC/pUVzpzKM/kRlcuBBtrZBLTOXN3ArqecQet0oyELXN7/nC4i+ud0mRlm4hmdKboqbTquTHwaTO1UKn/J23jzu7apKkZE8s/kqwg+yAi5FBorWRqACbDb/k3cs0S0wwVN04G/pQ9csFRZWRTSVk/LgwdCjU0XEZ27HhVS2+sp2CS3LUl5gUEIT1jef2CeD5yRBGVbu2cgVIpiL4SWG9dl2zslw6XSl0U16OM4nhablqhB+QQK+Sn018dzeuysm2a0jWySbUaDStARqiSUuqmZYPxs/DbqCBUUQ+F4YZktctft+uX1Q8Wm5XMGJdVWguisbnXuyv9UF3GNHrJdGEuhSK5P4xO2OqjdLyK1tx7rcvwQzSWi/8vH9eZ0WUs07OpZBvdA0AbtmU9RnERnt5XmZwqrHdeUytJkM/DQpXVrt/aLVrDC+6L2r/eV/OHD7YssYuPOQZu0UZM0iNhcVGM86xPFIcG0ElNane+vLp6Tz6oxNbNu7l2e9cFzCz2Fla5jmX6p6cJT5uEt0323zbOcA93+7FFRtcO5Mp7rnkxcpir5ztlyjZ3U1meTY01yzJ1XYwIrIwQX+CCPOCCes2zUzM25uAC1DiuFuQVPl1eH2vg0GPaDOLKFXNzXkTgc7FtXMg4+dtz7EHgDbg8lg7inmgi5IVozFjhvpXN72h2Ioc4EmGvUCfDf/cHOd2gsX47F4C5+kEKRk31HPfYdOHXC+Ck7o39ny7pPbhNa1G8EM577RH2gZdTG7HHIRShiO5ZnsyOhpyX3zRb0nG7AhxkKhbN8gu+l64wowt7LTWvNl8yvMORJ/JLxVL61locsKpJliui65+LbyzNLSYI1Blx4CBMwzWhSNAewgMJr9WXTEte41Nm9mX5/E5Kzq59oABjiDXYB2q1rnCjarsgeKaOQ6o9KXytXpL0Cj0A6vOwD9TrRbBqmlFzfCzclMZJs8ZcPe3kmv/lmnPGRmxz+xgbJITKm/XEqSSjMxSLIcSSmh+3/uEvwR2M8hhH1eOuFM02glkP6k3ESVzTCDKsPq+gQvqgNPJyM8HK/s1JEQMv24fuzSdniguRgNvpm6gYlKqsyS7y+ZLI8rT4cP/OTmmQwPhKw0lpCa+uxuvkunq4vpE0ZqFPLotQpWxfUYbLRRMJfAwdZSFHaKlCd10oC5PltUmejWckrWCW8kv7dx9zCGuL7GanVCgL7Z0JVVJlNOw0JAnmwGZT7D5P21WL425nbkGH5hSLVtaPwoypabZdh1cIZhlemZ6d6Op5q5OiROKgUonFKno9mQg6OzMG2eocWa4a+9gWq91ixEAdvvSZzqZs8s8ZuWtTIRVGA5mJhOTCVoQ5K8Pzp6sOJydSGaAixBhEPss9P1RULru9jMaYeOxjNwLnmTTycNP/D4fvSf6fj4njcNqEa5f55vmrUUwrhBOShGVTB51LZaQhJB11Wq1GOYJHPIheVBTOr9n7o4Ncqtdbw8lNgFdZm8Fwhc+uX72gSUDTL9Ns8Xr9fu+WbR5qBC6AYxbf5LVimOmXdc5rTqdN/pGpJthC4ZyerJUvzWZbTh8KR43wXpWl7AMbcBR39fLCwj4THO7DZPaw6ssuavXRm5TbfVETzq6rPAKRV67tIkW3Ol2djJsW/A4oHDdc4xpbXl7sdQ+9ZoKTsNVzUVitKhakWt2Go1TmU1N9hzwU4nw4xee+9DEFjD71dTOeu0QYls2hjbnGqI4mNIv89zwE7YjmnjDDAAIusB62Zz3WTCUWnsp6oulk5SYf1me462bBBaeo4bei2X0Dry2CWkHaMnwhXCM2XjC3TKw2sP+AmN0E0X1xW7P7YYH6rwG9e7gV7MUduoXV3vZ3MrpSSeemz5xF+7V/O5BdvpfwPQse+NBCKBvbVUA7WhGwFx5aO/aNF8xLkq1IqGm3bdGmj0vr4SvfucxNZaHmXfzVuU2Fs+SrwQDq/biTepz/BriELxZJ0Garv2eW1TDExL/wJ2USC3+xFxxmtS4+fzBE5AWpA7Es9NE1TFLWhIOcoCk33FHG0gZgVTSPFOlToNScQKGAthcn939L3f7JomG90OMQ6AVo1hJKiYQ+E32n76g4pX7IgzU8dxI/LJHnqkjEBgD9hESbQ6ID2mzZ8gmVT6kvXcCLiWFwtL12CdhdXWYDrMo67kBODkZqv4b95k3OEHsm3henB0rLlRJ/SKMik6sSvFa8cIYPyh/CSr73/wZ0RJ0p6v5vWu/UUBwunc1OBuwVpRQUX0GmIZIoimuCORcKVVB08bD/a0b/rsG1jp0dHUzJGGcwNFDxFjhhz1iyid3e8XgIyo88852r8YL2Gz76Y+PGvz51r137vc6TTtWg4MSZzoJL5VPkFfwY8cc8pE5Hmiekq5yF1UWvdmUdo6LvnNUalTNF5U0pHWCa/DaRQLCPkA8/rLKrbNIMy+BMIB+TOEM//l5DrljiNN2hDtugHF6zAJdHBwh/EO+TK/g3lucmA2Or2x4qJu5J1rsKROHfNEW6x8UfP+fWD5m7l+/hbFSfHN7NOoVle9z5tPA12UCL2s8gntByqK9b3zcCpSqil5sT/nbyEnDkggIfsM7LxIM9l9n1E3kkYs+/5f1aIWLoZJL9tou6fScTPXt6ho3Vjcz4Rf+0OAAAjXP/xu+sJqBUvaCI4k+M/8RSg4McG1jil8fjrYBbPVwWsRziayp+4BgkZH7jh198Hfzll6+1tjb1ytt013x+QWkCOC1mVCvmhby2QlGh6o7XZ/McrcpOTIi2ibxCNYI9dX4hMEz1BOOyUvf6s3vTWkFbvpQUvo/3uN0RdY0M1rSX8BFzyDUJd1UwUMJ4v9+UtvLMxIecjWITsrJdNvvzIt2gckZq0F+tDbL/k2r65jYETf9QvsgPprowS3U8oUW3eE1WTOp2IlZCh2w3QCCYkIKmiN33f1DcR72w8zVzCeg9RAJ2vfKfp6shvkyjLAHzCC9VjgkumOD/B+hxui5+wEtxyaFa4c8gU9CbJifKukMKMnpp1vGmWMeBtMcuX6HnuBzDXI+YbTlukeDDAtjcK04cHO+/v1N/VFvH/gMA/OXEjX4A8Nct7M/O3pMdoDMAUFEAQODHftzVBHlAvkyGVqf5grRnAO1h5gz3pBTTKKJ9Uz6eAX50l3PgsxMwTC3ClA0hgj4duCMe0p1OOmLAk3NjJUuHO4x44gnNPpeuWOXs0H4ffuSOkMrWTlEeqxEmgxvyErmxkeFPnAaEqbaj0nVHFKQQAQQo0AXEU5V+AgMxhBqrUwB5PIHrsnIPFLSlR4cZiGOi3SlL6jEXo2ggLLVMxm3RMbUB4I2wNcTQGw3l+JphHvCc4fJxklHcELhRlaPGaN4drdB55i1gDNl8zCSM8z1jVxH1GcekiYRuPeMJWuXAHNHO3YcQWG0fVNRhedyOdMsZTA9me17QlzmXDFSHK8wQbnuPGUFvHzFj+O0rZhfM9tVuoj7tW529K/DG9uYddEkpB4F7PsPI/LFY6t0KhuN+NoyQilkePIOaYvhgh2ikUCESjKQSBqxwMYKlWeylSgWBluYSXcDxKaXBrrWhhlHgFhRvi0rO0y5qtHUL7xjbpzf/ugZ61v5pT/0C/KKpaz1DOYlONSW3Eaz29KUMkXWVV68YnS33jHEhQjkXpSF3b4q+vKrJZsu7FzsDkKrBSxQnxyVLSSXCbiqE4EPXbC5RCcxDQh2V4hdb9gwOSqNeX8mSgozL4lgEC0mqiioIWZ10g1u1CQaYnDHB18tlJQ9vZciBL9F3lexlLTNqmVkVXIRQBZqxIFSeIVlbyUfuTS3AukZjQt64IFHPvs1ZKwOw82r7lrjqE+VY50AjNY3w2mnXNi6N1Z+v0Bqa0DfNmK1oOmF2HO6xrI0slvXTSeSUjVvhKK1HKVuOVnVdvwmm9vsy6KWwiVV529nUwcTasY2Hsbt2drpWMm0aKLxxB/olaqgBsoj5pRqhZOMVzAtwMf31RPkMzSGZANEbduKeSiwTOU9JyL37hEyugEtsy0WXOUGKixZYKEnvqXKeMyhT8WztD9sy7AoguJ2yL52XSFWuEhBXoG1nOJZ5RY7cgsaedeab3K7Xkr4jUxHs8RVnVJAplaURTs1L/BLCN/akoomd2po2KT1lrxfCvjb/TphWHPZm9y9F+cD3IwAA) format('woff2')}</style></defs>
+<text x="10.00" y="22.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#333333">A tumor’s family tree</text>
+<text x="10.00" y="38.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">Later mutations are carried only by the descendants of</text>
+<text x="10.00" y="53.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">the cell where they arose.</text>
+<circle cx="22.00" cy="134.00" r="7" fill="#1874dc" stroke="#0b3f80" stroke-width="1"/>
+<text x="12.00" y="158.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f">first</text>
+<text x="12.00" y="171.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f">cancer cell</text>
+<path d="M29.00 134.00L196.00 134.00" stroke="#1874dc" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M104.00 134.00C134.00 134.00 130.00 84.00 160.00 84.00H196.00" stroke="#fcb025" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M104.00 134.00C134.00 134.00 130.00 184.00 160.00 184.00H196.00" stroke="#7f3e98" stroke-width="4" fill="none" stroke-linecap="round"/>
+<circle cx="44.00" cy="134.00" r="3.4" fill="#ffffff" stroke="#1874dc" stroke-width="1.6"/>
+<circle cx="64.00" cy="134.00" r="3.4" fill="#ffffff" stroke="#1874dc" stroke-width="1.6"/>
+<circle cx="84.00" cy="134.00" r="3.4" fill="#ffffff" stroke="#1874dc" stroke-width="1.6"/>
+<circle cx="168.00" cy="84.00" r="3.4" fill="#ffffff" stroke="#fcb025" stroke-width="1.6"/>
+<circle cx="184.00" cy="84.00" r="3.4" fill="#ffffff" stroke="#fcb025" stroke-width="1.6"/>
+<circle cx="168.00" cy="184.00" r="3.4" fill="#ffffff" stroke="#7f3e98" stroke-width="1.6"/>
+<circle cx="184.00" cy="184.00" r="3.4" fill="#ffffff" stroke="#7f3e98" stroke-width="1.6"/>
+<text x="60.00" y="122.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#0061c3" text-anchor="middle">trunk</text>
+<text x="166.00" y="74.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#a04a00" text-anchor="middle">subclone A</text>
+<text x="166.00" y="204.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#7f3e98" text-anchor="middle">subclone B</text>
+<path d="M202.00 84.00L210.00 84.00" stroke="#6d6e71" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+<path d="M202.00 134.00L210.00 134.00" stroke="#6d6e71" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+<path d="M202.00 184.00L210.00 184.00" stroke="#6d6e71" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+<text x="214.00" y="88.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">50%</text>
+<text x="214.00" y="138.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">30%</text>
+<text x="214.00" y="188.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">20%</text>
+<circle cx="14.00" cy="230.00" r="3.4" fill="#ffffff" stroke="#6d6e71" stroke-width="1.6"/>
+<text x="23.00" y="234.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f">mutation</text>
+<text x="84.00" y="234.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f">% = share of cancer cells</text>
+<circle cx="316.00" cy="134.00" r="64.00" fill="#f7f6f4" stroke="#6d6e71" stroke-width="0.8"/>
+<circle cx="261.40" cy="151.40" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="336.60" cy="151.40" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="266.10" cy="126.98" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="280.20" cy="118.84" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="341.30" cy="94.42" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="294.30" cy="78.14" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="350.70" cy="159.54" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="355.40" cy="102.56" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="275.50" cy="110.70" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="299.00" cy="183.97" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="289.60" cy="86.28" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="336.60" cy="86.28" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="303.70" cy="94.42" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="369.50" cy="110.70" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="308.40" cy="102.56" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="364.80" cy="102.56" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="322.50" cy="143.26" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="299.00" cy="151.40" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="341.30" cy="143.26" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="317.80" cy="167.68" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="308.40" cy="183.97" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="346.00" cy="118.84" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="313.10" cy="78.14" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="289.60" cy="135.12" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="289.60" cy="102.56" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="327.20" cy="151.40" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="266.10" cy="110.70" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="266.10" cy="143.26" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="299.00" cy="118.84" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="322.50" cy="126.98" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="308.40" cy="151.40" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="331.90" cy="175.83" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="289.60" cy="118.84" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="303.70" cy="175.83" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="280.20" cy="151.40" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="374.20" cy="135.12" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="322.50" cy="159.54" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="303.70" cy="143.26" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="303.70" cy="78.14" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="341.30" cy="175.83" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="322.50" cy="175.83" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="360.10" cy="159.54" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="317.80" cy="102.56" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="303.70" cy="126.98" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="308.40" cy="135.12" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="331.90" cy="110.70" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="303.70" cy="159.54" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="317.80" cy="118.84" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="294.30" cy="143.26" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="322.50" cy="78.14" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="317.80" cy="135.12" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="341.30" cy="110.70" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="336.60" cy="135.12" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="336.60" cy="102.56" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="280.20" cy="167.68" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="284.90" cy="175.83" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="350.70" cy="143.26" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="331.90" cy="78.14" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="327.20" cy="102.56" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="308.40" cy="118.84" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="270.80" cy="167.68" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<circle cx="256.70" cy="143.26" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="331.90" cy="192.11" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="360.10" cy="110.70" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="313.10" cy="159.54" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="317.80" cy="183.97" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="299.00" cy="135.12" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="308.40" cy="167.68" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="364.80" cy="135.12" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="284.90" cy="126.98" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="331.90" cy="94.42" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="270.80" cy="151.40" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="350.70" cy="94.42" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="369.50" cy="159.54" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="313.10" cy="126.98" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="341.30" cy="159.54" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="350.70" cy="175.83" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="284.90" cy="110.70" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="355.40" cy="167.68" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="350.70" cy="110.70" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="369.50" cy="143.26" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="331.90" cy="126.98" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="284.90" cy="143.26" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="289.60" cy="167.68" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="327.20" cy="86.28" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="360.10" cy="143.26" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="284.90" cy="159.54" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="364.80" cy="167.68" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="322.50" cy="192.11" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="261.40" cy="118.84" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="374.20" cy="118.84" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="266.10" cy="159.54" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="256.70" cy="126.98" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="322.50" cy="110.70" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="289.60" cy="183.97" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="341.30" cy="126.98" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="294.30" cy="159.54" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="294.30" cy="126.98" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="299.00" cy="102.56" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="327.20" cy="135.12" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="299.00" cy="86.28" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="261.40" cy="135.12" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="308.40" cy="86.28" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="313.10" cy="143.26" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="360.10" cy="126.98" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="327.20" cy="167.68" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="270.80" cy="118.84" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="327.20" cy="183.97" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="346.00" cy="135.12" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="331.90" cy="159.54" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="280.20" cy="135.12" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="275.50" cy="94.42" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="294.30" cy="175.83" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="275.50" cy="143.26" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="317.80" cy="151.40" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="299.00" cy="167.68" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="313.10" cy="110.70" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="270.80" cy="135.12" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="346.00" cy="167.68" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="350.70" cy="126.98" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="346.00" cy="183.97" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="327.20" cy="118.84" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="294.30" cy="110.70" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="336.60" cy="183.97" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="364.80" cy="151.40" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="369.50" cy="126.98" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="280.20" cy="86.28" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="355.40" cy="118.84" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="303.70" cy="192.11" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="313.10" cy="192.11" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="275.50" cy="175.83" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="364.80" cy="118.84" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="346.00" cy="102.56" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="294.30" cy="94.42" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="355.40" cy="151.40" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="270.80" cy="102.56" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="275.50" cy="126.98" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="313.10" cy="94.42" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="346.00" cy="151.40" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="275.50" cy="159.54" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="360.10" cy="94.42" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="317.80" cy="86.28" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="336.60" cy="118.84" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="336.60" cy="167.68" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="284.90" cy="94.42" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="331.90" cy="143.26" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="280.20" cy="102.56" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="313.10" cy="175.83" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="322.50" cy="94.42" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="346.00" cy="86.28" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="289.60" cy="151.40" r="3.7" fill="#7f3e98" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="303.70" cy="110.70" r="3.7" fill="#fcb025" stroke="#ffffff" stroke-width="0.7"/>
+<circle cx="355.40" cy="135.12" r="3.7" fill="#1874dc" stroke="#ffffff" stroke-width="0.7"/>
+<text x="316.00" y="48.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">The sample</text>
+<text x="316.00" y="62.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f" text-anchor="middle">60% cancer cells</text>
+<circle cx="266.00" cy="230.00" r="3.7" fill="#ffffff" stroke="#6d6e71" stroke-width="0.7"/>
+<text x="274.00" y="234.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f">normal cell</text>
+<text x="10.00" y="278.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#333333">What the reads show</text>
+<text x="10.00" y="294.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">Each mutation’s share of the reads, in the same sample</text>
+<rect x="50.52" y="389.29" width="12.72" height="36.71" fill="#7f3e98"/>
+<rect x="64.44" y="383.18" width="12.72" height="42.82" fill="#7f3e98"/>
+<rect x="78.36" y="419.88" width="12.72" height="6.12" fill="#fcb025"/>
+<rect x="78.36" y="364.82" width="12.72" height="55.06" fill="#7f3e98"/>
+<rect x="92.28" y="419.88" width="12.72" height="6.12" fill="#fcb025"/>
+<rect x="92.28" y="407.65" width="12.72" height="12.24" fill="#7f3e98"/>
+<rect x="106.20" y="419.88" width="12.72" height="6.12" fill="#fcb025"/>
+<rect x="106.20" y="407.65" width="12.72" height="12.24" fill="#7f3e98"/>
+<rect x="120.12" y="383.18" width="12.72" height="42.82" fill="#fcb025"/>
+<rect x="134.04" y="334.24" width="12.72" height="91.76" fill="#fcb025"/>
+<rect x="147.96" y="389.29" width="12.72" height="36.71" fill="#fcb025"/>
+<rect x="161.88" y="413.76" width="12.72" height="12.24" fill="#fcb025"/>
+<rect x="175.80" y="419.88" width="12.72" height="6.12" fill="#fcb025"/>
+<rect x="189.72" y="413.76" width="12.72" height="12.24" fill="#1874dc"/>
+<rect x="203.64" y="401.53" width="12.72" height="24.47" fill="#1874dc"/>
+<rect x="217.56" y="377.06" width="12.72" height="48.94" fill="#1874dc"/>
+<rect x="231.48" y="377.06" width="12.72" height="48.94" fill="#1874dc"/>
+<rect x="245.40" y="364.82" width="12.72" height="61.18" fill="#1874dc"/>
+<rect x="259.32" y="364.82" width="12.72" height="61.18" fill="#1874dc"/>
+<rect x="273.24" y="401.53" width="12.72" height="24.47" fill="#1874dc"/>
+<path d="M36.00 426.00L384.00 426.00" stroke="#333333" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M36.00 426.00L36.00 430.00" stroke="#333333" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="36.00" y="443.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f" text-anchor="middle">0%</text>
+<path d="M105.60 426.00L105.60 430.00" stroke="#333333" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="105.60" y="443.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f" text-anchor="middle">10%</text>
+<path d="M175.20 426.00L175.20 430.00" stroke="#333333" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="175.20" y="443.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f" text-anchor="middle">20%</text>
+<path d="M244.80 426.00L244.80 430.00" stroke="#333333" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="244.80" y="443.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f" text-anchor="middle">30%</text>
+<path d="M314.40 426.00L314.40 430.00" stroke="#333333" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="314.40" y="443.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f" text-anchor="middle">40%</text>
+<path d="M384.00 426.00L384.00 430.00" stroke="#333333" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="384.00" y="443.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f" text-anchor="middle">50%</text>
+<text x="210.00" y="460.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333" text-anchor="middle">share of reads showing the mutation</text>
+<text x="18.00" y="374.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333" text-anchor="middle" transform="rotate(-90 18.00 374.00)">mutations</text>
+<text x="244.80" y="358.82" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#0061c3" text-anchor="middle">trunk</text>
+<text x="140.40" y="328.24" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#a04a00" text-anchor="middle">A</text>
+<text x="77.76" y="358.82" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#7f3e98" text-anchor="middle">B</text>
+<path d="M244.80 312.00L244.80 426.00" stroke="#333333" stroke-width="1" fill="none" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="249.80" y="320.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="11" font-weight="400" fill="#4d4d4f">half of 60%</text>
+<text x="392.00" y="483.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10" font-weight="400" text-anchor="end">© Copyright 2026 St. Jude Children's Research Hospital</text>
+</svg>

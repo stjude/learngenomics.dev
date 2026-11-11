@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklearngenomics_dev||=[]).push([[9647],{7121(e,r,s){s.r(r),s.d(r,{default:()=>d});s(6540);var a=s(4164),c=s(7559),n=s(5500),u=s(2831),l=s(1656),t=s(4848);function d(e){return(0,t.jsx)(n.e3,{className:(0,a.A)(c.G.wrapper.docsPages),children:(0,t.jsx)(l.A,{children:(0,u.v)(e.route.routes)})})}}}]);

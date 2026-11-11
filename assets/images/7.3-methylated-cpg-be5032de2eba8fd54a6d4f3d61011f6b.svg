@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="415" height="519.75" viewBox="0 0 415 519.75">
+<title>A methylated CpG site drawn atom by atom.</title>
+<defs><style>/* Source Sans 3 / Source Code Pro, SIL Open Font License 1.1 */
+@font-face{font-family:'Source Sans 3';font-weight:200 900;src:url(data:font/woff2;base64,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) format('woff2')}</style></defs>
+<g transform="translate(172.26 91.34)">
+<path d="M22.89 4.29L31.42 -40.90L85.46 -46.34L109.61 -39.88L110.92 -14.91L54.72 56.68L29.66 47.06Z" fill="#e1f0d6" stroke="#e1f0d6" stroke-width="22" stroke-linejoin="round"/>
+<path d="M-67.35 -25.26L-27.72 -45.12L-2.65 -35.50L-4.41 52.46L-44.84 36.94L-60.57 17.51Z" fill="#feeccb" stroke="#feeccb" stroke-width="22" stroke-linejoin="round"/>
+<path d="M-91.76 70.07L-53.80 60.28L-24.70 82.06L-55.92 100.68L-79.26 91.72Z" fill="#e6e8ec" stroke="#e6e8ec" stroke-width="22" stroke-linejoin="round"/>
+<path d="M131.89 -1.30L159.23 -25.23L195.93 7.86L166.70 61.46L133.20 23.67Z" fill="#e6e8ec" stroke="#e6e8ec" stroke-width="22" stroke-linejoin="round"/>
+<path d="M-55.51 116.28L-34.54 102.66L18.53 91.14L40.62 131.49L47.39 174.25L26.53 191.15L-49.04 140.42Z" fill="#e1f0d6" stroke="#e1f0d6" stroke-width="22" stroke-linejoin="round"/>
+<path d="M52.61 85.75L73.47 68.85L117.30 75.50L124.08 118.27L115.12 141.61L81.47 168.86Z" fill="#feeccb" stroke="#feeccb" stroke-width="22" stroke-linejoin="round"/>
+<path d="M-121.11 168.13L-89.74 158.54L-64.78 159.85L-43.84 189.56L-80.59 222.58Z" fill="#e6e8ec" stroke="#e6e8ec" stroke-width="22" stroke-linejoin="round"/>
+<path d="M124.38 185.18L130.85 161.04L164.26 146.73L164.78 183.07L157.85 220.45Z" fill="#e6e8ec" stroke="#e6e8ec" stroke-width="22" stroke-linejoin="round"/>
+<path d="M-136.26 119.65L-124.17 99.97L-89.78 113.95L-124.27 141.65Z" fill="#fbe0e1" stroke="#fbe0e1" stroke-width="20" stroke-linejoin="round"/>
+<path d="M175.57 92.26L203.47 105.38L206.74 127.35L188.65 151.36Z" fill="#fbe0e1" stroke="#fbe0e1" stroke-width="20" stroke-linejoin="round"/>
+<path d="M-113.41 39.27L-104.26 5.11L-70.11 14.27L-79.26 48.42Z" fill="#fbe0e1" stroke="#fbe0e1" stroke-width="20" stroke-linejoin="round"/>
+<path d="M136.20 276.25L145.35 242.10L179.50 251.25L170.35 285.40Z" fill="#fbe0e1" stroke="#fbe0e1" stroke-width="20" stroke-linejoin="round"/>
+<circle cx="-67.35" cy="-25.26" r="17" fill="#fbd38a" stroke="#fcb025" stroke-width="1.5"/>
+<circle cx="117.30" cy="75.50" r="17" fill="#fbd38a" stroke="#fcb025" stroke-width="1.5"/>
+<line x1="3.77" y1="-36.52" x2="23.52" y2="-39.65" stroke="#1874dc" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="0.1 4"/>
+<line x1="16.47" y1="5.31" x2="-3.29" y2="8.44" stroke="#1874dc" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="0.1 4"/>
+<line x1="23.24" y1="48.08" x2="3.49" y2="51.21" stroke="#1874dc" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="0.1 4"/>
+<line x1="46.19" y1="86.76" x2="26.44" y2="89.89" stroke="#1874dc" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="0.1 4"/>
+<line x1="47.04" y1="130.47" x2="66.79" y2="127.34" stroke="#1874dc" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="0.1 4"/>
+<line x1="53.81" y1="173.24" x2="73.56" y2="170.11" stroke="#1874dc" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="0.1 4"/>
+<line x1="40.53" y1="-4.20" x2="44.83" y2="-15.40" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="53.57" y1="-22.49" x2="65.43" y2="-24.36" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="75.94" y1="-20.33" x2="83.49" y2="-11.00" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="73.93" y1="-16.77" x2="79.59" y2="-9.78" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="85.25" y1="0.12" x2="80.95" y2="11.32" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="72.20" y1="18.40" x2="60.35" y2="20.28" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="70.12" y1="14.89" x2="61.24" y2="16.29" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="49.84" y1="16.25" x2="42.29" y2="6.92" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="93.65" y1="-8.28" x2="104.85" y2="-12.58" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="110.58" y1="-21.40" x2="109.95" y2="-33.39" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="103.33" y1="-41.56" x2="91.74" y2="-44.66" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="100.90" y1="-38.28" x2="92.20" y2="-40.60" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="81.92" y1="-40.89" x2="75.39" y2="-30.83" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="44.70" y1="-27.84" x2="37.14" y2="-37.17" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="41.43" y1="-25.20" x2="33.88" y2="-34.53" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="31.78" y1="2.89" x2="28.32" y2="3.43" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="51.60" y1="27.37" x2="47.30" y2="38.57" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="38.55" y1="45.65" x2="35.09" y2="46.20" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="49.06" y1="49.69" x2="51.26" y2="52.41" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-15.28" y1="4.64" x2="-22.83" y2="-4.69" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-19.18" y1="5.87" x2="-24.84" y2="-1.13" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="-33.34" y1="-8.72" x2="-45.19" y2="-6.84" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-53.94" y1="0.24" x2="-58.24" y2="11.44" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-50.93" y1="3.00" x2="-54.16" y2="11.41" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="-56.48" y1="22.56" x2="-48.93" y2="31.89" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-38.42" y1="35.92" x2="-26.57" y2="34.05" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-17.82" y1="26.96" x2="-13.52" y2="15.76" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-17.69" y1="39.40" x2="-10.14" y2="48.73" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="-14.43" y1="36.76" x2="-6.87" y2="46.09" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="-24.59" y1="-15.81" x2="-20.29" y2="-27.01" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-11.54" y1="-34.09" x2="-8.09" y2="-34.64" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-22.05" y1="-38.13" x2="-24.26" y2="-40.85" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-55.70" y1="-10.88" x2="-62.31" y2="-19.04" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-60.08" y1="61.96" x2="-71.67" y2="65.07" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-78.29" y1="73.24" x2="-78.92" y2="85.23" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-73.19" y1="94.05" x2="-61.98" y2="98.35" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-51.83" y1="95.63" x2="-44.27" y2="86.30" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-43.72" y1="75.80" x2="-50.26" y2="65.73" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-33.69" y1="81.59" x2="-30.20" y2="81.77" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-47.17" y1="43.01" x2="-51.47" y2="54.21" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="132.23" y1="5.19" x2="132.86" y2="17.18" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="139.48" y1="25.35" x2="151.07" y2="28.45" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="160.89" y1="24.68" x2="167.42" y2="14.62" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="166.87" y1="4.12" x2="159.32" y2="-5.21" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="149.16" y1="-7.93" x2="137.95" y2="-3.63" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="156.91" y1="-16.54" x2="157.81" y2="-19.92" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="116.37" y1="-11.37" x2="126.43" y2="-4.84" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="21.22" y1="128.86" x2="13.67" y2="119.53" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="3.15" y1="115.50" x2="-8.70" y2="117.38" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-17.45" y1="124.46" x2="-21.75" y2="135.66" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-14.44" y1="127.22" x2="-17.66" y2="135.63" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="-19.99" y1="146.78" x2="-12.43" y2="156.11" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-1.92" y1="160.14" x2="9.93" y2="158.27" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-1.04" y1="156.16" x2="7.85" y2="154.75" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="18.68" y1="151.18" x2="22.98" y2="139.98" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-30.57" y1="141.39" x2="-42.55" y2="140.76" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-50.72" y1="134.15" x2="-53.83" y2="122.55" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-50.06" y1="112.74" x2="-39.99" y2="106.20" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-46.73" y1="115.11" x2="-39.18" y2="110.21" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="-29.49" y1="106.75" x2="-20.17" y2="114.30" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="13.86" y1="109.17" x2="18.17" y2="97.96" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="9.94" y1="107.66" x2="14.24" y2="96.46" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="31.73" y1="132.89" x2="35.18" y2="132.35" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="20.44" y1="162.30" x2="27.99" y2="171.63" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="38.50" y1="175.66" x2="41.96" y2="175.11" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="29.75" y1="182.75" x2="28.50" y2="186.01" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="77.02" y1="120.02" x2="81.32" y2="108.82" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="81.11" y1="119.98" x2="84.33" y2="111.58" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="90.07" y1="101.73" x2="101.92" y2="99.86" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="112.43" y1="103.89" x2="119.99" y2="113.22" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="110.43" y1="107.45" x2="116.09" y2="114.44" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="121.75" y1="124.34" x2="117.45" y2="135.54" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="108.70" y1="142.62" x2="96.85" y2="144.50" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="86.33" y1="140.47" x2="78.78" y2="131.14" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="86.14" y1="150.83" x2="81.83" y2="162.04" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="90.06" y1="152.34" x2="85.76" y2="163.54" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="79.56" y1="97.70" x2="72.01" y2="88.37" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="61.50" y1="84.34" x2="58.04" y2="84.89" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="70.25" y1="77.25" x2="71.50" y2="73.99" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="110.67" y1="92.77" x2="114.44" y2="82.97" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-71.27" y1="159.51" x2="-83.25" y2="158.88" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-92.07" y1="164.61" x2="-96.37" y2="175.81" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-93.65" y1="185.97" x2="-84.33" y2="193.52" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-73.83" y1="194.07" x2="-63.76" y2="187.54" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-59.99" y1="177.72" x2="-63.09" y2="166.13" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-52.24" y1="186.33" x2="-48.97" y2="187.58" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-53.13" y1="145.48" x2="-60.68" y2="154.80" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="129.17" y1="167.31" x2="126.06" y2="178.91" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="129.83" y1="188.72" x2="139.90" y2="195.26" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="150.40" y1="194.71" x2="159.72" y2="187.16" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="162.45" y1="177.00" x2="158.15" y2="165.80" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="149.33" y1="160.07" x2="137.34" y2="160.70" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="159.36" y1="154.28" x2="161.26" y2="151.34" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="119.21" y1="146.66" x2="126.76" y2="155.98" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-61.97" y1="103.05" x2="-83.73" y2="111.58" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-95.97" y1="115.94" x2="-104.17" y2="118.59" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-115.28" y1="127.26" x2="-120.83" y2="136.14" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-123.50" y1="148.11" x2="-121.88" y2="161.67" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-115.57" y1="171.52" x2="-104.24" y2="178.48" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-118.70" y1="118.43" x2="-129.67" y2="117.88" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="-118.91" y1="122.62" x2="-129.88" y2="122.07" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="-115.24" y1="114.51" x2="-120.77" y2="105.51" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="168.68" y1="177.87" x2="184.74" y2="156.55" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="187.64" y1="144.94" x2="184.77" y2="126.65" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="181.46" y1="112.05" x2="177.42" y2="98.49" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="173.77" y1="86.02" x2="168.50" y2="67.71" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="164.84" y1="55.23" x2="159.21" y2="36.36" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="190.96" y1="116.67" x2="199.34" y2="110.82" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="188.55" y1="113.23" x2="196.94" y2="107.37" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="190.68" y1="121.72" x2="200.60" y2="125.20" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-82.51" y1="86.09" x2="-88.51" y2="75.70" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-88.51" y1="64.44" x2="-82.51" y2="54.05" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-82.51" y1="42.79" x2="-88.01" y2="33.26" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-84.21" y1="24.83" x2="-74.68" y2="19.33" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="-86.31" y1="21.20" x2="-76.78" y2="15.70" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="-98.25" y1="30.52" x2="-107.78" y2="36.02" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-95.51" y1="20.27" x2="-101.01" y2="10.74" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="148.60" y1="204.43" x2="154.60" y2="214.82" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="154.60" y1="226.08" x2="148.60" y2="236.47" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="148.60" y1="247.73" x2="154.10" y2="257.26" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="150.30" y1="265.68" x2="140.78" y2="271.18" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="152.40" y1="269.32" x2="142.88" y2="274.82" stroke="#333333" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="164.34" y1="260.00" x2="173.87" y2="254.50" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="161.60" y1="270.25" x2="167.10" y2="279.77" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="-79.62" y1="204.10" x2="-80.25" y2="216.09" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="177.45" y1="8.83" x2="189.43" y2="8.20" stroke="#333333" stroke-width="1.5" stroke-linecap="round"/>
+<text x="38.20" y="6.19" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="47.15" y="-17.15" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="71.85" y="-21.06" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="87.58" y="-1.63" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="78.62" y="21.71" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="53.93" y="25.62" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="110.92" y="-10.59" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="109.61" y="-35.56" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="85.46" y="-42.02" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="31.42" y="-36.58" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="22.89" y="8.07" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="44.97" y="48.96" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="29.66" y="50.84" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="54.72" y="60.46" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="-11.19" y="14.01" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="-26.92" y="-5.42" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-51.61" y="-1.51" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-60.57" y="21.83" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-44.84" y="41.26" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="-20.15" y="37.35" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-4.41" y="56.78" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="-17.96" y="-28.76" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="-2.65" y="-31.72" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="-27.72" y="-41.34" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="-66.85" y="-20.96" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-74.35" y="-17.26" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="8.5" font-weight="600" fill="#333333" text-anchor="middle">3</text>
+<text x="-80.85" y="-20.96" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="-53.80" y="64.60" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-77.95" y="71.07" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="-79.26" y="96.04" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-55.92" y="105.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-40.18" y="85.57" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-24.70" y="85.84" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="131.89" y="3.02" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="133.20" y="27.99" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="157.35" y="34.46" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="170.96" y="13.49" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="155.22" y="-5.94" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="159.23" y="-21.45" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="25.31" y="138.23" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="9.57" y="118.80" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-15.12" y="122.71" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-24.08" y="146.05" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-8.34" y="165.48" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="16.35" y="161.57" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-49.04" y="144.74" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="-55.51" y="120.60" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-34.54" y="106.98" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="18.53" y="95.46" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="40.62" y="135.27" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="32.08" y="181.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="47.39" y="178.03" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="26.53" y="194.93" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="74.69" y="130.41" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="83.65" y="107.07" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="108.34" y="103.16" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="124.08" y="122.59" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="115.12" y="145.93" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="90.43" y="149.84" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="81.47" y="173.18" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="67.92" y="87.64" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">N</text>
+<text x="52.61" y="89.53" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="73.47" y="72.63" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="119.30" y="79.80" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">CH</text>
+<text x="128.80" y="83.50" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="8.5" font-weight="600" fill="#333333" text-anchor="middle">3</text>
+<text x="-64.78" y="164.17" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-89.74" y="162.86" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="-98.70" y="186.20" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-79.28" y="201.93" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-58.31" y="188.32" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-43.84" y="193.34" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="130.85" y="165.36" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="124.38" y="189.50" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="145.35" y="203.12" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="164.78" y="187.39" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="155.82" y="164.05" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="164.26" y="150.51" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10.5" font-weight="600" fill="#333333" text-anchor="middle">H</text>
+<text x="-89.78" y="118.27" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="-111.31" y="125.58" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#333333" text-anchor="middle">P</text>
+<text x="-124.27" y="145.97" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="-121.11" y="172.45" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-136.26" y="123.97" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="-124.17" y="104.27" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="-131.67" y="96.97" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9" font-weight="600" fill="#333333" text-anchor="middle">−</text>
+<text x="188.65" y="155.68" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="183.61" y="123.92" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#333333" text-anchor="middle">P</text>
+<text x="175.57" y="96.58" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="166.70" y="65.78" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="203.47" y="109.70" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="206.74" y="131.65" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="214.24" y="124.35" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9" font-weight="600" fill="#333333" text-anchor="middle">−</text>
+<text x="-91.76" y="74.39" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="-79.26" y="52.74" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="-91.76" y="31.45" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#333333" text-anchor="middle">P</text>
+<text x="-70.11" y="18.59" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="-113.41" y="43.57" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="-120.91" y="36.27" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9" font-weight="600" fill="#333333" text-anchor="middle">−</text>
+<text x="-104.26" y="9.41" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="-111.76" y="2.11" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9" font-weight="600" fill="#333333" text-anchor="middle">−</text>
+<text x="157.85" y="224.77" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">C</text>
+<text x="145.35" y="246.42" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="157.85" y="268.43" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#333333" text-anchor="middle">P</text>
+<text x="136.20" y="280.57" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="179.50" y="255.55" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="187.00" y="248.25" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9" font-weight="600" fill="#333333" text-anchor="middle">−</text>
+<text x="170.35" y="289.70" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">O</text>
+<text x="177.85" y="282.40" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9" font-weight="600" fill="#333333" text-anchor="middle">−</text>
+<text x="-77.59" y="226.88" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">OH</text>
+<text x="198.93" y="12.16" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="600" fill="#333333" text-anchor="middle">OH</text>
+<line x1="-160.26" y1="11.11" x2="-160.26" y2="219.58" stroke="#333333" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M-165.26 218.58L-160.26 228.58L-155.26 218.58Z" fill="#333333"/>
+<line x1="230.74" y1="279.40" x2="230.74" y2="10.86" stroke="#333333" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M225.74 11.86L230.74 1.86L235.74 11.86Z" fill="#333333"/>
+<text x="-62.48" y="53.34" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">1′</text>
+<text x="-33.43" y="72.96" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">2′</text>
+<text x="-58.26" y="90.78" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">3′</text>
+<text x="-90.95" y="101.87" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">4′</text>
+<text x="-105.26" y="73.47" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">5′</text>
+<text x="120.19" y="8.85" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">1′</text>
+<text x="144.88" y="-15.54" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">2′</text>
+<text x="177.71" y="24.26" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">3′</text>
+<text x="170.64" y="35.88" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">4′</text>
+<text x="179.39" y="60.24" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">5′</text>
+<text x="-51.48" y="165.59" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">1′</text>
+<text x="-47.97" y="178.72" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">2′</text>
+<text x="-67.59" y="207.76" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">3′</text>
+<text x="-107.38" y="195.62" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">4′</text>
+<text x="-132.81" y="178.28" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">5′</text>
+<text x="117.56" y="166.78" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">1′</text>
+<text x="149.07" y="151.44" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">2′</text>
+<text x="175.12" y="195.14" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">3′</text>
+<text x="135.01" y="210.88" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">4′</text>
+<text x="171.35" y="223.85" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="9.5" font-weight="700" fill="#0061c3" text-anchor="middle">5′</text>
+<text x="-35.00" y="-76.34" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">5-methylcytosine</text>
+<text x="66.90" y="-76.34" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">guanine</text>
+<text x="-28.17" y="220.15" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">guanine</text>
+<text x="120.38" y="220.15" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="end">5-methylcytosine</text>
+<text x="-172.26" y="-6.89" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#333333">5′ end</text>
+<text x="-76.59" y="250.58" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">3′ end</text>
+<text x="199.93" y="-9.14" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="middle">3′ end</text>
+<text x="183.50" y="314.40" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="700" fill="#333333" text-anchor="end">5′ end</text>
+<rect x="-100.76" y="334.40" width="18" height="14" rx="4" fill="#feeccb"/>
+<text x="-75.76" y="345.90" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">5-methylcytosine</text>
+<rect x="49.24" y="334.40" width="18" height="14" rx="4" fill="#e1f0d6"/>
+<text x="74.24" y="345.90" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">guanine</text>
+<circle cx="-91.76" cy="365.40" r="7.5" fill="#fbd38a" stroke="#fcb025" stroke-width="1.5"/>
+<text x="-75.76" y="369.90" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">methyl group</text>
+<line x1="50.24" y1="365.40" x2="68.24" y2="365.40" stroke="#1874dc" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="0.1 4"/>
+<text x="74.24" y="369.90" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">hydrogen bond</text>
+<rect x="-100.76" y="382.40" width="18" height="14" rx="4" fill="#fbe0e1"/>
+<text x="-75.76" y="393.90" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">phosphate</text>
+<rect x="49.24" y="382.40" width="18" height="14" rx="4" fill="#e6e8ec"/>
+<text x="74.24" y="393.90" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">deoxyribose</text>
+</g>
+<text x="411.00" y="513.75" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10" font-weight="400" text-anchor="end">© Copyright 2026 St. Jude Children's Research Hospital</text>
+</svg>
