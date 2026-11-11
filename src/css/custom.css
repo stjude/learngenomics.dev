@@ -1,121 +1,954 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * learngenomics.dev — "Locator" theme.
+ *
+ * An indigo band up top, paper-white reading pages, and deepened logo hues
+ * marking each chapter so readers always know where they are in the guide.
  */
 
-/** Proxima Nova and Sofia Pro **/
-@import url("https://use.typekit.net/knk2uku.css");
-
-/**
-  * Color theme:
-  *   White =>                   #FFFFFF,
-  *   Licorice =>                #1F1115,
-  *   Blue (Pigment) =>          #3730A3,
-  *   Permanent Geranium Lake => #EE3229,
-  *   Orange Yellow =>           #F6B227,
-  *   Eton Blue =>               #82CAA3
-  */
-
 :root {
-  --color-white: #ffffff;
-  --color-licorice: #1f1115;
-  --color-blue-pigment: #3730a3;
-  --color-permanent-geranium-lake: #ee3229;
-  --color-orange-yellow: #f6b227;
-  --color-eton-blue: #82caa3;
-}
+  --lg-font: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --lg-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono",
+    monospace;
 
-:root {
-  --font-proxima-nova: proxima-nova, system-ui, -apple-system, Segoe UI, Roboto,
-    Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI",
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
-  /* --font-sofia-pro: sofia-pro, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
-  /* font-family: var(--font-sofia-pro);  */
-}
+  /* Brand */
+  --lg-ink: #1f1115;
+  --lg-geranium: #ee3229;
+  --lg-periwinkle: #4b4fa0;
+  --lg-eton: #82caa3;
+  --lg-logo-purple: #6a6eb3;
+  --lg-indigo: #3730a3;
 
-/* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: var(--color-blue-pigment);
-  --ifm-color-primary-dark: #4338ca;
-  --ifm-color-primary-darker: #3730a3;
-  --ifm-color-primary-darkest: #312e81;
-  --ifm-color-primary-light: #818cf8;
-  --ifm-color-primary-lighter: #a5b4fc;
-  --ifm-color-primary-lightest: #c7d2fe;
-  --ifm-code-font-size: 95%;
+  /* One color per chapter, in reading order: logo hues, deepened. */
+  --lg-chapter-1: #555a9c;
+  --lg-chapter-2: #8e3b6b;
+  --lg-chapter-3: #a8392f;
+  --lg-chapter-4: #896417;
+  --lg-chapter-5: #3f7d5e;
+  --lg-chapter-6: var(--lg-indigo);
+  --lg-chapter-7: #4a3f43;
 
-  --ifm-color-secondary: #059669; /* var(--color-eton-blue) */
-  --ifm-color-secondary-dark: #047857;
-  --ifm-hero-button-color: var(--color-white);
+  /* Roles */
+  --lg-bg: #ffffff;
+  --lg-surface: #f8f6f7;
+  --lg-surface-2: #f0eced;
+  --lg-border: #e3dddf;
+  --lg-border-strong: #cfc6c9;
+  --lg-text: var(--lg-ink);
+  --lg-text-strong-hover: #3a2a2f;
+  --lg-text-muted: #65585d;
+  --lg-link: var(--lg-periwinkle);
+  --lg-locus: var(--lg-ink);
+  --lg-tint: 20%;
+  --lg-track: #e3dddf;
+  --lg-track-hover: #cfc6c9;
+  --lg-track-filled: var(--lg-ink);
 
-  --ifm-navbar-background-color: var(--color-blue-pigment);
-  --ifm-navbar-link-color: var(--color-white);
-  --ifm-navbar-link-hover-color: #c7d2fe;
+  --lg-tip: #23774f;
+  --lg-tip-bg: #eef7f2;
+  --lg-tip-border: #b9e0ca;
+  --lg-note: #4b4fa0;
+  --lg-note-bg: #f1f1f9;
+  --lg-note-border: #cfd0ea;
+  --lg-caution: #8a5a00;
+  --lg-caution-bg: #fef6e6;
+  --lg-caution-border: #f8d78f;
+  --lg-danger: #b7261e;
+  --lg-danger-bg: #fdeeed;
+  --lg-danger-border: #f6b9b5;
+
+  /* Infima */
+  --ifm-font-family-base: var(--lg-font);
+  --ifm-heading-font-family: var(--lg-font);
+  --ifm-font-family-monospace: var(--lg-mono);
+  --ifm-font-color-base: var(--lg-text);
+  --ifm-heading-color: var(--lg-text);
+  --ifm-background-color: var(--lg-bg);
+  --ifm-background-surface-color: var(--lg-bg);
+  --ifm-color-content-secondary: var(--lg-text-muted);
+
+  --ifm-color-primary: #4b4fa0;
+  --ifm-color-primary-dark: #444890;
+  --ifm-color-primary-darker: #404488;
+  --ifm-color-primary-darkest: #353870;
+  --ifm-color-primary-light: #5c60ad;
+  --ifm-color-primary-lighter: #6569b1;
+  --ifm-color-primary-lightest: #7f82be;
+
+  --ifm-link-color: var(--lg-link);
+  --ifm-link-hover-color: var(--lg-link);
+  --ifm-link-decoration: none;
+  --ifm-link-hover-decoration: none;
+
+  --ifm-global-radius: 4px;
+  --ifm-code-border-radius: 3px;
+  --ifm-code-font-size: 90%;
+  --ifm-code-background: var(--lg-surface-2);
+  --ifm-pre-padding: 1.25rem;
+  --ifm-toc-border-color: var(--lg-border);
+  --ifm-hr-background-color: var(--lg-border);
+  --ifm-table-border-color: var(--lg-border);
+  --ifm-table-stripe-background: var(--lg-surface);
+  --ifm-table-head-background: var(--lg-surface);
+
+  --ifm-navbar-height: 4.25rem;
+  --ifm-navbar-background-color: var(--lg-bg);
   --ifm-navbar-shadow: none;
+  --ifm-navbar-link-color: var(--lg-text);
+  --ifm-navbar-link-hover-color: var(--lg-text);
 
-  --ifm-heading-font-family: var(--font-proxima-nova);
+  --ifm-menu-color: var(--lg-text-muted);
+  --ifm-menu-color-active: var(--lg-text);
+  --ifm-menu-color-background-active: var(--lg-surface-2);
+  --ifm-menu-color-background-hover: var(--lg-surface);
+
+  --ifm-footer-background-color: var(--lg-ink);
+  --ifm-footer-color: #b7aaaf;
+  --ifm-footer-link-color: #f2edef;
+  --ifm-footer-link-hover-color: #ffffff;
+  --ifm-footer-title-color: #ffffff;
+
+  --docusaurus-highlighted-code-line-bg: rgba(75, 79, 160, 0.1);
 }
 
-@media screen and (max-width: 996px) {
-  :root {
-    --ifm-menu-color: var(--color-white);
-    --ifm-menu-color-active: var(--color-white);
-    --ifm-menu-color-background-active: rgba(255, 255, 255, 0.05);
-  }
+html[data-theme="dark"] {
+  --ifm-background-color: var(--lg-bg);
+  --ifm-background-surface-color: var(--lg-bg);
+  --ifm-code-background: var(--lg-surface-2);
+  --ifm-footer-background-color: #0e0709;
+  --ifm-menu-color-background-active: var(--lg-surface-2);
+  --ifm-menu-color-background-hover: var(--lg-surface);
+
+  --lg-bg: #170d10;
+  --lg-surface: #22161a;
+  --lg-surface-2: #2a1d21;
+  --lg-border: #3d2e33;
+  --lg-border-strong: #57454b;
+  --lg-text: #f2edef;
+  --lg-text-strong-hover: #ffffff;
+  --lg-text-muted: #b7aaaf;
+  --lg-link: #a9ace6;
+  --lg-locus: #f2edef;
+  --lg-tint: 32%;
+  --lg-indigo: #25217a;
+  --lg-chapter-1: #9a9dd2;
+  --lg-chapter-2: #cf86b0;
+  --lg-chapter-3: #d4776d;
+  --lg-chapter-4: #d0a54c;
+  --lg-chapter-5: #7fb597;
+  --lg-chapter-6: #8b87d4;
+  --lg-chapter-7: #b9adb1;
+  --lg-track: #3d2e33;
+  --lg-track-hover: #57454b;
+  --lg-track-filled: #f2edef;
+
+  --lg-tip: #8fd3ae;
+  --lg-tip-bg: #15241c;
+  --lg-tip-border: #2c4a3a;
+  --lg-note: #b9bbea;
+  --lg-note-bg: #1c1a2c;
+  --lg-note-border: #36355a;
+  --lg-caution: #f6c35c;
+  --lg-caution-bg: #2a2010;
+  --lg-caution-border: #54401a;
+  --lg-danger: #ff8a82;
+  --lg-danger-bg: #2c1413;
+  --lg-danger-border: #5a2724;
+
+  --ifm-color-primary: #a9ace6;
+  --ifm-color-primary-dark: #9296de;
+  --ifm-color-primary-darker: #878bda;
+  --ifm-color-primary-darkest: #6569ce;
+  --ifm-color-primary-light: #c0c2ee;
+  --ifm-color-primary-lighter: #cbcdf1;
+  --ifm-color-primary-lightest: #edeefa;
+
+  --docusaurus-highlighted-code-line-bg: rgba(169, 172, 230, 0.12);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+/* ---------- Base ---------- */
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-.docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+::selection {
+  background: rgba(75, 79, 160, 0.22);
 }
 
-[data-theme="dark"] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+:focus-visible {
+  outline: 3px solid var(--lg-link);
+  outline-offset: 2px;
 }
 
-/** Targets the little dark and light switch in the navbar **/
-.navbar .clean-btn {
-  color: var(--color-white) !important;
+/* ---------- Navbar ---------- */
+
+.navbar {
+  background-color: var(--lg-indigo);
+  padding-inline: 1.5rem;
 }
 
-/** Make hero background the viewport height. **/
-.hero {
-  height: 100vh;
-  margin-top: -60px;
+/* Only the bar itself is indigo; the mobile drawer stays a white page. */
+.navbar__inner {
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: #ffffff;
+  color: #ffffff;
 }
 
-.hero .button.button--secondary {
-  color: var(--color-white) !important;
+.navbar__inner .clean-btn {
+  color: #ffffff;
 }
 
-.hero__title {
-  font-size: 2.5rem;
-  max-width: 500px;
+.navbar__inner :focus-visible {
+  outline-color: #ffffff;
+}
+
+.navbar__brand {
+  gap: 0.25rem;
+}
+
+.navbar__logo {
+  height: 2.125rem;
+}
+
+.navbar__title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.navbar__link {
+  font-weight: 500;
+}
+
+.navbar__inner .navbar__link:hover,
+.navbar__inner .navbar__link--active {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: currentColor;
+  text-underline-offset: 6px;
+}
+
+/* GitHub link: the mark alone on the bar, drawn with a mask so it takes the text color. */
+.header-github-link {
+  display: flex;
+  align-items: center;
+}
+
+.header-github-link::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: currentColor;
+  -webkit-mask: var(--lg-github-mark) center / contain no-repeat;
+  mask: var(--lg-github-mark) center / contain no-repeat;
+}
+
+.header-github-link svg {
+  display: none;
+}
+
+.navbar__inner .header-github-link:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+/* In the mobile drawer the mark sits beside a text label. */
+.menu .header-github-link {
+  gap: 0.5rem;
+}
+
+.menu .header-github-link::before {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.menu .header-github-link::after {
+  content: "GitHub";
+}
+
+:root {
+  --lg-github-mark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z'/%3E%3C/svg%3E");
+}
+
+/* ---------- Sidebar (kept deliberately ordinary) ---------- */
+
+.theme-doc-sidebar-container {
+  border-right-color: var(--lg-border) !important;
 }
 
 .menu {
-  font-family: var(--font-proxima-nova);
+  font-size: 0.9375rem;
+  padding: 1.25rem 0.75rem !important;
 }
 
-.navbar {
-  font-family: var(--font-proxima-nova);
+.menu__link {
+  line-height: 1.35;
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
 }
 
-/* .footer--dark {
-  background-color: #18191a !important;
-} */
+.menu__list-item-collapsible {
+  border-radius: 4px;
+}
+
+.menu__link--sublist,
+.menu__list-item-collapsible > .menu__link {
+  color: var(--lg-text);
+  font-weight: 500;
+}
+
+.menu__list .menu__list .menu__link--active:not(.menu__link--sublist) {
+  font-weight: 700;
+}
+
+/* ---------- Doc typography ---------- */
+
+.theme-doc-markdown {
+  --ifm-h2-font-size: 1.625rem;
+  --ifm-h3-font-size: 1.25rem;
+  font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.125rem);
+  line-height: 1.65;
+  max-width: 46rem;
+}
+
+/* Set directly: Infima pins h1:first-child to 3rem. Sized so every lesson
+   title fits on one line at laptop widths. */
+.theme-doc-markdown h1 {
+  font-size: clamp(2rem, 0.5rem + 2.4vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+  margin-bottom: 1.5rem;
+  text-wrap: balance;
+}
+
+/* A stroke of the current chapter's color under each page title. */
+.lg-locator ~ .theme-doc-markdown h1::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 3px;
+  margin-top: 1.25rem;
+  background: var(--lg-page-chapter, var(--lg-text));
+}
+
+.lg-locator[data-chapter="1"] ~ .theme-doc-markdown {
+  --lg-page-chapter: var(--lg-chapter-1);
+}
+.lg-locator[data-chapter="2"] ~ .theme-doc-markdown {
+  --lg-page-chapter: var(--lg-chapter-2);
+}
+.lg-locator[data-chapter="3"] ~ .theme-doc-markdown {
+  --lg-page-chapter: var(--lg-chapter-3);
+}
+.lg-locator[data-chapter="4"] ~ .theme-doc-markdown {
+  --lg-page-chapter: var(--lg-chapter-4);
+}
+.lg-locator[data-chapter="5"] ~ .theme-doc-markdown {
+  --lg-page-chapter: var(--lg-chapter-5);
+}
+.lg-locator[data-chapter="6"] ~ .theme-doc-markdown {
+  --lg-page-chapter: var(--lg-chapter-6);
+}
+.lg-locator[data-chapter="7"] ~ .theme-doc-markdown {
+  --lg-page-chapter: var(--lg-chapter-7);
+}
+
+.theme-doc-markdown h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  margin-top: 3rem;
+  margin-bottom: 0.875rem;
+}
+
+.theme-doc-markdown h3 {
+  font-weight: 700;
+  margin-top: 2.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.theme-doc-markdown a:not(.hash-link),
+.theme-doc-footer a,
+.footer__copyright a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 150ms ease-out;
+}
+
+.theme-doc-markdown a:not(.hash-link):hover {
+  text-decoration-color: currentColor;
+}
+
+.theme-doc-markdown img {
+  border-radius: 4px;
+}
+
+/* Figures are vector: fill the column. Each has a dark copy, recolored at
+   build time (plugins/figure-dark.js); the theme shows one or the other. */
+.theme-doc-markdown img[src$=".svg"] {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+html:not([data-theme="dark"]) .lg-figure--themed > img.lg-figure__dark,
+[data-theme="dark"] .lg-figure--themed > img:not(.lg-figure__dark) {
+  display: none;
+}
+
+.lg-figure {
+  margin: 2rem 0 2.25rem;
+  scroll-margin-top: calc(var(--ifm-navbar-height) + 1.5rem);
+}
+
+/* Tall figures stay full width on phones, but would run past a screen's
+   height at desktop column width. */
+.lg-figure--tall img {
+  max-width: 28rem;
+  margin-inline: auto;
+}
+
+.lg-figure figcaption {
+  max-width: 40rem;
+  margin: 0.875rem auto 0;
+  color: var(--lg-text-muted);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.lg-figure__number {
+  margin-right: 0.375em;
+  color: var(--lg-text);
+  font-weight: 700;
+}
+
+.theme-doc-markdown blockquote {
+  border-left: 0;
+  padding: 0 0 0 1.25rem;
+  box-shadow: inset 2px 0 0 var(--lg-border-strong);
+  color: var(--lg-text-muted);
+}
+
+.theme-doc-markdown table {
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.theme-doc-markdown table:focus-visible {
+  outline: 2px solid var(--lg-link);
+  outline-offset: 2px;
+}
+
+.theme-doc-markdown th {
+  text-align: left;
+}
+
+.theme-doc-markdown td {
+  font-variant-numeric: tabular-nums;
+}
+
+.theme-doc-markdown hr {
+  height: 1px;
+  margin: 3rem 0;
+}
+
+/* Inline code */
+code {
+  border: 0;
+  padding: 0.1em 0.35em;
+  vertical-align: baseline;
+}
+
+/* Code blocks */
+.theme-code-block {
+  border: 1px solid var(--lg-border);
+  border-radius: 6px;
+  box-shadow: none;
+  font-size: 0.9375rem;
+}
+
+.theme-code-block pre {
+  border-radius: 5px;
+}
+
+.theme-code-block > div:first-child:not(:last-child) {
+  border-bottom: 1px solid var(--lg-border);
+  font-weight: 500;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 0.875rem;
+}
+
+.breadcrumbs__link {
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  color: var(--lg-text-muted);
+  background: none;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  background: var(--lg-surface-2);
+  color: var(--lg-text);
+  font-weight: 500;
+}
+
+.breadcrumbs__item:first-child .breadcrumbs__link {
+  padding-left: 0.4rem;
+}
+
+/* ---------- Admonitions ---------- */
+
+.theme-admonition {
+  --lg-callout: var(--lg-note);
+  --lg-callout-bg: var(--lg-note-bg);
+  --lg-callout-border: var(--lg-note-border);
+  border: 1px solid var(--lg-callout-border);
+  border-radius: 6px;
+  background: var(--lg-callout-bg);
+  color: var(--lg-text);
+  box-shadow: none;
+  padding: 1.125rem 1.375rem;
+  font-size: 1.0625rem;
+  margin-block: 1.75rem;
+}
+
+.theme-admonition.alert--success {
+  --lg-callout: var(--lg-tip);
+  --lg-callout-bg: var(--lg-tip-bg);
+  --lg-callout-border: var(--lg-tip-border);
+}
+
+.theme-admonition.alert--warning {
+  --lg-callout: var(--lg-caution);
+  --lg-callout-bg: var(--lg-caution-bg);
+  --lg-callout-border: var(--lg-caution-border);
+}
+
+.theme-admonition.alert--danger {
+  --lg-callout: var(--lg-danger);
+  --lg-callout-bg: var(--lg-danger-bg);
+  --lg-callout-border: var(--lg-danger-border);
+}
+
+.theme-admonition > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin-bottom: 0.375rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--lg-callout);
+}
+
+.theme-admonition > div:first-child > span:first-child {
+  display: block;
+  width: 1rem;
+  height: 3px;
+  margin: 0;
+  background: var(--lg-callout);
+}
+
+.theme-admonition > div:first-child > span:first-child svg {
+  display: none;
+}
+
+.theme-admonition a {
+  color: inherit;
+}
+
+/* ---------- Lesson layout ---------- */
+
+/*
+ * One reading column, offset a short, fluid gutter from the sidebar. At
+ * 1280px and up a rail with "On this page" and the page's source links is
+ * pinned toward the right edge with its own fluid margin; leftover width
+ * opens between them. Below 1280px the TOC collapses under the title and the
+ * source links close the lesson.
+ */
+
+.lg-doc {
+  display: grid;
+  grid-template-columns: minmax(0, 46rem);
+  justify-content: space-between;
+  column-gap: 2.5rem;
+}
+
+.lg-doc__main {
+  min-width: 0;
+}
+
+.lg-doc__rail {
+  display: none;
+}
+
+@media (min-width: 1280px) {
+  .lg-doc {
+    grid-template-columns: minmax(0, 46rem) 13rem;
+  }
+
+  .lg-doc__rail {
+    display: block;
+  }
+
+  .lg-toc-mobile,
+  .lg-source--end {
+    display: none;
+  }
+}
+
+/* Gutters match the navbar and guide band. */
+@media (max-width: 996px) {
+  .docs-doc-page main > .container {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 997px) {
+  .docs-doc-page main > .container:not([class*="docItemWrapperEnhanced"]) {
+    max-width: none;
+    margin-inline: 0;
+    padding-inline: clamp(2rem, 5vw - 1.5rem, 4.5rem) clamp(2rem, 5vw - 2rem, 4rem);
+  }
+}
+
+/* ---------- Rail ---------- */
+
+.lg-rail {
+  position: sticky;
+  top: calc(var(--ifm-navbar-height) + 2.5rem);
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - var(--ifm-navbar-height) - 5rem);
+}
+
+.lg-rail__toc {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 0 1 auto;
+}
+
+.lg-rail__label {
+  margin: 0 0 0.875rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--lg-text);
+}
+
+.lg-rail .theme-doc-toc-desktop {
+  position: static;
+  top: auto;
+  max-height: none;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.lg-rail .table-of-contents {
+  padding: 0;
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-left: 1px solid var(--lg-border);
+}
+
+.lg-rail .table-of-contents ul {
+  padding-left: 0;
+}
+
+.lg-rail .table-of-contents li {
+  margin: 0;
+}
+
+.lg-rail .table-of-contents__link {
+  display: block;
+  margin-left: -1px;
+  padding: 0.375rem 0 0.375rem 1rem;
+  border-left: 1px solid transparent;
+  transition: color 150ms ease-out, border-color 150ms ease-out;
+}
+
+.lg-rail .table-of-contents ul .table-of-contents__link {
+  padding-left: 2rem;
+}
+
+.lg-rail .table-of-contents__link--active {
+  border-left-color: var(--lg-text);
+}
+
+.lg-rail__toc + .lg-source--rail {
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--lg-border);
+}
+
+.table-of-contents__link {
+  color: var(--lg-text-muted);
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--lg-text);
+}
+
+.table-of-contents__link--active {
+  font-weight: 700;
+}
+
+/* ---------- On this page, under the title ---------- */
+
+.lg-toc-mobile {
+  margin: 0 0 2.25rem;
+}
+
+.lg-toc-mobile .theme-doc-toc-mobile {
+  display: block;
+  margin: 0;
+  background: none;
+  border: 1px solid var(--lg-border);
+  border-radius: 6px;
+}
+
+.lg-toc-mobile .theme-doc-toc-mobile > button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--lg-text);
+}
+
+.lg-toc-mobile .theme-doc-toc-mobile > button:hover {
+  color: var(--lg-text-strong-hover);
+}
+
+.theme-doc-markdown .lg-toc-mobile ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.theme-doc-markdown .lg-toc-mobile .table-of-contents {
+  padding: 0.375rem 0 0.5rem;
+  border-top: 1px solid var(--lg-border);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.theme-doc-markdown .lg-toc-mobile li {
+  margin: 0;
+}
+
+.theme-doc-markdown .lg-toc-mobile a.table-of-contents__link {
+  display: block;
+  padding: 0.4375rem 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--lg-text-muted);
+}
+
+.theme-doc-markdown .lg-toc-mobile ul ul a.table-of-contents__link {
+  padding-left: 2rem;
+}
+
+.theme-doc-markdown .lg-toc-mobile a.table-of-contents__link:hover {
+  color: var(--lg-text);
+}
+
+/* Section headings that open the lesson don't need their usual lead-in. */
+.theme-doc-markdown > header + h2,
+.theme-doc-markdown > .lg-toc-mobile + h2 {
+  margin-top: 0;
+}
+
+/* ---------- End of lesson ---------- */
+
+.lg-doc-footer > * {
+  margin-top: 3.5rem;
+}
+
+.lg-doc-footer__updated {
+  font-size: 0.875rem;
+  color: var(--lg-text-muted);
+}
+
+.lg-source a,
+.lg-source a:hover {
+  text-decoration: none;
+}
+
+.pagination-nav {
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.pagination-nav__link {
+  border: 1px solid var(--lg-border-strong);
+  border-radius: 6px;
+  padding: 1rem 1.25rem 1.0625rem;
+  transition: border-color 150ms ease-out;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--lg-text);
+}
+
+.pagination-nav__sublabel {
+  color: var(--lg-text-muted);
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.pagination-nav__label {
+  font-size: 1.0625rem;
+  line-height: 1.3;
+  color: var(--lg-text);
+  text-wrap: balance;
+}
+
+.pagination-nav__link--prev .pagination-nav__label::before,
+.pagination-nav__link--next .pagination-nav__label::after {
+  content: none;
+}
+
+.pagination-nav__link--prev .pagination-nav__sublabel::before {
+  content: "\2190\00a0";
+}
+
+.pagination-nav__link--next .pagination-nav__sublabel::after {
+  content: "\00a0\2192";
+}
+
+@media (max-width: 575px) {
+  .pagination-nav {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .pagination-nav__link--next {
+    grid-column: 1;
+  }
+}
+
+/* ---------- Phones and tablets ---------- */
+
+@media (max-width: 996px) {
+  .theme-doc-markdown {
+    --ifm-h2-font-size: 1.5rem;
+  }
+
+  .theme-doc-markdown h2 {
+    margin-top: 2.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .theme-doc-markdown table {
+    font-size: 0.9375rem;
+  }
+
+  .theme-code-block {
+    font-size: 0.8125rem;
+  }
+
+  /* Top-level code blocks run to the screen edges; nested ones stay boxed. */
+  .theme-doc-markdown > .theme-code-block {
+    margin-inline: -1.5rem;
+    border-inline: 0;
+    border-radius: 0;
+  }
+
+  .theme-doc-markdown > .theme-code-block pre {
+    border-radius: 0;
+  }
+
+  .theme-doc-markdown > .theme-code-block pre code {
+    padding-inline: 1.5rem;
+  }
+}
+
+/* No hover on touch screens, so keep the copy button in view. */
+@media (hover: none) {
+  .theme-code-block button[aria-label] {
+    opacity: 0.6;
+  }
+}
+
+@media print {
+  .lg-doc {
+    display: block;
+  }
+
+  .lg-doc__rail,
+  .lg-toc-mobile,
+  .lg-source {
+    display: none;
+  }
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  padding-block: 3rem 2.5rem;
+  font-size: 0.9375rem;
+}
+
+.footer__title {
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.footer__link-item {
+  line-height: 2;
+}
+
+.footer__copyright {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 996px) {
+  .footer {
+    padding-inline: 1.5rem;
+  }
+
+  .footer > .container {
+    padding-inline: 0;
+  }
+
+  .footer__links.row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 1.5rem;
+    margin: 0;
+  }
+
+  .footer__links .footer__col {
+    max-width: none;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .footer__copyright {
+    text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+  }
+}

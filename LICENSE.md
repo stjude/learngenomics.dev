@@ -1,6 +1,6 @@
 St. Jude Children's Research Hospital Genomics Guide License
 
-Copyright © 2022 St. Jude Children's Research Hospital
+Copyright © 2022-Present St. Jude Children's Research Hospital
 
 Permission is hereby granted, free of charge, to read, use, copy, download, and
 edit this Guide, and to permit persons to whom the Guide is furnished to do so,

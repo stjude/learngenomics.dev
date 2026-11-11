@@ -1,0 +1,173 @@
+/* The poster is dark in both site themes so it reads as a screen. */
+.figure {
+  --yt-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --yt-paper: #1f1115;
+  --yt-ink: #f7f2f4;
+  --yt-muted: #cdbfc4;
+  --yt-accent: var(--lg-chapter-3);
+}
+
+[data-theme="dark"] .figure {
+  --yt-paper: #0f080a;
+}
+
+.frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 6px;
+  background: var(--yt-paper);
+  box-shadow: 0 1px 2px rgb(31 17 21 / 0.08), 0 8px 24px -12px rgb(31 17 21 / 0.35);
+}
+
+[data-theme="dark"] .frame {
+  box-shadow: 0 0 0 1px var(--lg-border);
+}
+
+.player {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.poster {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto 1fr auto;
+  gap: 0.5rem 1rem;
+  width: 100%;
+  padding: clamp(1rem, 4.5%, 2rem);
+  border: 0;
+  background:
+    radial-gradient(120% 90% at 100% 0%, color-mix(in srgb, var(--yt-accent) 30%, transparent), transparent 60%),
+    var(--yt-paper);
+  color: var(--yt-ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.poster:focus-visible {
+  outline: 3px solid var(--lg-link);
+  outline-offset: -3px;
+}
+
+.reads {
+  position: absolute;
+  inset: 22% -2% auto 34%;
+  width: 70%;
+  height: 46%;
+  fill: var(--yt-accent);
+  opacity: 0.32;
+  transition: opacity 400ms var(--yt-ease), transform 600ms var(--yt-ease);
+}
+
+.poster:hover .reads,
+.poster:focus-visible .reads {
+  opacity: 0.5;
+  transform: translateX(-2%);
+}
+
+.provider {
+  grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  color: var(--yt-muted);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.title {
+  grid-column: 1;
+  grid-row: 3;
+  position: relative;
+  max-width: 22ch;
+  font-size: clamp(1.125rem, 1rem + 1.6vw, 1.75rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.play {
+  grid-column: 2;
+  grid-row: 3;
+  align-self: end;
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: clamp(2.75rem, 9vw, 3.75rem);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--yt-ink);
+  color: var(--yt-paper);
+  transition: transform 300ms var(--yt-ease);
+}
+
+.play svg {
+  width: 45%;
+  margin-left: 8%;
+  fill: currentColor;
+}
+
+.poster:hover .play,
+.poster:focus-visible .play {
+  transform: scale(1.08);
+}
+
+.duration {
+  grid-column: 2;
+  grid-row: 1;
+  position: relative;
+  justify-self: end;
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.12);
+  color: var(--yt-ink);
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.note a {
+  white-space: nowrap;
+}
+
+/* On narrow screens the title fills the lower half, so keep the reads above it. */
+@media (max-width: 600px) {
+  .reads {
+    inset: 25% -4% auto 30%;
+    height: 24%;
+    opacity: 0.24;
+  }
+}
+
+.note {
+  margin: 0.5rem 0 0;
+  color: var(--lg-text-muted);
+  font-size: 0.8125rem;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reads,
+  .play {
+    transition: none;
+  }
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}

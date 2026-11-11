@@ -5,34 +5,8 @@ track: Biological Foundations
 
 ## Introduction
 
-:::info Disclaimer
-
-This Guide is written specifically by and for computer scientists and
-engineers. The underlying biology in cancer genomics can be exceedingly complex
-and requires years of study. Making the content palatable requires drawing
-abstractions around these concepts. This guide should be treated as an
-introduction to the domain that teaches our audience the material in a
-"broad-strokes" fashion. Please be forgiving if you feel we have glossed over
-your favorite quirk of cancer genomics. Further, everything within the guide is
-presented within a research context and may not be relied on in making decisions
-about patients. If you feel anything has been stated incorrectly, you can file
-an issue on the Github repository. Please see [the LICENSE.md](https://github.com/stjude/learngenomics.dev/blob/main/LICENSE.md)
-for more information.
-
-:::
-
-:::info
-
-Everything in this guide refers to eukaryotic molecular biology, which is the
-study of organisms whose DNA is enclosed within a nucleus. Broadly speaking,
-most familiar species are eukaryotes, except bacteria which has DNA spread
-throughout the cell. At times, this document will be geared towards the
-sequencing of human cells specifically.
-
-:::
-
 **Cells** are the smallest unit of life and are the building blocks of organisms, from a
-single-celled bacteria to the [trillions of cells that make up the human
+single-celled bacterium to the [trillions of cells that make up the human
 body](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002533).
 Cells are complicated organized structures that take a variety of forms, forming tissues
 and organs and completing the body's functions.
@@ -42,10 +16,10 @@ set for producing, operating and maintaining a living cell or organism. This inf
 is physically encoded in a molecule called deoxyribonucleic acid or **DNA**. Among other
 things, DNA contains instructions for the assembly of tens of thousands of different
 molecular products. These instructions (or recipes) are called **genes**, and the
-physical, molecular products genes encode for are called **proteins**. Cells are
-constantly reading and interpreting genes stored within the DNA in order to assemble
-various proteins. Each cell type in the body produces a complex ecosystem of proteins
-that keep the cell alive and executing its specific function.
+physical, molecular products genes encode are called **proteins**. Cells are constantly
+reading and interpreting genes stored within the DNA in order to assemble various
+proteins. Each cell type in the body produces a complex ecosystem of proteins that keep
+the cell alive and executing its specific function.
 
 ### Bakery Analogy
 
@@ -66,43 +40,50 @@ during the course of this guide.
 ## A Mental Model for DNA 
 
 Conceptually, you can think of DNA laid end-to-end as a ~3 billion character long string
-consisting only of 'A's, 'C's, 'T's and 'G's. This string and any substring contained
+consisting only of 'A's, 'C's, 'G's and 'T's. This string and any substring contained
 within are commonly referred to as genomic **sequences**. These characters represent the
-physical Adenine, Guanine, Thymine, and Cytosine **bases** (or **nucleotides**)
+physical Adenine, Cytosine, Guanine, and Thymine **bases** (or **nucleotides**)
 respectively.
 
-Importantly, though it's easy to conceptualize DNA as a single, very long
-string, the reality is more complex. DNA is comprised of two complementary sequences
-known as **strands**. Each base is actually a member of a **base pair**, whereby
-nucleotides complement each other uniquely—'A's pair only with 'T's, and 'G's only with
-'C's. Up close, this structure resembles a spiral staircase as seen in the figure below.
+Importantly, though it's easy to conceptualize DNA as a single, very long string, the
+reality is more complex. DNA is composed of two complementary sequences known
+as **strands**. Each base is actually a member of a **base pair**, whereby nucleotides
+complement each other uniquely—'A's pair only with 'T's, and 'G's only with 'C's. Up
+close, this structure resembles a spiral staircase as seen in the figure below.
 
-![Figure showing computational model and then physical helix for DNA](../images/1.1-DNA.jpg)
+![Figure showing computational model and then physical helix for DNA](../images/1.1-dna.svg "DNA as a computational abstraction, a string of A, C, G and T, beside its physical reality: a double helix of paired bases.")
 
-When cells divide, the spiral unwinds; each base pair is split; and the molecule is
-split into two strands, each one containing the information needed to replicate the
-original DNA structure. Normal healthy cells then copy the genetic code very accurately,
-rarely introducing variation.
+When cells divide, the helix unwinds and the base pairs separate into two strands, each
+serving as a template for a new copy of the original DNA. Normal healthy cells then copy
+the genetic code very accurately, rarely introducing variation.
 
-### Physical Structure
+## How DNA Is Packaged
 
-In plants and animals, DNA is broken up into a number of large sequences
-called **chromosomes** that are tucked into the nucleus. Chromosomes typically
-come in pairs (one from your father and one from your mother) and are wrapped
-around proteins called **histones**. These histones keep the DNA string tightly 
-packaged and help control which gene products are made in a given cell. For humans,
-there are normally 22 pairs of **autosomes** (chromosomes shared by both sexes)
-and a pair of sex chromosomes (XX for females or XY for males), totaling 23 pairs
-of chromosomes. Autosomes are numbered from 1 to 22 based on size, arranged from
-largest to smallest. The full set of chromosomes makes up the genome.
+In plants, animals and other eukaryotes, DNA is broken up into a number of large
+sequences called **chromosomes** that are tucked into the nucleus. Chromosomes typically
+come in pairs, one from your father and one from your mother. For humans, there are
+normally 22 pairs of **autosomes** (chromosomes shared by both sexes) and a pair of sex
+chromosomes (XX for females or XY for males), totaling 23 pairs of chromosomes.
+Autosomes are numbered from 1 to 22 roughly by size, from largest to smallest. The full
+set of chromosomes makes up the genome.
+
+![Human karyotype: the 46 chromosomes of one cell, condensed for cell division and arranged in 23 pairs. Autosome pairs 1 to 22 run roughly from largest to smallest, and each chromosome shows its pattern of light and dark bands and a pinched centromere. The last pair is the sex chromosomes, shown as XY; XX is also typical.](../images/1.2-karyotype.svg "A human karyotype: 22 pairs of autosomes plus one pair of sex chromosomes. Sizes and band patterns come from the GRCh38 reference genome.")
+
+Inside the nucleus, each chromosome's DNA is wrapped around proteins called
+**histones**. Together, DNA and the histones it wraps around form **chromatin**. Tightly
+packed chromatin keeps the long DNA string compact, while loosely packed chromatin
+leaves genes accessible, which helps control which gene products are made in a given
+cell.
+
+![Zoom sequence from a cell to its nucleus, to one chromosome, and then to the chromatin fiber. Inside the nucleus, each chromosome fills its own territory. Every territory mixes open and dense chromatin, with dense chromatin along the nuclear edge and around the nucleolus, and more open chromatin toward the center. One chromosome is enlarged to show a single tangled thread, with loops of open chromatin and clumps of dense chromatin, packed most tightly where it meets the nuclear edge. The close-up shows DNA wrapped around histones: a tightly packed zigzag that is less accessible, and a loosely packed stretch that is more accessible, where bare DNA at a promoter sits just before a gene that still carries histones.](../images/1.3-chromatin.svg "Inside the nucleus, each chromosome is a loose, tangled thread that fills its own territory, with denser chromatin toward the edge and more open chromatin toward the center. Chromosomes only condense into the familiar X shape when a cell divides.")
 
 ## Conclusion
 
-The genome is a vast search space for biological questions. Each genome is a biochemical
-database that, if properly accessed, can inform how our bodies function. Genomes account
+The genome is a vast search space for biological questions. It holds the instructions
+every cell draws on, so studying it helps explain how our bodies work. Genomes account
 for the natural differences between individuals, define family traits, and distinguish
 how cells in tissues and organs vary. When genomes acquire adverse mutation(s), cancer
 as well as other genetic diseases can occur. By examining the relationship between
 physical traits (e.g. blood pressure or the development of a tumor) and the genome,
-known as **genotype-phenotype relationships**, clinicians can develop personalized
-medical treatment based on an individual's genetic makeup.
+known as **genotype-phenotype relationships**, researchers can learn how a person's
+genetic makeup shapes their health.

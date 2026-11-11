@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="392" height="396" viewBox="4 6 392 396">
+<title>An inherited variant in a normal sample and a tumor sample.</title>
+<defs><style>/* Source Sans 3 / Source Code Pro, SIL Open Font License 1.1 */
+@font-face{font-family:'Source Sans 3';font-weight:200 900;src:url(data:font/woff2;base64,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) format('woff2')}</style></defs>
+<rect x="10.50" y="10.00" width="5.0" height="15.00" rx="1.5" fill="#1874dc"/>
+<text x="21.00" y="22.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">working copy</text>
+<path d="M115.50 11.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V14.20l-5 3.2Z" fill="#fcb025"/>
+<path d="M115.50 22.60l5 -3.2V23.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<text x="126.00" y="22.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">inherited variant</text>
+<rect x="240.00" y="10.00" width="16" height="15" rx="4" fill="#fbe3c4" stroke="#333333" stroke-width="1.4"/>
+<text x="262.00" y="22.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">tumor cell</text>
+<text x="10.00" y="62.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#333333">Normal sample</text>
+<text x="10.00" y="78.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">Every cell has one copy with the variant.</text>
+<rect x="11.00" y="92.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M21.00 102.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V108.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M21.00 116.96l5 -3.2V121.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="32.00" y="101.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="49.00" y="92.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M59.00 102.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V108.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M59.00 116.96l5 -3.2V121.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="70.00" y="101.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="87.00" y="92.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M97.00 102.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V108.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M97.00 116.96l5 -3.2V121.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="108.00" y="101.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="125.00" y="92.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M135.00 102.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V108.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M135.00 116.96l5 -3.2V121.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="146.00" y="101.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="163.00" y="92.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M173.00 102.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V108.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M173.00 116.96l5 -3.2V121.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="184.00" y="101.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="201.00" y="92.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M211.00 102.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V108.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M211.00 116.96l5 -3.2V121.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="222.00" y="101.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="239.00" y="92.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M249.00 102.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V108.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M249.00 116.96l5 -3.2V121.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="260.00" y="101.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="277.00" y="92.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M287.00 102.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V108.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M287.00 116.96l5 -3.2V121.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="298.00" y="101.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="315.00" y="92.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M325.00 102.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V108.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M325.00 116.96l5 -3.2V121.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="336.00" y="101.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="353.00" y="92.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M363.00 102.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V108.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M363.00 116.96l5 -3.2V121.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="374.00" y="101.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<text x="10.00" y="158.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">Copies carrying the variant</text>
+<rect x="10.00" y="167.00" width="380.00" height="12.0" rx="3" fill="#1874dc"/>
+<path d="M13.00 167.00H200.00V179.00H13.00q-3 0 -3 -3V170.00q0 -3 3 -3Z" fill="#fcb025"/>
+<line x1="200.00" y1="164.00" x2="200.00" y2="182.00" stroke="#333333" stroke-width="1.4"/>
+<text x="10.00" y="197.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">10 of 20 copies, so about 50% of reads</text>
+<text x="10.00" y="237.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="13" font-weight="700" fill="#333333">Tumor sample, 60% tumor</text>
+<text x="10.00" y="253.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">Tumor cells replaced the working copy with the variant.</text>
+<rect x="11.00" y="267.00" width="36.00" height="40.00" rx="6" fill="#fbe3c4" stroke="#333333" stroke-width="1.6"/>
+<path d="M21.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M21.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<path d="M32.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M32.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="49.00" y="267.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M59.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M59.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="70.00" y="276.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="87.00" y="267.00" width="36.00" height="40.00" rx="6" fill="#fbe3c4" stroke="#333333" stroke-width="1.6"/>
+<path d="M97.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M97.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<path d="M108.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M108.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="125.00" y="267.00" width="36.00" height="40.00" rx="6" fill="#fbe3c4" stroke="#333333" stroke-width="1.6"/>
+<path d="M135.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M135.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<path d="M146.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M146.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="163.00" y="267.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M173.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M173.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="184.00" y="276.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="201.00" y="267.00" width="36.00" height="40.00" rx="6" fill="#fbe3c4" stroke="#333333" stroke-width="1.6"/>
+<path d="M211.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M211.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<path d="M222.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M222.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="239.00" y="267.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M249.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M249.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="260.00" y="276.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<rect x="277.00" y="267.00" width="36.00" height="40.00" rx="6" fill="#fbe3c4" stroke="#333333" stroke-width="1.6"/>
+<path d="M287.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M287.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<path d="M298.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M298.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="315.00" y="267.00" width="36.00" height="40.00" rx="6" fill="#fbe3c4" stroke="#333333" stroke-width="1.6"/>
+<path d="M325.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M325.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<path d="M336.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M336.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="353.00" y="267.00" width="36.00" height="40.00" rx="6" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<path d="M363.00 277.50q0 -1.5 1.5 -1.5h2q1.5 0 1.5 1.5V283.56l-5 3.2Z" fill="#fcb025"/>
+<path d="M363.00 291.96l5 -3.2V296.50q0 1.5 -1.5 1.5h-2q-1.5 0 -1.5 -1.5Z" fill="#fcb025"/>
+<rect x="374.00" y="276.00" width="5.0" height="22.00" rx="1.5" fill="#1874dc"/>
+<text x="10.00" y="333.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#4d4d4f">Copies carrying the variant</text>
+<rect x="10.00" y="342.00" width="380.00" height="12.0" rx="3" fill="#1874dc"/>
+<path d="M13.00 342.00H314.00V354.00H13.00q-3 0 -3 -3V345.00q0 -3 3 -3Z" fill="#fcb025"/>
+<line x1="314.00" y1="339.00" x2="314.00" y2="357.00" stroke="#333333" stroke-width="1.4"/>
+<text x="10.00" y="372.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12" font-weight="400" fill="#333333">16 of 20 copies, so about 80% of reads</text>
+<text x="392.00" y="395.00" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="10" font-weight="400" text-anchor="end">© Copyright 2026 St. Jude Children's Research Hospital</text>
+</svg>

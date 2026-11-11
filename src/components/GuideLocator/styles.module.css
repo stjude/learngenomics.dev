@@ -1,0 +1,13 @@
+.locator {
+  margin-bottom: 2rem;
+}
+
+.locator :global(.breadcrumbs) {
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .locator {
+    margin-bottom: 1.5rem;
+  }
+}

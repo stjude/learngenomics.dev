@@ -1,30 +1,148 @@
-<p align="center">
-  <a href="https://github.com/learngenomics/learngenomics.dev">
-    <img src="https://github.com/learngenomics/learngenomics.dev/raw/main/.github/assets/github-readme-header.png" width="800" title="Learn Genomics README header"></a>
+can<p align="center">
+  <a href="https://learngenomics.dev">
+    <img src=".github/assets/github-readme-header.png" width="800" alt="learngenomics.dev">
   </a>
 </p>
 
-[Learn Genomics] is a guide that aims to introduce the subject of genomics to software engineers and data scientists in a palatable, straightforward manner. It was originally written by software engineers at St. Jude Children's Research Hospital, and now it has grown to a community-maintained project.
+<p align="center">
+  <strong>An introduction to genomics, with a focus on cancer, for computer scientists and engineers.</strong>
+</p>
 
-### Quickstart
+<p align="center">
+  <a href="https://learngenomics.dev">Read the guide</a> ·
+  <a href="https://github.com/stjude/learngenomics.dev/issues">Report a problem</a> ·
+  <a href="#contributing">Contribute</a>
+</p>
 
-The guide is built on top of [Docusaurus 2] with some simple, custom theming added on top. 
-If you wish to build the guide locally, you can run the following commands:
+---
+
+[Learn Genomics](https://learngenomics.dev) gives you a working mental model of genomics
+as quickly as possible. It starts with cells and DNA, builds up to cancer and genomic
+variation, explains how sequencing works, and then has you run a small variant-calling
+pipeline on real data. No biology background is assumed.
+
+## What's Inside
+
+| Chapter | What it covers |
+| :--- | :--- |
+| [Before You Begin](https://learngenomics.dev/docs/before-you-begin) | Who the guide is for, and what it leaves out. |
+| [Biological Foundations](https://learngenomics.dev/docs/biological-foundations/cells-genomes-dna-chromosomes) | Cells and chromosomes, the central dogma, transcription, translation, proteins, and how genotype relates to phenotype. |
+| [Cancer Biology](https://learngenomics.dev/docs/cancer-biology/introduction) | What cancer is, its hallmarks, oncogenes and tumor suppressors, signaling pathways, tumor evolution and inherited risk. |
+| [Genomic Variation](https://learngenomics.dev/docs/genomic-variation/introduction) | Reference genomes, SNVs, indels, structural and copy number variants, and why one variant can be written several ways. |
+| [Next-Generation Sequencing](https://learngenomics.dev/docs/next-generation-sequencing/introduction) | Samples, library preparation, short and long reads, and eight kinds of assays from whole-genome sequencing to single-cell. |
+| [From Reads to Variants](https://learngenomics.dev/docs/from-reads-to-variants/introduction) | A hands-on pipeline: map real reads from HG002, call variants and check them against a truth set. |
+| [Genomic File Formats](https://learngenomics.dev/docs/genomic-file-formats/introduction) | BGZF and indexes, FASTQ, SAM/BAM/CRAM, VCF/BCF, BED and GTF/GFF3, each with exercises. |
+| [Advanced Topics](https://learngenomics.dev/docs/advanced-topics/alternative-splicing) | Alternative splicing, epigenetic modifications, noncoding RNAs and the structure of DNA. |
+
+The hands-on chapters need only a terminal on macOS or Linux (or WSL on Windows) and
+about 500 MB of disk space.
+
+## Running the Site Locally
+
+The site is built with [Docusaurus 3](https://docusaurus.io/) and needs Node.js 20 or
+newer. CI builds with Node.js 26.
 
 ```bash
-# install the dependencies needed
-$ npm install
-
-# run a livereloading site
-$ npm start
+npm install      # install dependencies
+npm start        # start a live-reloading server at http://localhost:3000
 ```
 
-If you wish to build a static version of the site, you can do the following:
+To build the static site into `build/` and preview it:
 
 ```bash
-# build a static version of the site in the build/ directory.
-$ npm run build
+npm run build
+npm run serve
 ```
 
-[Learn Genomics]: https://learngenomics.dev
-[Docusaurus 2]: https://docusaurus.io/
+### Accessibility Checks
+
+The accessibility suite scans every page of the built site with
+[axe](https://github.com/dequelabs/axe-core) and fails on any WCAG 2.2 A or AA violation.
+It runs in light and dark mode, at desktop (1280 px) and phone (390 px) widths, and also
+checks interactive states: the open mobile menu, the collapsed guide overview, the 3D
+protein viewer, the home page with reading progress, and a home page guide map chapter
+expanded to show its pages. YouTube, ProteinPaint and
+analytics are blocked during the scan.
+
+axe can't see the text inside an SVG shown with `<img>`, so a separate check renders
+every figure in both themes and measures each piece of text against the pixels behind it.
+Text must reach 4.5:1, or 3:1 when large.
+
+```bash
+npx playwright install chromium   # once, to download the test browser
+npm run build
+npm run test:a11y
+```
+
+The suite serves `build/` on port 3100. Open `playwright-report/index.html` for the full
+results.
+
+### Deployment
+
+Every pull request and every push to `main` is built and scanned by
+[`.github/workflows/CI.yml`](.github/workflows/CI.yml). Pushes to `main` deploy to GitHub
+Pages only after the accessibility checks pass.
+
+## Repository Layout
+
+| Path | Contents |
+| :--- | :--- |
+| `docs/` | The guide itself, one Markdown file per page, in numbered chapter folders. |
+| `docs/images/` | Figures, as SVG. Most are generated by the scripts below. |
+| `scripts/` | Python scripts that draw the figures. See [`scripts/README.md`](scripts/README.md). |
+| `plugins/` | Build plugins: numbered figures and captions, and the map of the guide. |
+| `src/` | Theme, home page and custom components. |
+| `static/` | Files copied to the site as is, such as the logo and 3D protein structures. |
+
+## Writing for the Guide
+
+### Figures
+
+A paragraph holding a single image with a title becomes a numbered figure. The title is
+the caption, and the number comes from the file name:
+
+```markdown
+![Alt text describing the figure.](../images/1.3-chromatin.svg "Caption text.")
+```
+
+This renders as Figure 1.3, with an anchor at `#figure-1-3`. Renaming the file
+renumbers the figure.
+
+Most figures are drawn by `scripts/generate_figure_<N.M>.py`. Edit the script and
+regenerate the SVG; don't edit a generated SVG by hand. The output is deterministic, so
+an unchanged script produces an identical file.
+
+```bash
+python3 -m venv scripts/.venv
+scripts/.venv/bin/pip install -r scripts/requirements.txt
+scripts/.venv/bin/python scripts/generate_figure_1.3.py
+```
+
+Draw every figure for a white page. The build makes a dark-mode copy of each SVG
+(`plugins/figure-dark.js`) by remapping its colors, and the page shows whichever copy
+matches the theme. See [`scripts/README.md`](scripts/README.md#dark-mode) for how to
+steer the dark copy.
+
+### Style
+
+- Write for a newcomer to biology, in plain prose.
+- Back every factual claim with a source, linked inline, such as
+  `([Knudson, 1971](https://doi.org/10.1073/pnas.68.4.820))`.
+- Use Title Case for headings and American spelling.
+- Bold a term only where the guide first introduces it.
+
+## Contributing
+
+Contributions of every size are welcome, from fixing a typo to writing a new page.
+
+- **Found a mistake?** [Open an issue](https://github.com/stjude/learngenomics.dev/issues).
+  Simplified is fine; wrong is not.
+- **Want to fix it yourself?** Every page has an "Edit this page" link that opens the
+  file on GitHub. For larger changes, fork the repository, run the site locally and open
+  a pull request.
+
+Please run `npm run build` before opening a pull request. It fails on broken links.
+
+## License
+
+See [LICENSE.md](LICENSE.md).

@@ -1,8 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const codeThemes = require("./src/prism/themes");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -12,10 +11,51 @@ const config = {
   url: "https://learngenomics.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
   favicon: "img/favicon.ico",
   organizationName: "learngenomics", // Usually your GitHub org/user name.
   projectName: "learngenomics.dev", // Usually your repo name.
+
+  plugins: [
+    require.resolve("./plugins/guide-map"),
+    function googleFonts() {
+      return {
+        name: "google-fonts",
+        injectHtmlTags() {
+          return {
+            headTags: [
+              {
+                tagName: "link",
+                attributes: {
+                  rel: "preconnect",
+                  href: "https://fonts.googleapis.com",
+                },
+              },
+              {
+                tagName: "link",
+                attributes: {
+                  rel: "preconnect",
+                  href: "https://fonts.gstatic.com",
+                  crossorigin: "anonymous",
+                },
+              },
+              {
+                tagName: "link",
+                attributes: {
+                  rel: "stylesheet",
+                  href: "https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400..700;1,400..700&display=swap",
+                },
+              },
+            ],
+          };
+        },
+      };
+    },
+  ],
 
   presets: [
     [
@@ -24,6 +64,8 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          beforeDefaultRemarkPlugins: [require("./plugins/remark-figures")],
+          remarkPlugins: [require("./plugins/remark-figures").unescapeImageText],
           // Please change this to your repo.
           editUrl:
             "https://github.com/stjude/learngenomics.dev/tree/main/",
@@ -39,7 +81,6 @@ const config = {
         },
         gtag: {
           trackingID: "G-6XD8R1VWBJ",
-          anonymizeIP: true,
         },
       },
     ],
@@ -55,26 +96,25 @@ const config = {
           src: "img/learngenomics-logo.svg",
         },
         items: [
-          {
-            type: "doc",
-            docId: "biological-foundations/cells-genomes-dna-chromosomes",
-            position: "left",
-            label: "Guide",
-          },
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/learngenomics/learngenomics.dev",
-            label: "GitHub",
             position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         links: [
           {
             title: "About",
             items: [
+              {
+                label: "Before You Begin",
+                to: "/docs/before-you-begin",
+              },
               {
                 label: "License",
                 to: "https://github.com/stjude/learngenomics.dev/blob/main/LICENSE.md",
@@ -89,20 +129,28 @@ const config = {
                 to: "/docs/biological-foundations/cells-genomes-dna-chromosomes",
               },
               {
+                label: "Cancer Biology",
+                to: "/docs/cancer-biology/introduction",
+              },
+              {
                 label: "Genomic Variation",
-                to: "/docs/genomic-variation",
+                to: "/docs/genomic-variation/introduction",
               },
               {
-                label: "Next-generation Sequencing",
-                to: "/docs/next-generation-sequencing",
+                label: "Next-Generation Sequencing",
+                to: "/docs/next-generation-sequencing/introduction",
               },
               {
-                label: "Engineering Ecosystem",
-                to: "/docs/engineering-ecosystem",
+                label: "From Reads to Variants",
+                to: "/docs/from-reads-to-variants/introduction",
+              },
+              {
+                label: "Genomic File Formats",
+                to: "/docs/genomic-file-formats/introduction",
               },
               {
                 label: "Advanced Topics",
-                to: "/docs/advanced-topics",
+                to: "/docs/advanced-topics/alternative-splicing",
               },
             ],
           },
@@ -123,8 +171,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} St. Jude Children's Research Hospital. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: codeThemes.light,
+        darkTheme: codeThemes.dark,
       },
     }),
 };

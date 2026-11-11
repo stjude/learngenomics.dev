@@ -18,3 +18,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Accessibility test output
+/test-results
+/playwright-report
+/blob-report

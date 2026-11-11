@@ -1,0 +1,90 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+      - name: Build website
+        run: npm run build
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: site
+          path: build/
+          if-no-files-found: error
+
+  a11y:
+    name: Accessibility
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+      - uses: actions/download-artifact@v8
+        with:
+          name: site
+          path: build/
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Scan with axe
+        run: npm run test:a11y
+        env:
+          CI: true
+
+      - uses: actions/upload-artifact@v7
+        if: ${{ !cancelled() }}
+        with:
+          name: a11y-report
+          path: playwright-report/
+          retention-days: 14
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: [build, a11y]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: site
+          path: build/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # cname: learngenomics.dev
+          publish_dir: ./build
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
