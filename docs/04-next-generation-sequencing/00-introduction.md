@@ -1,5 +1,6 @@
 ---
 title: Introduction
+description: "How a tissue or blood sample becomes a file of DNA reads: an overview of next-generation sequencing, from extraction to short and long reads."
 ---
 
 Everything in [Genomic Variation](../03-genomic-variation/00-introduction.md) assumed

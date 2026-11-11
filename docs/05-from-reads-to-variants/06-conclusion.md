@@ -1,5 +1,6 @@
 ---
 title: Conclusion
+description: "A recap of the path from raw reads to a checked list of variants, and where to go further with variant calling."
 ---
 
 You have now followed one sample from raw reads to a checked list of variants. Each step

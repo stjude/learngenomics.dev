@@ -1,5 +1,6 @@
 ---
 title: Assay for Transposase-Accessible Chromatin Using Sequencing (ATAC-seq)
+description: "ATAC-seq: mapping open, accessible chromatin to find where the genome could be active, with library prep, depth, tradeoffs and an example."
 ---
 
 **ATAC-seq** (assay for transposase-accessible chromatin using sequencing) finds the

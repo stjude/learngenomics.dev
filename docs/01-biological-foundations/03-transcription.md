@@ -1,5 +1,6 @@
 ---
 title: Transcription
+description: "How RNA polymerase copies a gene into RNA, how introns are spliced out, and why only about 1% of the human genome codes for protein."
 ---
 
 ## Genomic Regions and Transcription

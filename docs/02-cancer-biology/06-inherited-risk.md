@@ -1,5 +1,6 @@
 ---
 title: Inherited Risk
+description: "How inherited germline variants raise cancer risk, well-known predisposition syndromes, predisposition in childhood cancer, and how to find it in data."
 ---
 
 Most of the mutations behind a cancer arise during a person's lifetime, in the cells

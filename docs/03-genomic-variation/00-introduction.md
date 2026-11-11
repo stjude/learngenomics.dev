@@ -1,5 +1,6 @@
 ---
 title: Introduction
+description: "What genomic variants are, where they come from, and the kinds this chapter covers, from single-base changes to gains and losses of whole regions."
 ---
 
 Every time a cell divides, it copies all of its DNA, about six billion bases. The

@@ -1,5 +1,6 @@
 ---
 title: Whole-Genome Sequencing (WGS)
+description: "Whole-genome sequencing (WGS): what it measures, how the library is made, typical depth, tradeoffs, and an example from rare disease diagnosis."
 ---
 
 **Whole-genome sequencing** (WGS) reads all of a sample's DNA: every chromosome, the

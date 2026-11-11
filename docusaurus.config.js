@@ -89,6 +89,22 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: "img/social-card.png",
+      metadata: [
+        { property: "og:site_name", content: "learngenomics.dev" },
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
+        {
+          property: "og:image:alt",
+          content:
+            "The learngenomics.dev logo beside the title Introduction to Genomics for Engineers.",
+        },
+        {
+          name: "twitter:image:alt",
+          content:
+            "The learngenomics.dev logo beside the title Introduction to Genomics for Engineers.",
+        },
+      ],
       navbar: {
         title: "learngenomics.dev",
         logo: {

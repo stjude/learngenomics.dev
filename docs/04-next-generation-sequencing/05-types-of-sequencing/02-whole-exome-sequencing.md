@@ -1,5 +1,6 @@
 ---
 title: Whole-Exome Sequencing (WES)
+description: "Whole-exome sequencing (WES): reading the protein-coding exons, about 1% of the genome, with its depth, tradeoffs and the first gene found by exome."
 ---
 
 **Whole-exome sequencing** (WES) reads only the **exome**, the

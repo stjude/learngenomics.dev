@@ -1,5 +1,6 @@
 ---
 title: Insertions and Deletions
+description: "Insertions and deletions (indels): how they disrupt genes and reading frames, where they tend to happen, and how they are described and found."
 track: Genomic Variation
 ---
 

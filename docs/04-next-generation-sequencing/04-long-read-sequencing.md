@@ -1,5 +1,6 @@
 ---
 title: Long-Read Sequencing
+description: "Long-read sequencing with PacBio HiFi and Oxford Nanopore: how each reads DNA, what long reads are for, and when to choose them over short reads."
 ---
 
 import YouTube from '@site/src/components/YouTube';

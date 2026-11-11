@@ -1,5 +1,6 @@
 ---
 title: Short-Read Sequencing
+description: "How Illumina short-read sequencing works: sequencing by synthesis, base quality scores, paired-end reads, common errors, and the files it produces."
 ---
 
 import YouTube from '@site/src/components/YouTube';

@@ -1,5 +1,6 @@
 ---
 title: Haplotype, Genotype and Phenotype
+description: "Haplotype, genotype and phenotype explained with the CFTR gene: how to describe the two copies of each gene and what they produce."
 track: Biological Foundations
 ---
 

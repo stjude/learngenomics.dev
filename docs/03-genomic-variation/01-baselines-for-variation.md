@@ -1,5 +1,6 @@
 ---
 title: Baselines for Variation
+description: "What variants are measured against: the reference genome, its versions and pitfalls, how common a variant is, and a person's own normal DNA."
 ---
 
 A variant is a difference, which raises an awkward question: different *from what*?

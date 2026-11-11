@@ -1,5 +1,6 @@
 ---
 title: Structural Variation
+description: "Structural variants such as deletions, duplications, inversions and translocations: their breakpoints, how they are found, and gene fusions."
 track: Genomic Variation
 ---
 

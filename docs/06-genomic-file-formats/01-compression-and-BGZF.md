@@ -1,5 +1,6 @@
 ---
 title: Compression and BGZF
+description: "How compression works, why plain gzip is slow to search, and how BGZF and index files let tools jump straight to one region of a large file."
 ---
 
 Genomic files are large, so they are almost always stored compressed. Most are

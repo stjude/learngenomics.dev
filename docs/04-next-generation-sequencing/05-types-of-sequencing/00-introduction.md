@@ -1,5 +1,6 @@
 ---
 title: Introduction
+description: "An overview of the main sequencing assays, how they differ in which molecules go into the library, and what coverage and depth mean."
 ---
 
 The same sequencer can answer very different questions depending on which molecules go

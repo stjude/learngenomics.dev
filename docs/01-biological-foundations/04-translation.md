@@ -1,5 +1,6 @@
 ---
 title: Translation
+description: "How ribosomes read mRNA three bases at a time using the genetic code, how codons map to amino acids, and why the reading frame matters."
 ---
 
 ## Decoding the Transcript

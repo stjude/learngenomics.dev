@@ -1,5 +1,6 @@
 ---
 title: Before You Begin
+description: "Who this genomics guide is for, what it covers, and the simplifications it makes to give engineers a working mental model of the field quickly."
 sidebar_position: 0
 ---
 

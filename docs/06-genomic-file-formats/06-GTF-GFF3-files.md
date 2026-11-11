@@ -1,5 +1,6 @@
 ---
 title: GTF/GFF3 Files
+description: "GTF and GFF3 gene annotation files: how genes, transcripts and exons are described, the columns and attributes, with hands-on examples."
 ---
 
 A **gene annotation** describes where the genes are in a reference genome and how each

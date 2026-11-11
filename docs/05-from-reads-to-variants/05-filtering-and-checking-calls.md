@@ -1,5 +1,6 @@
 ---
 title: Filtering and Checking Calls
+description: "Filtering variant calls and checking them against the HG002 truth set, with precision, recall and variant matching explained hands-on."
 ---
 
 The caller has written down every variant it found, but some of those calls are wrong.

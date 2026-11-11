@@ -1,5 +1,6 @@
 ---
 title: FASTQ Files
+description: "The FASTQ format line by line: read names, bases, quality characters and paired files, with hands-on examples."
 ---
 
 Sequencing data almost always reaches you as **FASTQ** files: plain text files that

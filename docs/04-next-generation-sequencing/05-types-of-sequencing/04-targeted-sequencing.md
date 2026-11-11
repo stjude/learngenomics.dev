@@ -1,5 +1,6 @@
 ---
 title: Targeted Sequencing
+description: "Targeted sequencing panels: reading chosen genes very deeply, hybrid capture versus amplicons, tradeoffs, and their wide use in cancer testing."
 ---
 
 **Targeted sequencing** reads a chosen set of regions, usually a list of genes called a

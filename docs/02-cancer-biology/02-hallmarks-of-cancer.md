@@ -1,5 +1,6 @@
 ---
 title: Hallmarks of Cancer
+description: "The eight hallmarks of cancer, the abilities cells gain as a tumor develops, how cells gain them, and the role of the cells around a tumor."
 ---
 
 Cancers start in different tissues, carry different mutations and behave in different

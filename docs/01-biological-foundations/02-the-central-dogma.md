@@ -1,5 +1,6 @@
 ---
 title: The Central Dogma
+description: "The central dogma of molecular biology: how genetic information flows from DNA to RNA to protein through transcription and translation."
 ---
 
 ## Introduction

@@ -1,5 +1,6 @@
 ---
 title: How Tumors Evolve
+description: "How tumors evolve by natural selection: clones branching from a trunk, spreading and surviving treatment, and how that history shows in sequencing data."
 ---
 
 [What Is Cancer?](01-what-is-cancer.md#how-cancer-starts) described how a tumor grows

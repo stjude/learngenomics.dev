@@ -1,5 +1,6 @@
 ---
 title: Introduction
+description: "An overview of the file formats for reads, alignments, variants, regions and genes, and the compression most of them share."
 ---
 
 [From Reads to Variants](../05-from-reads-to-variants/00-introduction.md) moved data

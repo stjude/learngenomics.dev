@@ -1,5 +1,6 @@
 ---
 title: RNA Sequencing (RNA-seq)
+description: "RNA sequencing (RNA-seq): measuring gene expression, fusions and splicing, how the library is made, typical depth, tradeoffs, and a leukemia example."
 ---
 
 **RNA-seq** reads the RNA in a sample instead of the DNA. The genome is nearly the same

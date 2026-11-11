@@ -1,5 +1,6 @@
 ---
 title: Library Preparation
+description: "How DNA is made into a sequencing library: breaking it into fragments, choosing what to keep, adding adapters and indexes, and making copies."
 ---
 
 Freshly extracted DNA needs some preparation before it can be sequenced. It is first

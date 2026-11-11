@@ -1,5 +1,6 @@
 ---
 title: What Is Cancer?
+description: "What cancer is, how tumors form, how cancer starts, the main types of cancer, and what is different about cancer in children."
 ---
 
 There were close to 20 million new cases of cancer worldwide in 2022, and 9.7 million

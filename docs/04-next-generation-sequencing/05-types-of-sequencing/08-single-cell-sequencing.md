@@ -1,5 +1,6 @@
 ---
 title: Single-Cell Sequencing
+description: "Single-cell sequencing: measuring DNA or RNA one cell at a time to find rare cell types, with library prep, depth, tradeoffs and an example."
 ---
 
 Every assay so far starts with DNA or RNA pooled from many thousands of cells, so the

@@ -1,5 +1,6 @@
 ---
 title: Read Mapping
+description: "How aligners map sequencing reads to a reference genome, how to choose a reference, what the aligner records, and a hands-on alignment step."
 track: From Reads to Variants
 ---
 

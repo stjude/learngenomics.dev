@@ -1,5 +1,6 @@
 ---
 title: Chromatin Immunoprecipitation Sequencing (ChIP-seq)
+description: "ChIP-seq: mapping where a protein, such as a transcription factor or a marked histone, sits on the genome, with library prep, depth and tradeoffs."
 ---
 
 **ChIP-seq** (chromatin immunoprecipitation followed by sequencing) finds where a

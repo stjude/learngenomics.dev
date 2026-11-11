@@ -1,5 +1,6 @@
 ---
 title: VCF/BCF Files
+description: "VCF and BCF variant files: the header, columns, genotypes and how indels are written, with hands-on examples."
 ---
 
 A variant caller writes its calls as a **VCF** (Variant Call Format) file (see [Calling

@@ -1,5 +1,6 @@
 ---
 title: Calling Variants
+description: "How variant callers read the pileup, use genotype likelihoods to decide a genotype, and handle indels, with hands-on variant calling."
 ---
 
 The reads are now sorted, duplicates are flagged and the file is indexed. Calling

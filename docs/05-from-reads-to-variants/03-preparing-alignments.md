@@ -1,5 +1,6 @@
 ---
 title: Preparing Alignments
+description: "Preparing alignments for variant calling: sorting reads by position, marking duplicates and indexing the BAM file, with hands-on steps."
 ---
 
 The aligner writes reads in the order they came off the sequencer, so reads next to each

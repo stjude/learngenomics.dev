@@ -1,5 +1,6 @@
 ---
 title: Samples and Extraction
+description: "Samples for sequencing, such as blood, tumor tissue and cells, how DNA and RNA are kept intact, and how extraction and quality checks work."
 ---
 
 Every sequencing run starts with something physical: a tube of blood, a piece of a

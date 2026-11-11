@@ -1,5 +1,6 @@
 ---
 title: BED Files
+description: "BED files for genomic regions: in-base and interbase coordinates, the columns, sorting and indexing, with hands-on examples."
 ---
 
 A **BED** (Browser Extensible Data) file lists regions of a genome, one per line ([BED

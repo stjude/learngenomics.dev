@@ -1,5 +1,6 @@
 ---
 title: Alternative Splicing
+description: "How cells choose splice sites, the types of alternative splicing events, their role in health and disease, and how to see them in sequencing data."
 track: Advanced Topics
 sidebar_position: 1
 ---

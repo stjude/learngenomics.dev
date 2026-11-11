@@ -1,5 +1,6 @@
 ---
 title: Hi-C
+description: "Hi-C: finding which regions of the genome touch in 3D, how the library is made, depth, tradeoffs, and an example of a moved boundary."
 ---
 
 **Hi-C** shows how the genome is folded inside the nucleus. Laid end to end, the DNA in

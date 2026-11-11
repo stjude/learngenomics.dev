@@ -1,5 +1,6 @@
 ---
 title: Introduction
+description: "Follow one sample from FASTQ reads to variant calls: an overview of read mapping, preparing alignments, calling variants and checking the calls."
 ---
 
 [Next Generation Sequencing](../04-next-generation-sequencing/00-introduction.md) ended

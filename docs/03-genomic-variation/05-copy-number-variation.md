@@ -1,5 +1,6 @@
 ---
 title: Copy Number Variation
+description: "Copy number variation: gains and losses of DNA in health, disease and cancer, and how copy number changes are found in sequencing data."
 track: Genomic Variation
 ---
 

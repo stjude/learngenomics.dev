@@ -1,5 +1,6 @@
 ---
 title: Cells, Chromosomes, and Genomes
+description: "How cells store their genome in DNA and chromosomes, with a mental model for engineers of how DNA encodes information and how it is packaged."
 track: Biological Foundations
 ---
 

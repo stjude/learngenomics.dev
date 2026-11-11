@@ -1,5 +1,6 @@
 ---
 title: Protein Folding and Modification
+description: "What happens to a protein after translation: folding into shape, reaching the right place in the cell, and being switched on and off by chemical marks."
 ---
 
 import ProteinViewer from '@site/src/components/ProteinViewer';

@@ -1,5 +1,6 @@
 ---
 title: Introduction
+description: "Why cancer is a genetic disease: how DNA changes build up in the genes that control cell growth and division, and what this chapter covers."
 ---
 
 [Biological

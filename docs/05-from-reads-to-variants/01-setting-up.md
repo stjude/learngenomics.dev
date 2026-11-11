@@ -1,5 +1,6 @@
 ---
 title: Setting Up
+description: "Install the bioinformatics tools from Bioconda and download the HG002 reads, reference and truth set used in this chapter's hands-on steps."
 ---
 
 The Try It sections in this chapter run every step on real reads from HG002. This page

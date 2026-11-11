@@ -1,5 +1,6 @@
 ---
 title: Conclusion
+description: "A recap of the file formats that carry an analysis from reads to variants, with resources for practice and what to read next."
 ---
 
 You can now read the formats that carry most genomic data, and you've worked with each

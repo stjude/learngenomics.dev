@@ -1,5 +1,6 @@
 ---
 title: The Structure of DNA
+description: "The structure of DNA: nucleotides, the backbone and its 5′ and 3′ ends, antiparallel strands, the reverse complement, and how RNA differs."
 track: Advanced Topics
 sidebar_position: 4
 ---

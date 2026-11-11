@@ -1,5 +1,6 @@
 ---
 title: Oncogenes and Tumor Suppressors
+description: "How oncogenes act like a stuck accelerator and tumor suppressors like failed brakes, plus the two-hit model and driver versus passenger mutations."
 ---
 
 import ProteinPaint from '@site/src/components/ProteinPaint';

@@ -1,5 +1,6 @@
 ---
 title: Single Nucleotide Variation
+description: "Single nucleotide variants and SNPs: what a one-base change can do to a protein, where somatic SNVs come from, and how they are linked to disease."
 track: Genomic Variation
 ---
 

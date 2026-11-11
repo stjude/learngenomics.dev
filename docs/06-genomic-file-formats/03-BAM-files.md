@@ -1,5 +1,6 @@
 ---
 title: SAM/BAM/CRAM Files
+description: "SAM, BAM and CRAM alignment files: the header, columns, flags and tags, and how the three formats differ, with hands-on examples."
 ---
 
 An aligner writes each read's alignment as a line of **SAM** (Sequence Alignment/Map)

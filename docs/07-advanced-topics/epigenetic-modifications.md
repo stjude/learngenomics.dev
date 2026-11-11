@@ -1,5 +1,6 @@
 ---
 title: Epigenetic Modifications
+description: "Epigenetic marks: DNA methylation and histone modifications, how they hold gene activity in place, how they are measured, and their role in cancer."
 track: Advanced Topics
 sidebar_position: 2
 ---

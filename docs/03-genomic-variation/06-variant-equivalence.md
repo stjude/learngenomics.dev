@@ -1,5 +1,6 @@
 ---
 title: Variant Equivalence
+description: "Why the same variant can be written in several correct ways, why that breaks comparisons, and how normalization makes descriptions match."
 track: Genomic Variation
 ---
 
