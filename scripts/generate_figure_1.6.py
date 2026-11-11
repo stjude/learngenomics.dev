@@ -58,8 +58,8 @@ def helix_along(pts, amp_at, period=20.0, ds=0.5, seed=7, sw=1.4):
         if s >= next_tick and abs(w) > 2.2:
             base = rnd.choice("ACGT")
             col = lambda c: LBLUE if c == "T" else NUC_COL[c]
-            ticks.append(f'<path d="M{x + nx * w * 0.85:.2f} {y + ny * w * 0.85:.2f}L{x:.2f} {y:.2f}" stroke="{col(base)}" stroke-width="1.1"/>'
-                         f'<path d="M{x:.2f} {y:.2f}L{x - nx * w * 0.85:.2f} {y - ny * w * 0.85:.2f}" stroke="{col(comp[base])}" stroke-width="1.1"/>')
+            ticks.append(f'<path d="M{x + nx * w:.2f} {y + ny * w:.2f}L{x:.2f} {y:.2f}" stroke="{col(base)}" stroke-width="1.1"/>'
+                         f'<path d="M{x:.2f} {y:.2f}L{x - nx * w:.2f} {y - ny * w:.2f}" stroke="{col(comp[base])}" stroke-width="1.1"/>')
             next_tick = s + 2.6
     pl = lambda q: "M" + "L".join(f"{x:.2f} {y:.2f}" for x, y in q[::2] + [q[-1]])
     return ('<g class="dna">' + "".join(ticks)

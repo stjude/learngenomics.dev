@@ -1,5 +1,7 @@
 """Figure 1.7: Translation from mRNA to protein."""
 
+import math
+
 from figures.core import BLUE, DARK, T, copyright_text, main, svg_doc
 from figures.drawing import arrow, pill, sine_path
 from figures.biology import AA, LCIRC_FILL, LCIRC_STROKE, NUC_COL, protein_chain
@@ -41,15 +43,18 @@ def fig():
         out.append(T(86 * k, ya * k, a, 12.3, 700)); out.append(T(86 * k, yb * k, b, 12.3, 700))
     # mRNA wave with nucleotide ticks (4 per trough/peak)
     ticks = seq[:24] + "GCAA" + "GAGU"
+    wx0, wcy, wamp, wper = 483, 322, 45, 298
     out.append('<g class="mrna">')
     for g in range(8):
-        cx = 558 + 149 * g
+        cx = wx0 + wper / 4 + wper / 2 * g
         trough = g % 2 == 0
         for j in range(4):
-            x = (cx - 31.5 + 21 * j) * k
-            y0, y1 = (320, 346) if trough else (290, 322)
-            out.append(f'<path d="M{x:.2f} {y0 * k:.2f}V{y1 * k:.2f}" stroke="{NUC_COL[ticks[g * 4 + j]]}" stroke-width="1.2"/>')
-    out.append(f'<path class="strand" d="{sine_path(483 * k, 1680 * k, 322 * k, 45 * k, 298 * k)}" stroke="{BLUE}" stroke-width="1.5" fill="none"/>')
+            gx = cx - 31.5 + 21 * j
+            # Keep the inner ends level and run each tick out until it meets the strand.
+            wave = wcy + wamp * math.sin(2 * math.pi * (gx - wx0) / wper)
+            y0, y1 = (wave + 2, 320) if trough else (wave - 2, 322)
+            out.append(f'<path d="M{gx * k:.2f} {y0 * k:.2f}V{y1 * k:.2f}" stroke="{NUC_COL[ticks[g * 4 + j]]}" stroke-width="1.2"/>')
+    out.append(f'<path class="strand" d="{sine_path(wx0 * k, 1680 * k, wcy * k, wamp * k, wper * k)}" stroke="{BLUE}" stroke-width="1.5" fill="none"/>')
     out.append("</g>")
     codon_row(out, k, seq, 505, 116.7, 447, 503, 516, 545,
               [f"{AA[c]} ({c})" for c in letters])

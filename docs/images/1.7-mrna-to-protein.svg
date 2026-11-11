@@ -10,38 +10,38 @@
 <text x="25.91" y="213.89" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12.3" font-weight="700">Amino</text>
 <text x="25.91" y="225.94" font-family="'Source Sans 3', 'Source Sans Pro', sans-serif" font-size="12.3" font-weight="700">Acid Sequence</text>
 <g class="mrna">
-<path d="M158.61 96.40V104.23" stroke="#7f3e98" stroke-width="1.2"/>
-<path d="M164.93 96.40V104.23" stroke="#14adc1" stroke-width="1.2"/>
-<path d="M171.26 96.40V104.23" stroke="#75bc43" stroke-width="1.2"/>
-<path d="M177.59 96.40V104.23" stroke="#fcb025" stroke-width="1.2"/>
-<path d="M203.49 87.36V97.00" stroke="#fcb025" stroke-width="1.2"/>
-<path d="M209.82 87.36V97.00" stroke="#14adc1" stroke-width="1.2"/>
-<path d="M216.15 87.36V97.00" stroke="#75bc43" stroke-width="1.2"/>
-<path d="M222.47 87.36V97.00" stroke="#7f3e98" stroke-width="1.2"/>
-<path d="M248.38 96.40V104.23" stroke="#75bc43" stroke-width="1.2"/>
-<path d="M254.71 96.40V104.23" stroke="#fcb025" stroke-width="1.2"/>
-<path d="M261.03 96.40V104.23" stroke="#fcb025" stroke-width="1.2"/>
-<path d="M267.36 96.40V104.23" stroke="#7f3e98" stroke-width="1.2"/>
-<path d="M293.27 87.36V97.00" stroke="#7f3e98" stroke-width="1.2"/>
-<path d="M299.59 87.36V97.00" stroke="#75bc43" stroke-width="1.2"/>
-<path d="M305.92 87.36V97.00" stroke="#75bc43" stroke-width="1.2"/>
-<path d="M312.25 87.36V97.00" stroke="#fcb025" stroke-width="1.2"/>
-<path d="M338.15 96.40V104.23" stroke="#14adc1" stroke-width="1.2"/>
-<path d="M344.48 96.40V104.23" stroke="#14adc1" stroke-width="1.2"/>
-<path d="M350.81 96.40V104.23" stroke="#75bc43" stroke-width="1.2"/>
-<path d="M357.13 96.40V104.23" stroke="#7f3e98" stroke-width="1.2"/>
-<path d="M383.04 87.36V97.00" stroke="#7f3e98" stroke-width="1.2"/>
-<path d="M389.37 87.36V97.00" stroke="#7f3e98" stroke-width="1.2"/>
-<path d="M395.69 87.36V97.00" stroke="#7f3e98" stroke-width="1.2"/>
-<path d="M402.02 87.36V97.00" stroke="#fcb025" stroke-width="1.2"/>
-<path d="M427.93 96.40V104.23" stroke="#75bc43" stroke-width="1.2"/>
-<path d="M434.25 96.40V104.23" stroke="#fcb025" stroke-width="1.2"/>
-<path d="M440.58 96.40V104.23" stroke="#7f3e98" stroke-width="1.2"/>
-<path d="M446.90 96.40V104.23" stroke="#7f3e98" stroke-width="1.2"/>
-<path d="M472.81 87.36V97.00" stroke="#75bc43" stroke-width="1.2"/>
-<path d="M479.14 87.36V97.00" stroke="#7f3e98" stroke-width="1.2"/>
-<path d="M485.46 87.36V97.00" stroke="#75bc43" stroke-width="1.2"/>
-<path d="M491.79 87.36V97.00" stroke="#14adc1" stroke-width="1.2"/>
+<path d="M158.46 108.28V96.40" stroke="#7f3e98" stroke-width="1.2"/>
+<path d="M164.78 110.83V96.40" stroke="#14adc1" stroke-width="1.2"/>
+<path d="M171.11 110.83V96.40" stroke="#75bc43" stroke-width="1.2"/>
+<path d="M177.44 108.28V96.40" stroke="#fcb025" stroke-width="1.2"/>
+<path d="M203.34 85.73V97.00" stroke="#fcb025" stroke-width="1.2"/>
+<path d="M209.67 83.17V97.00" stroke="#14adc1" stroke-width="1.2"/>
+<path d="M216.00 83.17V97.00" stroke="#75bc43" stroke-width="1.2"/>
+<path d="M222.32 85.73V97.00" stroke="#7f3e98" stroke-width="1.2"/>
+<path d="M248.23 108.28V96.40" stroke="#75bc43" stroke-width="1.2"/>
+<path d="M254.56 110.83V96.40" stroke="#fcb025" stroke-width="1.2"/>
+<path d="M260.88 110.83V96.40" stroke="#fcb025" stroke-width="1.2"/>
+<path d="M267.21 108.28V96.40" stroke="#7f3e98" stroke-width="1.2"/>
+<path d="M293.12 85.73V97.00" stroke="#7f3e98" stroke-width="1.2"/>
+<path d="M299.44 83.17V97.00" stroke="#75bc43" stroke-width="1.2"/>
+<path d="M305.77 83.17V97.00" stroke="#75bc43" stroke-width="1.2"/>
+<path d="M312.10 85.73V97.00" stroke="#fcb025" stroke-width="1.2"/>
+<path d="M338.00 108.28V96.40" stroke="#14adc1" stroke-width="1.2"/>
+<path d="M344.33 110.83V96.40" stroke="#14adc1" stroke-width="1.2"/>
+<path d="M350.66 110.83V96.40" stroke="#75bc43" stroke-width="1.2"/>
+<path d="M356.98 108.28V96.40" stroke="#7f3e98" stroke-width="1.2"/>
+<path d="M382.89 85.73V97.00" stroke="#7f3e98" stroke-width="1.2"/>
+<path d="M389.22 83.17V97.00" stroke="#7f3e98" stroke-width="1.2"/>
+<path d="M395.54 83.17V97.00" stroke="#7f3e98" stroke-width="1.2"/>
+<path d="M401.87 85.73V97.00" stroke="#fcb025" stroke-width="1.2"/>
+<path d="M427.78 108.28V96.40" stroke="#75bc43" stroke-width="1.2"/>
+<path d="M434.10 110.83V96.40" stroke="#fcb025" stroke-width="1.2"/>
+<path d="M440.43 110.83V96.40" stroke="#7f3e98" stroke-width="1.2"/>
+<path d="M446.75 108.28V96.40" stroke="#7f3e98" stroke-width="1.2"/>
+<path d="M472.66 85.73V97.00" stroke="#75bc43" stroke-width="1.2"/>
+<path d="M478.99 83.17V97.00" stroke="#7f3e98" stroke-width="1.2"/>
+<path d="M485.31 83.17V97.00" stroke="#75bc43" stroke-width="1.2"/>
+<path d="M491.64 85.73V97.00" stroke="#14adc1" stroke-width="1.2"/>
 <path class="strand" d="M145.50 97.00 C152.82 103.95 159.82 110.56 167.95 110.56 C176.07 110.56 183.07 103.95 190.39 97.00 C197.71 90.06 204.71 83.45 212.83 83.45 C220.96 83.45 227.96 90.06 235.28 97.00 C242.60 103.95 249.60 110.56 257.72 110.56 C265.84 110.56 272.84 103.95 280.16 97.00 C287.48 90.06 294.48 83.45 302.61 83.45 C310.73 83.45 317.73 90.06 325.05 97.00 C332.37 103.95 339.37 110.56 347.49 110.56 C355.61 110.56 362.62 103.95 369.94 97.00 C377.25 90.06 384.26 83.45 392.38 83.45 C400.50 83.45 407.50 90.06 414.82 97.00 C422.14 103.95 429.14 110.56 437.26 110.56 C445.39 110.56 452.39 103.95 459.71 97.00 C467.03 90.06 474.03 83.45 482.15 83.45 C490.27 83.45 497.27 90.06 504.59 97.00" stroke="#1874dc" stroke-width="1.5" fill="none"/>
 </g>
 <g class="codon-labels">

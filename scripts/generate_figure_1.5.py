@@ -49,12 +49,110 @@ def strip_empty_groups(lines):
         txt = new
 
 
+def flatten(line, steps=24):
+    """Polyline segments (page coords) of one artboard <path> line with absolute M/L/C/H/V/Z commands."""
+    m = re.search(r'\sd="([^"]*)"', line)
+    t = re.search(r'transform="matrix\(([^)]*)\)"', line)
+    a, b, c, d, e, f = [float(v) for v in t.group(1).split(",")] if t else (1, 0, 0, 1, 0, 0)
+    tf = lambda p: (a * p[0] + c * p[1] + e, b * p[0] + d * p[1] + f)
+    segs, cur, start = [], (0.0, 0.0), (0.0, 0.0)
+    for cmd, args in re.findall(r"([MLCHVZ])([^MLCHVZ]*)", m.group(1)):
+        nums = [float(v) for v in NUM_RE.findall(args)]
+        pts = []
+        if cmd == "M":
+            cur = start = (nums[0], nums[1])
+            pts = [(nums[i], nums[i + 1]) for i in range(2, len(nums) - 1, 2)]
+        elif cmd == "L":
+            pts = [(nums[i], nums[i + 1]) for i in range(0, len(nums) - 1, 2)]
+        elif cmd == "H":
+            pts = [(v, cur[1]) for v in nums]
+        elif cmd == "V":
+            pts = [(cur[0], v) for v in nums]
+        elif cmd == "Z":
+            pts = [start]
+        elif cmd == "C":
+            for i in range(0, len(nums) - 5, 6):
+                p1, p2, p3 = (nums[i], nums[i + 1]), (nums[i + 2], nums[i + 3]), (nums[i + 4], nums[i + 5])
+                p0 = cur
+                for s in range(1, steps + 1):
+                    u = s / steps
+                    q = [(1 - u) ** 3 * p0[k] + 3 * (1 - u) ** 2 * u * p1[k] + 3 * (1 - u) * u * u * p2[k] + u ** 3 * p3[k]
+                         for k in (0, 1)]
+                    segs.append((tf(cur), tf(q)))
+                    cur = tuple(q)
+                cur = p3
+            continue
+        for p in pts:
+            segs.append((tf(cur), tf(p)))
+            cur = p
+    return segs
+
+
+def extend_ticks(body, strand="#1874dc", reach=15.0):
+    """Lengthen each nucleotide tick so its strand-side end meets the backbone, as the guide's own figures do."""
+    segs = [s for l in body if l.startswith("<path") and (f'stroke="{strand}"' in l or f'fill="{strand}"' in l)
+            for s in flatten(l)]
+    tick_re = re.compile(r'transform="matrix\(1,0,0,-1,([-\d.]+),([-\d.]+)\)"(.*)d="M0 0V([-\d.]+)"')
+    out = []
+    for l in body:
+        m = tick_re.search(l) if l.startswith("<path") and 'stroke-linecap="round"' in l else None
+        if not m:
+            out.append(l)
+            continue
+        x, f, ln = float(m.group(1)), float(m.group(2)), float(m.group(4))
+        top, bot = sorted((f, f - ln))
+        hits = []
+        for (x0, y0), (x1, y1) in segs:
+            if min(x0, x1) <= x <= max(x0, x1) and x0 != x1:
+                hits.append(y0 + (y1 - y0) * (x - x0) / (x1 - x0))
+        if any(top - 0.05 <= y <= bot + 0.05 for y in hits):
+            out.append(l)
+            continue
+        above, below = [y for y in hits if y < top], [y for y in hits if y > bot]
+        da = top - max(above) if above else float("inf")
+        db = min(below) - bot if below else float("inf")
+        if min(da, db) > reach:
+            out.append(l)
+            continue
+        # Run into the strand's centre line (midway across its outline) so the strand covers the tick's end.
+        if da < db:
+            near = sorted(above, reverse=True)
+            top = (near[0] + near[1]) / 2 if len(near) > 1 and near[0] - near[1] < 2.5 else near[0]
+        else:
+            near = sorted(below)
+            bot = (near[0] + near[1]) / 2 if len(near) > 1 and near[1] - near[0] < 2.5 else near[0]
+        out.append(l[:m.start()] + f'transform="matrix(1,0,0,-1,{x:g},{bot:.3f})"{m.group(3)}d="M0 0V{bot - top:.3f}"' + l[m.end():])
+    return ticks_behind_strands(out, strand)
+
+
+def ticks_behind_strands(body, strand):
+    """Draw each run of ticks before the strand run it follows, so the backbone sits on top."""
+    is_tick = lambda l: l.startswith("<path") and 'stroke-linecap="round"' in l
+    is_strand = lambda l: l.startswith("<path") and strand in l and not is_tick(l)
+    out, i = [], 0
+    while i < len(body):
+        if is_strand(body[i]):
+            j = i
+            while j < len(body) and is_strand(body[j]):
+                j += 1
+            k = j
+            while k < len(body) and is_tick(body[k]):
+                k += 1
+            out += body[j:k] + body[i:j]
+            i = k
+        else:
+            out.append(body[i])
+            i += 1
+    return out
+
+
 CAP_AT = (134.0, 373.8)
 
 
 def fig():
     svg = load_artboard("dna-to-mrna")
     defs, body = inner(svg)
+    body = extend_ticks(body)
     DY, W, H = 55.2, 672.4, 442.2
     cols_dna = [(84.4, 152.6, GREEN), (182.4, 224.5, ORANGE), (252.7, 378.0, LBLUE), (439.3, 540.4, PURPLE)]
     cols_mrna = [(144.6, 211.5, GREEN), (211.5, 257.6, ORANGE), (257.6, 393.1, LBLUE), (393.1, 503.0, PURPLE)]
